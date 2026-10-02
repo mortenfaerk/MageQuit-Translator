@@ -15,7 +15,7 @@ import sys
 THIRD_PARTY_DIRS = ("AmplifyColor", "ExitGames", "LPWAsset", "LowPolyWater", "Photon", "PigeonCoop",
                     "Rewired", "SRDebugger", "SRF", "UnityEngine.PostProcessing", "Properties")
 THIRD_PARTY_FILES = re.compile(r"^(CFX|Photon|Pun|Steam|Discord|Amplify|SR|Network|Room|Lobby)", re.I)
-LITERAL = re.compile(r'(?<![@$\w])"((?:[^"\\n]|\.)*)"')
+LITERAL = re.compile(r'(?<![@$\w])"((?:[^"\\\n]|\\.)*)"')
 UI_LINE = re.compile(r"\.text\s*\+?=|\.SetText\(|[Mm]essage|[Tt]itle|[Dd]escription|[Tt]ooltip|Popup|Show\w*\(|return\s+\"")
 SKIP_LINE = re.compile(r"Debug\.Log|Log(Warning|Error)?\(|Exception\(|PlayerPrefs|Animator|SetTrigger|SetBool|SetFloat|"
                        r"GetInt|SetInt|Instantiate\(|Resources\.Load|Find\(|CompareTag|tag ==|Shader|\.Play\(|"
@@ -66,7 +66,8 @@ def main(decomp_dir, out_path):
             if THIRD_PARTY_FILES.match(fn):
                 continue
             for i, line in enumerate(src.splitlines(), 1):
-                if SKIP_LINE.search(line):
+                ui = UI_LINE.search(line)
+                if SKIP_LINE.search(line) and not (ui and ".text" in ui.group(0)):
                     continue
                 for lit in LITERAL.findall(line):
                     text = bytes(lit, "utf-8").decode("unicode_escape", errors="ignore") if "\\" in lit else lit
@@ -74,7 +75,7 @@ def main(decomp_dir, out_path):
                         continue
                     records.append({"text": text, "file": os.path.relpath(path, decomp_dir), "line": i,
                                     "code": line.strip()[:200],
-                                    "confidence": "high" if UI_LINE.search(line) else "low"})
+                                    "confidence": "high" if ui else "low"})
     for enum, values in enum_names.items():
         for v in values:
             records.append({"text": add_spaces(v), "file": f"enum {enum}", "line": 0,

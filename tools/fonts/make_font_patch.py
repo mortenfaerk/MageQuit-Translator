@@ -9,7 +9,7 @@ the header file size, truncate. No game data is shipped: the new object is store
 as a delta against the original (copy ranges + inserted bytes).
 
 Usage:
-  python make_font_patch.py build <game dir> <out patch.json>
+  python make_font_patch.py build <game dir> payload/game/BepInEx/MageQuit-DA/fontpatch.json
   python make_font_patch.py apply <game dir> <patch.json>     (test only; Manager does this)
   python make_font_patch.py revert <game dir> <patch.json>
 """
@@ -108,6 +108,7 @@ def build(game_dir, out_path):
             "dataOffset": data_offset,
             "origByteStart": rel_start,
             "origByteSize": obj.byte_size,
+            "fontDataOffset": at,  # int32 length + TTF bytes start here, in both old and new object
             "origObjectSha256": sha256(raw),
             "newObjectSha256": sha256(new_raw),
             "delta": make_delta(raw, new_raw),

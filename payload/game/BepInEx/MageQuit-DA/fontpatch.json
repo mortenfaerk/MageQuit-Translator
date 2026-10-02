@@ -12,8 +12,9 @@
    "dataOffset": 372000,
    "origByteStart": 35004712,
    "origByteSize": 8986,
+   "fontDataOffset": 84,
    "origObjectSha256": "8c1266119c001647f00fc81846936a71c1350224ad7189d9287d61b7050508e9",
-   "newObjectSha256": "84e8e9fd6c59d271ac41b69856660ac3ef177f59b92618014455e25da7ad837c",
+   "newObjectSha256": "f2d004665901b7b36c261291a5188138f77cfffe46c20c691949202dcef38b0d",
    "delta": [
     {
      "copy": [
@@ -112,7 +113,7 @@
      ]
     },
     {
-     "insert": "IzfdUw=="
+     "insert": "Izfexw=="
     },
     {
      "copy": [
@@ -229,7 +230,7 @@
      ]
     },
     {
-     "insert": "ypX5hA=="
+     "insert": "ypX2nA=="
     },
     {
      "copy": [
@@ -238,7 +239,7 @@
      ]
     },
     {
-     "insert": "5uVtVg=="
+     "insert": "5uVuyg=="
     },
     {
      "copy": [
@@ -3164,8 +3165,9 @@
    "dataOffset": 8400,
    "origByteStart": 6450152,
    "origByteSize": 6890,
+   "fontDataOffset": 88,
    "origObjectSha256": "ae0115916e010709946a3ba89f89ba65b6fa53b25441f1ce55871f184283eb75",
-   "newObjectSha256": "0397708ef27a8fc107f6fe35612679664ee38715cd7daf1b2a89918391b3691d",
+   "newObjectSha256": "28b75705e0077af38f774f5f32a9a9c8e2a6f0e3c28c6c0ebfcf2a7fadac8e54",
    "delta": [
     {
      "copy": [
@@ -3282,7 +3284,7 @@
      ]
     },
     {
-     "insert": "M6Y="
+     "insert": "NRo="
     },
     {
      "copy": [
@@ -3390,7 +3392,7 @@
      ]
     },
     {
-     "insert": "87rETg=="
+     "insert": "87rBZg=="
     },
     {
      "copy": [
@@ -3408,7 +3410,7 @@
      ]
     },
     {
-     "insert": "5uVtWA=="
+     "insert": "5uVuzA=="
     },
     {
      "copy": [
