@@ -76,10 +76,14 @@ public sealed class Installer(string gameDir)
             var m = ReadManifest();
             if (m == null)
                 return null;
-            if (m.OwnsBepInEx && string.Equals(GetIniValue(DoorstopConfig, "enabled"), "false", StringComparison.OrdinalIgnoreCase))
+            if (IsOff(m))
                 return null;
             var lang = GetIniValue(XUnityConfig, "Language");
-            return lang is null or "en" ? null : lang;
+            // With our own BepInEx, "off" is only the Doorstop switch; an "en" here is a damaged config
+            // (see Ini), so report the first installed language and let Install repair it.
+            if (lang is null or "en" || !Directory.Exists(Full(LanguageDir(lang))))
+                return m.OwnsBepInEx ? LoadLanguages().Select(p => p.Code).FirstOrDefault() : null;
+            return lang;
         }
         set
         {
@@ -98,6 +102,11 @@ public sealed class Installer(string gameDir)
                 SetIniValue(DoorstopConfig, "enabled", value != null ? "true" : "false");
         }
     }
+
+    bool IsOff(InstallManifest m) =>
+        m.OwnsBepInEx
+            ? string.Equals(GetIniValue(DoorstopConfig, "enabled"), "false", StringComparison.OrdinalIgnoreCase)
+            : GetIniValue(XUnityConfig, "Language") is null or "en";
 
     /// <summary>Saves a language's working copy and regenerates what the game reads (text file and label images).</summary>
     public void SaveLanguage(LanguagePack pack)
@@ -126,7 +135,7 @@ public sealed class Installer(string gameDir)
         EnsureGameClosed();
         var old = ReadManifest();
         var previousLanguage = old != null ? ActiveLanguage : null;
-        bool wasOff = old != null && previousLanguage == null;
+        bool wasOff = old != null && IsOff(old);
         var manifest = new InstallManifest
         {
             Version = payload.Version,
@@ -370,32 +379,52 @@ public sealed class Installer(string gameDir)
             throw new InvalidOperationException("Close MageQuit first.");
     }
 
-    string? GetIniValue(string rel, string key)
+    string? GetIniValue(string rel, string key) =>
+        File.Exists(Full(rel)) ? Ini.Get(File.ReadAllText(Full(rel)), key) : null;
+
+    void SetIniValue(string rel, string key, string value) =>
+        File.WriteAllText(Full(rel), Ini.Set(File.ReadAllText(Full(rel)), key, value), new UTF8Encoding(false));
+}
+
+/// <summary>
+/// Minimal INI editing that both Doorstop and XUnity.AutoTranslator read back correctly.
+/// XUnity's parser does not accept "key = value" (it treats "key " as a different key, then
+/// appends its own default), so values are always written as "key=value".
+/// </summary>
+internal static class Ini
+{
+    static bool IsKey(string line, string key)
     {
-        if (!File.Exists(Full(rel)))
-            return null;
-        foreach (var line in File.ReadLines(Full(rel)))
-        {
-            var t = line.Trim();
-            if (t.StartsWith(key, StringComparison.Ordinal) && t[key.Length..].TrimStart().StartsWith('='))
-                return t[(t.IndexOf('=') + 1)..].Split(';')[0].Trim();
-        }
-        return null;
+        var t = line.TrimStart();
+        return t.StartsWith(key, StringComparison.Ordinal) && t[key.Length..].TrimStart().StartsWith('=');
     }
 
-    void SetIniValue(string rel, string key, string value)
+    /// <summary>The value XUnity would use: the last "key=value" line wins, as later lines overwrite earlier ones.</summary>
+    public static string? Get(string content, string key)
     {
-        var lines = File.ReadAllLines(Full(rel)).ToList();
-        for (int i = 0; i < lines.Count; i++)
+        string? value = null;
+        foreach (var line in content.Split('\n'))
+            if (IsKey(line, key))
+                value = line[(line.IndexOf('=') + 1)..].Split(';')[0].Trim();
+        return value;
+    }
+
+    /// <summary>Sets every occurrence of <paramref name="key"/> (repairing duplicates left by older versions).</summary>
+    public static string Set(string content, string key, string value)
+    {
+        var newline = content.Contains("\r\n") ? "\r\n" : "\n";
+        var lines = content.Replace("\r\n", "\n").Split('\n');
+        bool found = false;
+        for (int i = 0; i < lines.Length; i++)
         {
-            var t = lines[i].Trim();
-            if (t.StartsWith(key, StringComparison.Ordinal) && t[key.Length..].TrimStart().StartsWith('='))
-            {
-                lines[i] = $"{key} = {value}";
-                File.WriteAllLines(Full(rel), lines);
-                return;
-            }
+            if (!IsKey(lines[i], key))
+                continue;
+            var comment = lines[i].IndexOf(';') is var c and >= 0 && c > lines[i].IndexOf('=') ? "  " + lines[i][c..].Trim() : "";
+            lines[i] = $"{key}={value}{comment}";
+            found = true;
         }
-        throw new InvalidDataException($"{key} not found in {rel}");
+        if (!found)
+            throw new InvalidDataException($"{key} not found");
+        return string.Join(newline, lines);
     }
 }

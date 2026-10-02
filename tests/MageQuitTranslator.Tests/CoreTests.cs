@@ -163,6 +163,35 @@ public class LanguageInfoTests
     }
 }
 
+public class IniTests
+{
+    [Fact]
+    public void WritesKeyEqualsValueWithoutSpacesSoXUnityReadsIt()
+    {
+        var ini = "[General]\nLanguage=da\nFromLanguage=en\n";
+        Assert.Equal("[General]\nLanguage=sv\nFromLanguage=en\n", Ini.Set(ini, "Language", "sv"));
+    }
+
+    [Fact]
+    public void RepairsTheDuplicateLeftBy020()
+    {
+        // 0.2.0 wrote "Language = da"; XUnity ignored it and appended its default "Language=en".
+        var broken = "[General]\r\nLanguage = da\r\nFromLanguage=en\r\nLanguage=en\r\n";
+        Assert.Equal("en", Ini.Get(broken, "Language"));
+        var fixedIni = Ini.Set(broken, "Language", "da");
+        Assert.Equal("[General]\r\nLanguage=da\r\nFromLanguage=en\r\nLanguage=da\r\n", fixedIni);
+        Assert.Equal("da", Ini.Get(fixedIni, "Language"));
+    }
+
+    [Fact]
+    public void KeepsCommentsAndDoesNotTouchSimilarKeys()
+    {
+        var ini = "enabled = true ; Enable Doorstop?\nenabledFoo=1\n";
+        Assert.Equal("enabled=false  ; Enable Doorstop?\nenabledFoo=1\n", Ini.Set(ini, "enabled", "false"));
+        Assert.Throws<InvalidDataException>(() => Ini.Set(ini, "missing", "x"));
+    }
+}
+
 public class LabelTests
 {
     [Fact]
