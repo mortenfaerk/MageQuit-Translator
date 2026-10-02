@@ -1,0 +1,5168 @@
+{
+ "format": 1,
+ "game": "MageQuit",
+ "unity": "2018.4.0f1",
+ "patches": [
+  {
+   "file": "MageQuit_Data/resources.assets",
+   "font": "MageQuit-Body",
+   "pathId": 1859,
+   "entryOffset": 51828,
+   "origFileSize": 41808116,
+   "dataOffset": 372000,
+   "origByteStart": 35004712,
+   "origByteSize": 8986,
+   "origObjectSha256": "8c1266119c001647f00fc81846936a71c1350224ad7189d9287d61b7050508e9",
+   "newObjectSha256": "84e8e9fd6c59d271ac41b69856660ac3ef177f59b92618014455e25da7ad837c",
+   "delta": [
+    {
+     "copy": [
+      0,
+      84
+     ]
+    },
+    {
+     "insert": "PCU="
+    },
+    {
+     "copy": [
+      86,
+      24
+     ]
+    },
+    {
+     "insert": "JPg="
+    },
+    {
+     "copy": [
+      112,
+      14
+     ]
+    },
+    {
+     "insert": "JRQ="
+    },
+    {
+     "copy": [
+      128,
+      24
+     ]
+    },
+    {
+     "insert": "z9OljQ=="
+    },
+    {
+     "copy": [
+      156,
+      3
+     ]
+    },
+    {
+     "insert": "WA=="
+    },
+    {
+     "copy": [
+      160,
+      3
+     ]
+    },
+    {
+     "insert": "ag=="
+    },
+    {
+     "copy": [
+      164,
+      10
+     ]
+    },
+    {
+     "insert": "JPA="
+    },
+    {
+     "copy": [
+      176,
+      8
+     ]
+    },
+    {
+     "insert": "Dtb/aA=="
+    },
+    {
+     "copy": [
+      188,
+      3
+     ]
+    },
+    {
+     "insert": "mA=="
+    },
+    {
+     "copy": [
+      192,
+      2
+     ]
+    },
+    {
+     "insert": "HBo="
+    },
+    {
+     "copy": [
+      196,
+      4
+     ]
+    },
+    {
+     "insert": "IzfdUw=="
+    },
+    {
+     "copy": [
+      204,
+      15
+     ]
+    },
+    {
+     "insert": "Fw=="
+    },
+    {
+     "copy": [
+      220,
+      12
+     ]
+    },
+    {
+     "insert": "6IQLSw=="
+    },
+    {
+     "copy": [
+      236,
+      7
+     ]
+    },
+    {
+     "insert": "oA=="
+    },
+    {
+     "copy": [
+      244,
+      4
+     ]
+    },
+    {
+     "insert": "YXNaig=="
+    },
+    {
+     "copy": [
+      252,
+      3
+     ]
+    },
+    {
+     "insert": "xA=="
+    },
+    {
+     "copy": [
+      256,
+      3
+     ]
+    },
+    {
+     "insert": "0g=="
+    },
+    {
+     "copy": [
+      260,
+      5
+     ]
+    },
+    {
+     "insert": "rw=="
+    },
+    {
+     "copy": [
+      266,
+      1
+     ]
+    },
+    {
+     "insert": "LQ=="
+    },
+    {
+     "copy": [
+      268,
+      18
+     ]
+    },
+    {
+     "insert": "IbQ="
+    },
+    {
+     "copy": [
+      288,
+      8
+     ]
+    },
+    {
+     "insert": "Cz0K3Q=="
+    },
+    {
+     "copy": [
+      300,
+      2
+     ]
+    },
+    {
+     "insert": "I/w="
+    },
+    {
+     "copy": [
+      304,
+      3
+     ]
+    },
+    {
+     "insert": "8g=="
+    },
+    {
+     "copy": [
+      308,
+      8
+     ]
+    },
+    {
+     "insert": "ypX5hA=="
+    },
+    {
+     "copy": [
+      320,
+      20
+     ]
+    },
+    {
+     "insert": "5uVtVg=="
+    },
+    {
+     "copy": [
+      344,
+      7
+     ]
+    },
+    {
+     "insert": "XA=="
+    },
+    {
+     "copy": [
+      352,
+      47
+     ]
+    },
+    {
+     "insert": "aA=="
+    },
+    {
+     "copy": [
+      400,
+      5
+     ]
+    },
+    {
+     "insert": "aA=="
+    },
+    {
+     "copy": [
+      406,
+      1
+     ]
+    },
+    {
+     "insert": "Kg=="
+    },
+    {
+     "copy": [
+      408,
+      512
+     ]
+    },
+    {
+     "insert": "AoEADgI/ABICUwAcAkAAEgOQABwDmwAS"
+    },
+    {
+     "copy": [
+      920,
+      19
+     ]
+    },
+    {
+     "insert": "ZA=="
+    },
+    {
+     "copy": [
+      940,
+      11
+     ]
+    },
+    {
+     "insert": "SA=="
+    },
+    {
+     "copy": [
+      952,
+      3
+     ]
+    },
+    {
+     "insert": "DAAIAAI="
+    },
+    {
+     "copy": [
+      956,
+      3
+     ]
+    },
+    {
+     "insert": "fg=="
+    },
+    {
+     "copy": [
+      960,
+      1
+     ]
+    },
+    {
+     "insert": "xg=="
+    },
+    {
+     "copy": [
+      961,
+      1
+     ]
+    },
+    {
+     "insert": "2A=="
+    },
+    {
+     "copy": [
+      962,
+      1
+     ]
+    },
+    {
+     "insert": "5gD4"
+    },
+    {
+     "copy": [
+      964,
+      6
+     ]
+    },
+    {
+     "insert": "AMUA2ADlAPg="
+    },
+    {
+     "copy": [
+      970,
+      5
+     ]
+    },
+    {
+     "insert": "AP+KAAD/awA="
+    },
+    {
+     "copy": [
+      975,
+      4
+     ]
+    },
+    {
+     "insert": "Cg=="
+    },
+    {
+     "copy": [
+      979,
+      1
+     ]
+    },
+    {
+     "insert": "AAAKAAAAAABkAGYAZQBn"
+    },
+    {
+     "copy": [
+      980,
+      282
+     ]
+    },
+    {
+     "insert": "AP8="
+    },
+    {
+     "copy": [
+      1262,
+      1
+     ]
+    },
+    {
+     "insert": "Pg=="
+    },
+    {
+     "copy": [
+      1264,
+      1
+     ]
+    },
+    {
+     "insert": "Vg=="
+    },
+    {
+     "copy": [
+      1266,
+      1
+     ]
+    },
+    {
+     "insert": "bA=="
+    },
+    {
+     "copy": [
+      1268,
+      1
+     ]
+    },
+    {
+     "insert": "gg=="
+    },
+    {
+     "copy": [
+      1270,
+      1
+     ]
+    },
+    {
+     "insert": "pQ=="
+    },
+    {
+     "copy": [
+      1272,
+      1
+     ]
+    },
+    {
+     "insert": "vg=="
+    },
+    {
+     "copy": [
+      1274,
+      1
+     ]
+    },
+    {
+     "insert": "1g=="
+    },
+    {
+     "copy": [
+      1276,
+      1
+     ]
+    },
+    {
+     "insert": "5w=="
+    },
+    {
+     "copy": [
+      1278,
+      1
+     ]
+    },
+    {
+     "insert": "9w=="
+    },
+    {
+     "copy": [
+      1282,
+      1
+     ]
+    },
+    {
+     "insert": "Cw=="
+    },
+    {
+     "copy": [
+      1284,
+      1
+     ]
+    },
+    {
+     "insert": "MA=="
+    },
+    {
+     "copy": [
+      1286,
+      1
+     ]
+    },
+    {
+     "insert": "Tw=="
+    },
+    {
+     "copy": [
+      1288,
+      1
+     ]
+    },
+    {
+     "insert": "dA=="
+    },
+    {
+     "copy": [
+      1290,
+      1
+     ]
+    },
+    {
+     "insert": "mw=="
+    },
+    {
+     "copy": [
+      1292,
+      1
+     ]
+    },
+    {
+     "insert": "ww=="
+    },
+    {
+     "copy": [
+      1294,
+      1
+     ]
+    },
+    {
+     "insert": "6g=="
+    },
+    {
+     "copy": [
+      1296,
+      1
+     ]
+    },
+    {
+     "insert": "Fw=="
+    },
+    {
+     "copy": [
+      1298,
+      1
+     ]
+    },
+    {
+     "insert": "NQ=="
+    },
+    {
+     "copy": [
+      1300,
+      1
+     ]
+    },
+    {
+     "insert": "bQ=="
+    },
+    {
+     "copy": [
+      1302,
+      1
+     ]
+    },
+    {
+     "insert": "mg=="
+    },
+    {
+     "copy": [
+      1304,
+      1
+     ]
+    },
+    {
+     "insert": "tQ=="
+    },
+    {
+     "copy": [
+      1306,
+      1
+     ]
+    },
+    {
+     "insert": "1w=="
+    },
+    {
+     "copy": [
+      1308,
+      1
+     ]
+    },
+    {
+     "insert": "7w=="
+    },
+    {
+     "copy": [
+      1310,
+      1
+     ]
+    },
+    {
+     "insert": "DQ=="
+    },
+    {
+     "copy": [
+      1312,
+      1
+     ]
+    },
+    {
+     "insert": "Jg=="
+    },
+    {
+     "copy": [
+      1314,
+      1
+     ]
+    },
+    {
+     "insert": "TQ=="
+    },
+    {
+     "copy": [
+      1316,
+      1
+     ]
+    },
+    {
+     "insert": "ig=="
+    },
+    {
+     "copy": [
+      1318,
+      1
+     ]
+    },
+    {
+     "insert": "qQ=="
+    },
+    {
+     "copy": [
+      1320,
+      1
+     ]
+    },
+    {
+     "insert": "2AT4"
+    },
+    {
+     "copy": [
+      1322,
+      1
+     ]
+    },
+    {
+     "insert": "HA=="
+    },
+    {
+     "copy": [
+      1324,
+      1
+     ]
+    },
+    {
+     "insert": "QQ=="
+    },
+    {
+     "copy": [
+      1326,
+      1
+     ]
+    },
+    {
+     "insert": "Yg=="
+    },
+    {
+     "copy": [
+      1328,
+      1
+     ]
+    },
+    {
+     "insert": "jA=="
+    },
+    {
+     "copy": [
+      1330,
+      1
+     ]
+    },
+    {
+     "insert": "sQ=="
+    },
+    {
+     "copy": [
+      1332,
+      1
+     ]
+    },
+    {
+     "insert": "0g=="
+    },
+    {
+     "copy": [
+      1334,
+      1
+     ]
+    },
+    {
+     "insert": "9Q=="
+    },
+    {
+     "copy": [
+      1336,
+      1
+     ]
+    },
+    {
+     "insert": "GA=="
+    },
+    {
+     "copy": [
+      1338,
+      3
+     ]
+    },
+    {
+     "insert": "VA=="
+    },
+    {
+     "copy": [
+      1342,
+      1
+     ]
+    },
+    {
+     "insert": "eg=="
+    },
+    {
+     "copy": [
+      1344,
+      1
+     ]
+    },
+    {
+     "insert": "nQ=="
+    },
+    {
+     "copy": [
+      1346,
+      1
+     ]
+    },
+    {
+     "insert": "xA=="
+    },
+    {
+     "copy": [
+      1348,
+      1
+     ]
+    },
+    {
+     "insert": "8A=="
+    },
+    {
+     "copy": [
+      1350,
+      1
+     ]
+    },
+    {
+     "insert": "HA=="
+    },
+    {
+     "copy": [
+      1352,
+      1
+     ]
+    },
+    {
+     "insert": "Qg=="
+    },
+    {
+     "copy": [
+      1354,
+      1
+     ]
+    },
+    {
+     "insert": "XQ=="
+    },
+    {
+     "copy": [
+      1356,
+      1
+     ]
+    },
+    {
+     "insert": "fg=="
+    },
+    {
+     "copy": [
+      1358,
+      1
+     ]
+    },
+    {
+     "insert": "lw=="
+    },
+    {
+     "copy": [
+      1360,
+      1
+     ]
+    },
+    {
+     "insert": "vQ=="
+    },
+    {
+     "copy": [
+      1362,
+      1
+     ]
+    },
+    {
+     "insert": "4w=="
+    },
+    {
+     "copy": [
+      1364,
+      1
+     ]
+    },
+    {
+     "insert": "Aw=="
+    },
+    {
+     "copy": [
+      1366,
+      1
+     ]
+    },
+    {
+     "insert": "JQ=="
+    },
+    {
+     "copy": [
+      1368,
+      1
+     ]
+    },
+    {
+     "insert": "QA=="
+    },
+    {
+     "copy": [
+      1370,
+      1
+     ]
+    },
+    {
+     "insert": "VQ=="
+    },
+    {
+     "copy": [
+      1372,
+      1
+     ]
+    },
+    {
+     "insert": "cA=="
+    },
+    {
+     "copy": [
+      1374,
+      1
+     ]
+    },
+    {
+     "insert": "hwiZ"
+    },
+    {
+     "copy": [
+      1376,
+      3
+     ]
+    },
+    {
+     "insert": "0Q=="
+    },
+    {
+     "copy": [
+      1380,
+      1
+     ]
+    },
+    {
+     "insert": "+A=="
+    },
+    {
+     "copy": [
+      1384,
+      1
+     ]
+    },
+    {
+     "insert": "Fw=="
+    },
+    {
+     "copy": [
+      1386,
+      1
+     ]
+    },
+    {
+     "insert": "PA=="
+    },
+    {
+     "copy": [
+      1388,
+      1
+     ]
+    },
+    {
+     "insert": "Zw=="
+    },
+    {
+     "copy": [
+      1390,
+      1
+     ]
+    },
+    {
+     "insert": "jg=="
+    },
+    {
+     "copy": [
+      1392,
+      1
+     ]
+    },
+    {
+     "insert": "ug=="
+    },
+    {
+     "copy": [
+      1394,
+      1
+     ]
+    },
+    {
+     "insert": "3Qn1"
+    },
+    {
+     "copy": [
+      1396,
+      1
+     ]
+    },
+    {
+     "insert": "GQ=="
+    },
+    {
+     "copy": [
+      1398,
+      1
+     ]
+    },
+    {
+     "insert": "PQ=="
+    },
+    {
+     "copy": [
+      1400,
+      1
+     ]
+    },
+    {
+     "insert": "Tw=="
+    },
+    {
+     "copy": [
+      1402,
+      1
+     ]
+    },
+    {
+     "insert": "fg=="
+    },
+    {
+     "copy": [
+      1404,
+      1
+     ]
+    },
+    {
+     "insert": "ng=="
+    },
+    {
+     "copy": [
+      1406,
+      1
+     ]
+    },
+    {
+     "insert": "vw=="
+    },
+    {
+     "copy": [
+      1408,
+      1
+     ]
+    },
+    {
+     "insert": "5Q=="
+    },
+    {
+     "copy": [
+      1412,
+      1
+     ]
+    },
+    {
+     "insert": "Dw=="
+    },
+    {
+     "copy": [
+      1414,
+      1
+     ]
+    },
+    {
+     "insert": "Kg=="
+    },
+    {
+     "copy": [
+      1416,
+      1
+     ]
+    },
+    {
+     "insert": "Tw=="
+    },
+    {
+     "copy": [
+      1418,
+      1
+     ]
+    },
+    {
+     "insert": "bw=="
+    },
+    {
+     "copy": [
+      1420,
+      1
+     ]
+    },
+    {
+     "insert": "kw=="
+    },
+    {
+     "copy": [
+      1422,
+      1
+     ]
+    },
+    {
+     "insert": "rg=="
+    },
+    {
+     "copy": [
+      1424,
+      1
+     ]
+    },
+    {
+     "insert": "0wv4"
+    },
+    {
+     "copy": [
+      1426,
+      1
+     ]
+    },
+    {
+     "insert": "IQ=="
+    },
+    {
+     "copy": [
+      1428,
+      1
+     ]
+    },
+    {
+     "insert": "Qg=="
+    },
+    {
+     "copy": [
+      1430,
+      1
+     ]
+    },
+    {
+     "insert": "Zg=="
+    },
+    {
+     "copy": [
+      1432,
+      1
+     ]
+    },
+    {
+     "insert": "eA=="
+    },
+    {
+     "copy": [
+      1434,
+      1
+     ]
+    },
+    {
+     "insert": "mw=="
+    },
+    {
+     "copy": [
+      1436,
+      1
+     ]
+    },
+    {
+     "insert": "sg=="
+    },
+    {
+     "copy": [
+      1438,
+      1
+     ]
+    },
+    {
+     "insert": "4Q0ODUUNgw3BDg0="
+    },
+    {
+     "copy": [
+      1442,
+      63
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      1507,
+      51
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1560,
+      2
+     ]
+    },
+    {
+     "insert": "BwcnJw=="
+    },
+    {
+     "copy": [
+      1566,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1571,
+      2
+     ]
+    },
+    {
+     "insert": "BwcnJw=="
+    },
+    {
+     "copy": [
+      1577,
+      80
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      1659,
+      95
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      1756,
+      84
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      1842,
+      3
+     ]
+    },
+    {
+     "insert": "FxcHBycn"
+    },
+    {
+     "copy": [
+      1851,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1857,
+      3
+     ]
+    },
+    {
+     "insert": "FxcHBycn"
+    },
+    {
+     "copy": [
+      1866,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1872,
+      83
+     ]
+    },
+    {
+     "copy": [
+      1957,
+      18
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1977,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1986,
+      1
+     ]
+    },
+    {
+     "insert": "Jzc3Jzc3"
+    },
+    {
+     "copy": [
+      1993,
+      1
+     ]
+    },
+    {
+     "insert": "FwcHFzc3"
+    },
+    {
+     "copy": [
+      1996,
+      4
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2002,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      2007,
+      76
+     ]
+    },
+    {
+     "copy": [
+      2085,
+      15
+     ]
+    },
+    {
+     "insert": "FxcHBw=="
+    },
+    {
+     "copy": [
+      2104,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2107,
+      41
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2150,
+      2
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2154,
+      36
+     ]
+    },
+    {
+     "insert": "ExMDAw=="
+    },
+    {
+     "copy": [
+      2194,
+      97
+     ]
+    },
+    {
+     "copy": [
+      2293,
+      50
+     ]
+    },
+    {
+     "copy": [
+      2345,
+      15
+     ]
+    },
+    {
+     "insert": "FxcHBw=="
+    },
+    {
+     "copy": [
+      2364,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2367,
+      60
+     ]
+    },
+    {
+     "copy": [
+      2429,
+      16
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      2447,
+      29
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      2477,
+      41
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2520,
+      6
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2528,
+      47
+     ]
+    },
+    {
+     "copy": [
+      2577,
+      23
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      2602,
+      37
+     ]
+    },
+    {
+     "copy": [
+      2641,
+      16
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      2659,
+      2
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2663,
+      1
+     ]
+    },
+    {
+     "insert": "JSU="
+    },
+    {
+     "copy": [
+      2666,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2671,
+      43
+     ]
+    },
+    {
+     "copy": [
+      2716,
+      79
+     ]
+    },
+    {
+     "copy": [
+      2797,
+      17
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2816,
+      1
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      2819,
+      6
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2827,
+      66
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      2895,
+      60
+     ]
+    },
+    {
+     "copy": [
+      2957,
+      17
+     ]
+    },
+    {
+     "insert": "BwcnJw=="
+    },
+    {
+     "copy": [
+      2978,
+      2
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2982,
+      65
+     ]
+    },
+    {
+     "copy": [
+      3049,
+      16
+     ]
+    },
+    {
+     "copy": [
+      3069,
+      1
+     ]
+    },
+    {
+     "insert": "BwMDBxMT"
+    },
+    {
+     "copy": [
+      3072,
+      56
+     ]
+    },
+    {
+     "insert": "BwcXFwcH"
+    },
+    {
+     "copy": [
+      3134,
+      1
+     ]
+    },
+    {
+     "insert": "Jyc3NycnNzc="
+    },
+    {
+     "copy": [
+      3143,
+      7
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      3154,
+      84
+     ]
+    },
+    {
+     "insert": "NzcXFw=="
+    },
+    {
+     "copy": [
+      3242,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3246,
+      65
+     ]
+    },
+    {
+     "copy": [
+      3313,
+      18
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3333,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3339,
+      28
+     ]
+    },
+    {
+     "copy": [
+      3369,
+      15
+     ]
+    },
+    {
+     "insert": "NzcXFwcH"
+    },
+    {
+     "copy": [
+      3390,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3393,
+      5
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3400,
+      51
+     ]
+    },
+    {
+     "insert": "JSU="
+    },
+    {
+     "copy": [
+      3453,
+      1
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      3458,
+      44
+     ]
+    },
+    {
+     "insert": "FwcH"
+    },
+    {
+     "copy": [
+      3505,
+      10
+     ]
+    },
+    {
+     "copy": [
+      3516,
+      29
+     ]
+    },
+    {
+     "insert": "AA=="
+    },
+    {
+     "copy": [
+      3545,
+      14
+     ]
+    },
+    {
+     "insert": "BQU="
+    },
+    {
+     "copy": [
+      3561,
+      1
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      3566,
+      29
+     ]
+    },
+    {
+     "copy": [
+      3597,
+      17
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      3616,
+      5
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      3625,
+      4
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3631,
+      44
+     ]
+    },
+    {
+     "copy": [
+      3677,
+      19
+     ]
+    },
+    {
+     "insert": "Nw=="
+    },
+    {
+     "copy": [
+      3697,
+      4
+     ]
+    },
+    {
+     "copy": [
+      3705,
+      1
+     ]
+    },
+    {
+     "insert": "JwcHJzc3"
+    },
+    {
+     "copy": [
+      3708,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      3713,
+      8
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3723,
+      5
+     ]
+    },
+    {
+     "copy": [
+      3729,
+      71
+     ]
+    },
+    {
+     "copy": [
+      3801,
+      17
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      3820,
+      1
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      3823,
+      4
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      3829,
+      34
+     ]
+    },
+    {
+     "copy": [
+      3865,
+      18
+     ]
+    },
+    {
+     "insert": "BwcXFwcH"
+    },
+    {
+     "copy": [
+      3889,
+      8
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3899,
+      60
+     ]
+    },
+    {
+     "copy": [
+      3961,
+      13
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      3976,
+      1
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      3979,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3983,
+      60
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4045,
+      5
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      4054,
+      59
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4115,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4121,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4127,
+      44
+     ]
+    },
+    {
+     "copy": [
+      4173,
+      18
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4193,
+      3
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      4198,
+      41
+     ]
+    },
+    {
+     "copy": [
+      4241,
+      19
+     ]
+    },
+    {
+     "insert": "BwcXFzc3"
+    },
+    {
+     "copy": [
+      4266,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4269,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4274,
+      70
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4346,
+      53
+     ]
+    },
+    {
+     "copy": [
+      4401,
+      19
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4422,
+      45
+     ]
+    },
+    {
+     "copy": [
+      4469,
+      15
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4486,
+      8
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4496,
+      43
+     ]
+    },
+    {
+     "copy": [
+      4541,
+      17
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4560,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4563,
+      48
+     ]
+    },
+    {
+     "copy": [
+      4613,
+      15
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4630,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4634,
+      42
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4678,
+      1
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4681,
+      67
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4750,
+      3
+     ]
+    },
+    {
+     "insert": "AwMHBwMDExM="
+    },
+    {
+     "copy": [
+      4761,
+      118
+     ]
+    },
+    {
+     "copy": [
+      4881,
+      20
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4903,
+      4
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4909,
+      3
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4914,
+      44
+     ]
+    },
+    {
+     "copy": [
+      4960,
+      108
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5074,
+      1
+     ]
+    },
+    {
+     "insert": "Bw=="
+    },
+    {
+     "copy": [
+      5077,
+      1
+     ]
+    },
+    {
+     "insert": "FwcnJxcHBw=="
+    },
+    {
+     "copy": [
+      5080,
+      3
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      5087,
+      74
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      5165,
+      102
+     ]
+    },
+    {
+     "copy": [
+      5269,
+      66
+     ]
+    },
+    {
+     "copy": [
+      5337,
+      20
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      5359,
+      28
+     ]
+    },
+    {
+     "copy": [
+      5389,
+      18
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      5409,
+      5
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      5416,
+      72
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      5492,
+      64
+     ]
+    },
+    {
+     "insert": "Fxc3Nw=="
+    },
+    {
+     "copy": [
+      5560,
+      62
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      5624,
+      1
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5627,
+      1
+     ]
+    },
+    {
+     "insert": "JycTNwcH"
+    },
+    {
+     "copy": [
+      5634,
+      35
+     ]
+    },
+    {
+     "copy": [
+      5670,
+      3
+     ]
+    },
+    {
+     "copy": [
+      5676,
+      55
+     ]
+    },
+    {
+     "copy": [
+      5733,
+      14
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      5748,
+      2
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      5751,
+      22
+     ]
+    },
+    {
+     "copy": [
+      5775,
+      56
+     ]
+    },
+    {
+     "copy": [
+      5833,
+      14
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5849,
+      1
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      5854,
+      23
+     ]
+    },
+    {
+     "copy": [
+      5879,
+      53
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5934,
+      15
+     ]
+    },
+    {
+     "copy": [
+      5951,
+      23
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      5976,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      5979,
+      6
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5987,
+      44
+     ]
+    },
+    {
+     "copy": [
+      6033,
+      18
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      6055,
+      2
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6059,
+      6
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      6067,
+      44
+     ]
+    },
+    {
+     "copy": [
+      6113,
+      17
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6132,
+      2
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      6138,
+      37
+     ]
+    },
+    {
+     "copy": [
+      6177,
+      20
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6199,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6205,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6210,
+      41
+     ]
+    },
+    {
+     "copy": [
+      6253,
+      18
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6273,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6277,
+      2
+     ]
+    },
+    {
+     "insert": "NzcXFw=="
+    },
+    {
+     "copy": [
+      6283,
+      4
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6289,
+      50
+     ]
+    },
+    {
+     "copy": [
+      6341,
+      16
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6359,
+      2
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      6365,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6368,
+      4
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6374,
+      45
+     ]
+    },
+    {
+     "copy": [
+      6421,
+      17
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      6440,
+      2
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6444,
+      4
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6450,
+      7
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6459,
+      75
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6536,
+      42
+     ]
+    },
+    {
+     "copy": [
+      6580,
+      65
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      6647,
+      5
+     ]
+    },
+    {
+     "insert": "BwcnJw=="
+    },
+    {
+     "copy": [
+      6656,
+      62
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6720,
+      1
+     ]
+    },
+    {
+     "copy": [
+      6725,
+      1
+     ]
+    },
+    {
+     "insert": "BxcXBycn"
+    },
+    {
+     "copy": [
+      6728,
+      95
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      6825,
+      2
+     ]
+    },
+    {
+     "insert": "Fxc3Nw=="
+    },
+    {
+     "copy": [
+      6831,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc1NQ=="
+    },
+    {
+     "copy": [
+      6837,
+      7
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6846,
+      57
+     ]
+    },
+    {
+     "copy": [
+      6905,
+      17
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      6924,
+      3
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      6931,
+      61
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      6994,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      6997,
+      38
+     ]
+    },
+    {
+     "copy": [
+      7037,
+      20
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      7059,
+      4
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7065,
+      3
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7070,
+      63
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7135,
+      4
+     ]
+    },
+    {
+     "insert": "Fxc3Nw=="
+    },
+    {
+     "copy": [
+      7143,
+      5
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      7150,
+      64
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      7216,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      7220,
+      31
+     ]
+    },
+    {
+     "copy": [
+      7253,
+      16
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      7271,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      7275,
+      3
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7280,
+      47
+     ]
+    },
+    {
+     "copy": [
+      7329,
+      17
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      7350,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7353,
+      57
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7412,
+      2
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      7416,
+      2
+     ]
+    },
+    {
+     "insert": "BwcnJw=="
+    },
+    {
+     "copy": [
+      7422,
+      63
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      7487,
+      30
+     ]
+    },
+    {
+     "copy": [
+      7519,
+      76
+     ]
+    },
+    {
+     "copy": [
+      7597,
+      18
+     ]
+    },
+    {
+     "copy": [
+      7619,
+      1
+     ]
+    },
+    {
+     "insert": "BxcXBw=="
+    },
+    {
+     "copy": [
+      7624,
+      1
+     ]
+    },
+    {
+     "insert": "JwcHJzc3"
+    },
+    {
+     "copy": [
+      7627,
+      44
+     ]
+    },
+    {
+     "copy": [
+      7673,
+      19
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      7694,
+      2
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      7698,
+      6
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      7706,
+      49
+     ]
+    },
+    {
+     "copy": [
+      7757,
+      17
+     ]
+    },
+    {
+     "insert": "Bwc3Nw=="
+    },
+    {
+     "copy": [
+      7778,
+      2
+     ]
+    },
+    {
+     "insert": "Jyc3Nw=="
+    },
+    {
+     "copy": [
+      7784,
+      37
+     ]
+    },
+    {
+     "copy": [
+      7823,
+      124
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      7949,
+      54
+     ]
+    },
+    {
+     "copy": [
+      8005,
+      15
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      8022,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      8027,
+      22
+     ]
+    },
+    {
+     "insert": "AAADAA7/OAJlAyAABwAOABQAAAEXEQcFJwMTAREnBwMTNxMXAwMnEwGdyJf+/JErUgFcW30mSnZiZN7MbNEDIMf96P4L2gF9AYT9ngEhfQH+7v7IBQMXNP4Q/jwgAggAAwAS/zICNAIWAAcADQATAAABFwMHJScTNxMTJwcHFxMXAwMnEwGriS5o/u97EXW+O0VmPDfYXMy7Y8AB7LP+np0NvgEmsP4GAQxpF6HGAj4m/pD+shgBgAAABAAc/z0CNQNcAAkADAAUABoAABcnExM3ExMHAyc3AwMTFwcHJyc3Nxc3JwcHF7SYGW/xeCieEL22VVeBKw4iVycFJjwTFiAUEsMNASYB6wz+hP5hDwEhCGsBB/75Aos2ai8EOVg1mFAgBzE7AAAEABL/OgIeAusADAASABoAIAAAARMRJzcHJycTNzcXJwM1JwcXFxMXBwcnJzc3FzcnBwcXAhIMjQFW208GerU5AgZ9WxJaPi8QI10qBihAFBcjFBMB6P6O/sQLYmce2AEVkws9N/5yuUln5iwDDTlxMgQ9XjiiViEHM0AAAwAc/zgDZgMgAAkADAAfAAAXJxMTNxMTBwMnNwMDEzcXBwcnBzcXBwcnBzcXBwclA7SYGW/xeCieEL22VVfQ+8cPkYIGjGMHgl8Df6AErv7rCMIQAWcCVg/+Mf4FEgFgCoMBQf6/AecOC6UNCvEFCKEMCOwEB54PDQHFAAQAEv86A3wB8gAMABIAIwApAAABExEnNwcnJxM3NxcnAzUnBxcXJScHFxc3FwcHLwI3NxcXByUHFzc3JwISDI0BVttPBnq1OQIGfVsSWgGnpQEtY0WGb4W7RwtIp615Fv7XJ11pCUsB6P6O/sQLYmce2AEVkws9N/5yuUln5ixmQ1pMB0VHcysssbvUTCR6wL1EMA4vQg=="
+    },
+    {
+     "copy": [
+      8049,
+      620
+     ]
+    },
+    {
+     "insert": "aA=="
+    },
+    {
+     "copy": [
+      8670,
+      197
+     ]
+    },
+    {
+     "insert": "kQChAGMAbgCQAKAA"
+    },
+    {
+     "copy": [
+      8867,
+      9
+     ]
+    },
+    {
+     "insert": "AAAAAQAAAADaU5nwAAAAANmjLcQAAAAA2aSpSA=="
+    },
+    {
+     "copy": [
+      8876,
+      40
+     ]
+    },
+    {
+     "copy": [
+      8944,
+      42
+     ]
+    }
+   ]
+  },
+  {
+   "file": "MageQuit_Data/sharedassets1.assets",
+   "font": "MageQuitHeaderThin",
+   "pathId": 309,
+   "entryOffset": 6792,
+   "origFileSize": 6658484,
+   "dataOffset": 8400,
+   "origByteStart": 6450152,
+   "origByteSize": 6890,
+   "origObjectSha256": "ae0115916e010709946a3ba89f89ba65b6fa53b25441f1ce55871f184283eb75",
+   "newObjectSha256": "0397708ef27a8fc107f6fe35612679664ee38715cd7daf1b2a89918391b3691d",
+   "delta": [
+    {
+     "copy": [
+      0,
+      88
+     ]
+    },
+    {
+     "insert": "oBs="
+    },
+    {
+     "copy": [
+      90,
+      24
+     ]
+    },
+    {
+     "insert": "G2g="
+    },
+    {
+     "copy": [
+      116,
+      14
+     ]
+    },
+    {
+     "insert": "G4Q="
+    },
+    {
+     "copy": [
+      132,
+      24
+     ]
+    },
+    {
+     "insert": "fQagyQ=="
+    },
+    {
+     "copy": [
+      160,
+      3
+     ]
+    },
+    {
+     "insert": "9A=="
+    },
+    {
+     "copy": [
+      164,
+      3
+     ]
+    },
+    {
+     "insert": "ag=="
+    },
+    {
+     "copy": [
+      168,
+      11
+     ]
+    },
+    {
+     "insert": "YA=="
+    },
+    {
+     "copy": [
+      180,
+      14
+     ]
+    },
+    {
+     "insert": "G2A="
+    },
+    {
+     "copy": [
+      196,
+      8
+     ]
+    },
+    {
+     "insert": "grm/Eg=="
+    },
+    {
+     "copy": [
+      208,
+      3
+     ]
+    },
+    {
+     "insert": "/A=="
+    },
+    {
+     "copy": [
+      212,
+      2
+     ]
+    },
+    {
+     "insert": "Eww="
+    },
+    {
+     "copy": [
+      216,
+      4
+     ]
+    },
+    {
+     "insert": "JA=="
+    },
+    {
+     "copy": [
+      221,
+      1
+     ]
+    },
+    {
+     "insert": "M6Y="
+    },
+    {
+     "copy": [
+      224,
+      15
+     ]
+    },
+    {
+     "insert": "Rg=="
+    },
+    {
+     "copy": [
+      240,
+      12
+     ]
+    },
+    {
+     "insert": "uGU="
+    },
+    {
+     "copy": [
+      254,
+      9
+     ]
+    },
+    {
+     "insert": "LA=="
+    },
+    {
+     "copy": [
+      264,
+      4
+     ]
+    },
+    {
+     "insert": "rrazrQ=="
+    },
+    {
+     "copy": [
+      272,
+      3
+     ]
+    },
+    {
+     "insert": "ZA=="
+    },
+    {
+     "copy": [
+      276,
+      3
+     ]
+    },
+    {
+     "insert": "mA=="
+    },
+    {
+     "copy": [
+      280,
+      5
+     ]
+    },
+    {
+     "insert": "kg=="
+    },
+    {
+     "copy": [
+      286,
+      20
+     ]
+    },
+    {
+     "insert": "GAg="
+    },
+    {
+     "copy": [
+      308,
+      9
+     ]
+    },
+    {
+     "insert": "qQZz"
+    },
+    {
+     "copy": [
+      320,
+      2
+     ]
+    },
+    {
+     "insert": "Gqg="
+    },
+    {
+     "copy": [
+      324,
+      3
+     ]
+    },
+    {
+     "insert": "uA=="
+    },
+    {
+     "copy": [
+      328,
+      8
+     ]
+    },
+    {
+     "insert": "87rETg=="
+    },
+    {
+     "copy": [
+      340,
+      5
+     ]
+    },
+    {
+     "insert": "CQ=="
+    },
+    {
+     "copy": [
+      346,
+      14
+     ]
+    },
+    {
+     "insert": "5uVtWA=="
+    },
+    {
+     "copy": [
+      364,
+      7
+     ]
+    },
+    {
+     "insert": "aA=="
+    },
+    {
+     "copy": [
+      372,
+      27
+     ]
+    },
+    {
+     "insert": "Bg=="
+    },
+    {
+     "copy": [
+      400,
+      19
+     ]
+    },
+    {
+     "insert": "Sw=="
+    },
+    {
+     "copy": [
+      420,
+      5
+     ]
+    },
+    {
+     "insert": "Sw=="
+    },
+    {
+     "copy": [
+      426,
+      410
+     ]
+    },
+    {
+     "insert": "At4AAAKYAAAD/gAA"
+    },
+    {
+     "copy": [
+      836,
+      19
+     ]
+    },
+    {
+     "insert": "ZA=="
+    },
+    {
+     "copy": [
+      856,
+      11
+     ]
+    },
+    {
+     "insert": "SA=="
+    },
+    {
+     "copy": [
+      868,
+      3
+     ]
+    },
+    {
+     "insert": "Dg=="
+    },
+    {
+     "copy": [
+      872,
+      1
+     ]
+    },
+    {
+     "insert": "CA=="
+    },
+    {
+     "copy": [
+      876,
+      2
+     ]
+    },
+    {
+     "insert": "AAY="
+    },
+    {
+     "copy": [
+      878,
+      4
+     ]
+    },
+    {
+     "insert": "AMYA2ADmAPg="
+    },
+    {
+     "copy": [
+      882,
+      8
+     ]
+    },
+    {
+     "insert": "AMUA2ADlAPg="
+    },
+    {
+     "copy": [
+      890,
+      6
+     ]
+    },
+    {
+     "insert": "/4T/cP9k/1A="
+    },
+    {
+     "copy": [
+      896,
+      2
+     ]
+    },
+    {
+     "insert": "AAAAAAAAAAA="
+    },
+    {
+     "copy": [
+      898,
+      291
+     ]
+    },
+    {
+     "insert": "0Q=="
+    },
+    {
+     "copy": [
+      1190,
+      1
+     ]
+    },
+    {
+     "insert": "FgFaAXIBiAGeAcEB3AH0AgYCFgIqAk8CbwKPArYC2QL+AyMDOwNqA44DqQPMA+QEAwQbBEEEgASgBM4E6wUOBTQFVQV7BZsFrQXJBe0GBQYqBk0GcgaWBr8G5QcLByYHQwddB4IHpwfFB+gIAwg="
+    },
+    {
+     "copy": [
+      1191,
+      1
+     ]
+    },
+    {
+     "insert": "CDMISgg="
+    },
+    {
+     "copy": [
+      1193,
+      1
+     ]
+    },
+    {
+     "insert": "CG0IkAiiCMUI3QkOCUYJ"
+    },
+    {
+     "copy": [
+      1275,
+      1
+     ]
+    },
+    {
+     "copy": [
+      1320,
+      91
+     ]
+    },
+    {
+     "insert": "BA=="
+    },
+    {
+     "copy": [
+      1412,
+      9
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      1423,
+      2
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      1427,
+      36
+     ]
+    },
+    {
+     "insert": "Hw=="
+    },
+    {
+     "copy": [
+      1464,
+      3
+     ]
+    },
+    {
+     "insert": "MA=="
+    },
+    {
+     "copy": [
+      1468,
+      9
+     ]
+    },
+    {
+     "insert": "BwcnJzc3"
+    },
+    {
+     "copy": [
+      1483,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1486,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc3Nw=="
+    },
+    {
+     "copy": [
+      1493,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1496,
+      81
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      1579,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1583,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      1588,
+      71
+     ]
+    },
+    {
+     "insert": "Jw=="
+    },
+    {
+     "copy": [
+      1660,
+      14
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      1678,
+      61
+     ]
+    },
+    {
+     "copy": [
+      1741,
+      23
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      1766,
+      3
+     ]
+    },
+    {
+     "insert": "FxcHBycn"
+    },
+    {
+     "copy": [
+      1775,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1781,
+      3
+     ]
+    },
+    {
+     "insert": "FxcHBycn"
+    },
+    {
+     "copy": [
+      1790,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1796,
+      83
+     ]
+    },
+    {
+     "copy": [
+      1881,
+      18
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1901,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1910,
+      1
+     ]
+    },
+    {
+     "insert": "Jzc3Jzc3"
+    },
+    {
+     "copy": [
+      1917,
+      1
+     ]
+    },
+    {
+     "insert": "FwcHFzc3"
+    },
+    {
+     "copy": [
+      1920,
+      4
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      1926,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      1931,
+      100
+     ]
+    },
+    {
+     "insert": "NzcXFwcH"
+    },
+    {
+     "copy": [
+      2037,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2040,
+      31
+     ]
+    },
+    {
+     "insert": "sQ=="
+    },
+    {
+     "copy": [
+      2072,
+      12
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2086,
+      29
+     ]
+    },
+    {
+     "insert": "uw=="
+    },
+    {
+     "copy": [
+      2116,
+      6
+     ]
+    },
+    {
+     "insert": "ExMDAw=="
+    },
+    {
+     "copy": [
+      2126,
+      2
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2130,
+      40
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      2172,
+      49
+     ]
+    },
+    {
+     "copy": [
+      2223,
+      56
+     ]
+    },
+    {
+     "copy": [
+      2281,
+      14
+     ]
+    },
+    {
+     "insert": "NzcXFwcH"
+    },
+    {
+     "copy": [
+      2301,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2304,
+      69
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      2374,
+      7
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      2383,
+      29
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      2413,
+      41
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2456,
+      55
+     ]
+    },
+    {
+     "copy": [
+      2513,
+      23
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      2538,
+      45
+     ]
+    },
+    {
+     "insert": "fA=="
+    },
+    {
+     "copy": [
+      2584,
+      63
+     ]
+    },
+    {
+     "insert": "nA=="
+    },
+    {
+     "copy": [
+      2648,
+      21
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2671,
+      48
+     ]
+    },
+    {
+     "copy": [
+      2721,
+      6
+     ]
+    },
+    {
+     "insert": "mA=="
+    },
+    {
+     "copy": [
+      2728,
+      14
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      2744,
+      2
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2748,
+      43
+     ]
+    },
+    {
+     "copy": [
+      2793,
+      17
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      2812,
+      55
+     ]
+    },
+    {
+     "copy": [
+      2869,
+      6
+     ]
+    },
+    {
+     "insert": "qA=="
+    },
+    {
+     "copy": [
+      2876,
+      20
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      2898,
+      45
+     ]
+    },
+    {
+     "copy": [
+      2945,
+      16
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      2963,
+      1
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      2966,
+      33
+     ]
+    },
+    {
+     "insert": "mQ=="
+    },
+    {
+     "copy": [
+      3000,
+      11
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3013,
+      5
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      3022,
+      2
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      3028,
+      59
+     ]
+    },
+    {
+     "copy": [
+      3089,
+      17
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      3108,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3111,
+      52
+     ]
+    },
+    {
+     "insert": "Cw=="
+    },
+    {
+     "copy": [
+      3164,
+      1
+     ]
+    },
+    {
+     "insert": "iw=="
+    },
+    {
+     "copy": [
+      3166,
+      1
+     ]
+    },
+    {
+     "insert": "Iw=="
+    },
+    {
+     "copy": [
+      3168,
+      8
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3178,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3181,
+      4
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3187,
+      28
+     ]
+    },
+    {
+     "copy": [
+      3217,
+      2
+     ]
+    },
+    {
+     "insert": "Eg=="
+    },
+    {
+     "copy": [
+      3220,
+      15
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3237,
+      2
+     ]
+    },
+    {
+     "insert": "NzcXFwcH"
+    },
+    {
+     "copy": [
+      3245,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3248,
+      39
+     ]
+    },
+    {
+     "copy": [
+      3289,
+      2
+     ]
+    },
+    {
+     "insert": "FQ=="
+    },
+    {
+     "copy": [
+      3292,
+      5
+     ]
+    },
+    {
+     "insert": "MQ=="
+    },
+    {
+     "copy": [
+      3298,
+      5
+     ]
+    },
+    {
+     "insert": "JSU="
+    },
+    {
+     "copy": [
+      3305,
+      1
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      3310,
+      32
+     ]
+    },
+    {
+     "insert": "Av8="
+    },
+    {
+     "copy": [
+      3344,
+      55
+     ]
+    },
+    {
+     "copy": [
+      3401,
+      14
+     ]
+    },
+    {
+     "insert": "BQU="
+    },
+    {
+     "copy": [
+      3417,
+      1
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      3422,
+      44
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      3468,
+      5
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3475,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3478,
+      3
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3483,
+      66
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      3553,
+      16
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3571,
+      80
+     ]
+    },
+    {
+     "copy": [
+      3653,
+      4
+     ]
+    },
+    {
+     "insert": "OA=="
+    },
+    {
+     "copy": [
+      3658,
+      12
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      3672,
+      51
+     ]
+    },
+    {
+     "insert": "Wg=="
+    },
+    {
+     "copy": [
+      3724,
+      11
+     ]
+    },
+    {
+     "insert": "BwcXFw=="
+    },
+    {
+     "copy": [
+      3739,
+      10
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      3751,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3755,
+      60
+     ]
+    },
+    {
+     "insert": "Sw=="
+    },
+    {
+     "copy": [
+      3816,
+      51
+     ]
+    },
+    {
+     "copy": [
+      3869,
+      6
+     ]
+    },
+    {
+     "insert": "fg=="
+    },
+    {
+     "copy": [
+      3876,
+      18
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      3896,
+      43
+     ]
+    },
+    {
+     "copy": [
+      3941,
+      17
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      3960,
+      3
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      3965,
+      2
+     ]
+    },
+    {
+     "insert": "NzcHBw=="
+    },
+    {
+     "copy": [
+      3971,
+      52
+     ]
+    },
+    {
+     "insert": "KA=="
+    },
+    {
+     "copy": [
+      4024,
+      12
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4038,
+      2
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      4042,
+      41
+     ]
+    },
+    {
+     "copy": [
+      4085,
+      17
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4104,
+      5
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      4111,
+      56
+     ]
+    },
+    {
+     "insert": "Zg=="
+    },
+    {
+     "copy": [
+      4168,
+      97
+     ]
+    },
+    {
+     "insert": "OA=="
+    },
+    {
+     "copy": [
+      4266,
+      14
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4282,
+      41
+     ]
+    },
+    {
+     "insert": "dg=="
+    },
+    {
+     "copy": [
+      4324,
+      7
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      4333,
+      1
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      4336,
+      1
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4339,
+      3
+     ]
+    },
+    {
+     "insert": "JycXFw=="
+    },
+    {
+     "copy": [
+      4346,
+      58
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4406,
+      2
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4410,
+      42
+     ]
+    },
+    {
+     "insert": "ExM="
+    },
+    {
+     "copy": [
+      4454,
+      6
+     ]
+    },
+    {
+     "insert": "AwMTEw=="
+    },
+    {
+     "copy": [
+      4464,
+      47
+     ]
+    },
+    {
+     "copy": [
+      4513,
+      17
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      4532,
+      51
+     ]
+    },
+    {
+     "copy": [
+      4585,
+      6
+     ]
+    },
+    {
+     "insert": "tw=="
+    },
+    {
+     "copy": [
+      4592,
+      10
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      4604,
+      55
+     ]
+    },
+    {
+     "copy": [
+      4661,
+      22
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4685,
+      3
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4690,
+      49
+     ]
+    },
+    {
+     "insert": "4w=="
+    },
+    {
+     "copy": [
+      4740,
+      22
+     ]
+    },
+    {
+     "insert": "JycHBxcX"
+    },
+    {
+     "copy": [
+      4768,
+      47
+     ]
+    },
+    {
+     "copy": [
+      4817,
+      6
+     ]
+    },
+    {
+     "insert": "bg=="
+    },
+    {
+     "copy": [
+      4824,
+      11
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4837,
+      10
+     ]
+    },
+    {
+     "insert": "Jyc="
+    },
+    {
+     "copy": [
+      4849,
+      50
+     ]
+    },
+    {
+     "insert": "PA=="
+    },
+    {
+     "copy": [
+      4900,
+      12
+     ]
+    },
+    {
+     "insert": "Bwc="
+    },
+    {
+     "copy": [
+      4914,
+      3
+     ]
+    },
+    {
+     "insert": "NzcnJw=="
+    },
+    {
+     "copy": [
+      4921,
+      62
+     ]
+    },
+    {
+     "insert": "JSU="
+    },
+    {
+     "copy": [
+      4985,
+      38
+     ]
+    },
+    {
+     "copy": [
+      5025,
+      4
+     ]
+    },
+    {
+     "insert": "OA=="
+    },
+    {
+     "copy": [
+      5030,
+      53
+     ]
+    },
+    {
+     "copy": [
+      5085,
+      6
+     ]
+    },
+    {
+     "insert": "lQ=="
+    },
+    {
+     "copy": [
+      5092,
+      14
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      5107,
+      50
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      5159,
+      3
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      5164,
+      47
+     ]
+    },
+    {
+     "copy": [
+      5213,
+      20
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5235,
+      1
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      5240,
+      47
+     ]
+    },
+    {
+     "copy": [
+      5289,
+      20
+     ]
+    },
+    {
+     "insert": "AwM="
+    },
+    {
+     "copy": [
+      5311,
+      44
+     ]
+    },
+    {
+     "insert": "Tg=="
+    },
+    {
+     "copy": [
+      5356,
+      18
+     ]
+    },
+    {
+     "insert": "EzcHBw=="
+    },
+    {
+     "copy": [
+      5378,
+      36
+     ]
+    },
+    {
+     "copy": [
+      5415,
+      3
+     ]
+    },
+    {
+     "copy": [
+      5419,
+      8
+     ]
+    },
+    {
+     "insert": "hA=="
+    },
+    {
+     "copy": [
+      5428,
+      47
+     ]
+    },
+    {
+     "copy": [
+      5477,
+      14
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      5492,
+      2
+     ]
+    },
+    {
+     "insert": "AQ=="
+    },
+    {
+     "copy": [
+      5495,
+      24
+     ]
+    },
+    {
+     "copy": [
+      5521,
+      6
+     ]
+    },
+    {
+     "insert": "hA=="
+    },
+    {
+     "copy": [
+      5528,
+      47
+     ]
+    },
+    {
+     "copy": [
+      5577,
+      14
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5593,
+      1
+     ]
+    },
+    {
+     "insert": "JycHBw=="
+    },
+    {
+     "copy": [
+      5598,
+      24
+     ]
+    },
+    {
+     "copy": [
+      5624,
+      52
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5678,
+      15
+     ]
+    },
+    {
+     "copy": [
+      5695,
+      21
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5718,
+      49
+     ]
+    },
+    {
+     "copy": [
+      5769,
+      6
+     ]
+    },
+    {
+     "insert": "rw=="
+    },
+    {
+     "copy": [
+      5776,
+      35
+     ]
+    },
+    {
+     "insert": "5w=="
+    },
+    {
+     "copy": [
+      5812,
+      7
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5821,
+      8
+     ]
+    },
+    {
+     "insert": "Nzc="
+    },
+    {
+     "copy": [
+      5831,
+      44
+     ]
+    },
+    {
+     "copy": [
+      5877,
+      6
+     ]
+    },
+    {
+     "insert": "jw=="
+    },
+    {
+     "copy": [
+      5884,
+      8
+     ]
+    },
+    {
+     "insert": "Fxc="
+    },
+    {
+     "copy": [
+      5894,
+      29
+     ]
+    },
+    {
+     "insert": "AAADAAD/OAK3AyAABwAOABQAAAETAwMlJwMTATcnBwMTFxMXAQMnEwH8ux6g/uuxM3wBZgJOikdleHCS/vnwm/YDBf7L/oj+4A6kAZEBpf3B5n0G/uT+5AQDHjT+Ef47IAIIAAQAAP84Am4DaAAJAAwAFAAbAAATJRMTBwMnAycTJScHExcHBy8CNxc3JwcHFxeAATaENLcxqTSpDwFxTGOTNQktTTIOI2QBFicUHCICTR/+e/58KwEcEf7TFAEbpM3NAldEUz8DJFhdfjIcAj4/AQADAAD/OAPcAyAACQAMAB8AABMlExMHAycDJxMlJwcTJQUHJycHNxcHBycHNzcHByUDgAE2hDS3Mak0qQ8BcUxj8gEPAQoPo58jl30HnmEEhMcF1f7QIwL6Jv4l/ic0AVoV/pEYAVrI+fkBoA4XwxQL4woetQwTwgQEvw8iAak="
+    },
+    {
+     "copy": [
+      5923,
+      706
+     ]
+    },
+    {
+     "insert": "Sw=="
+    },
+    {
+     "copy": [
+      6630,
+      145
+     ]
+    },
+    {
+     "insert": "kQ=="
+    },
+    {
+     "copy": [
+      6775,
+      1
+     ]
+    },
+    {
+     "insert": "YwCQ"
+    },
+    {
+     "copy": [
+      6776,
+      8
+     ]
+    },
+    {
+     "insert": "AAAAAQAAAADZaGI1AAAAANrjgzcAAAAA2uOaOg=="
+    },
+    {
+     "copy": [
+      6784,
+      28
+     ]
+    },
+    {
+     "copy": [
+      6840,
+      50
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9328 @@
+{
+ "language": "da",
+ "source_language": "en",
+ "strings": [
+  {
+   "en": "  IQ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "RankedSpoils.cs:260",
+    "RankedSpoils.cs:265"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " COULD be available this game.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:290"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " has forfeited!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PlayerDropIn.cs:301"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " has left the battle!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PlayerDropIn.cs:306"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " left the party!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobby.cs:704"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " MATCH\nPOINT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: MP"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " of 10.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:748"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " Required.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "WardrobeTooltip.cs:57"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " WILL be available this game.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:293"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " will NOT be available this game.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:296"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(away from target but stay\n  near them)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(away from target but stay near the ball)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(away from target but stay near them)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(before casting)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: While Casting",
+    "level4: While Casting"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(Highly recommended)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (5)",
+    "level15: Text (9)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(or c-stick up)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: While Casting",
+    "level4: While Casting"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(throw worm out into lava, then go back\nthrough and close it after enemy is pulled in)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(tip before casting)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: While Casting",
+    "level4: While Casting"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "(while casting)",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: While Casting",
+    "level4: While Casting"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "* Daily Win Bonus *",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Coming Soon"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "+          TO JOIN",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Press to join (1)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "--- or ---",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (4)",
+    "level15: Text (8)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "120 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:440"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "144 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:444"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "165 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:448"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "17m 30s",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Now"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "1v1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Label"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "2 of 5",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Round (MP)",
+    "level5: Round"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "240 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:452"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "25 GEMS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: 25 GEMS"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "2nd Place",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "30 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:424"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "33: result = ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobby.cs:1144"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "360 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:456"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "3v3",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Label"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "5 Essential Minerals:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: 5 Essential Minerals"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "6 Kills",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "60 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: 60 FPS",
+    "GamePreferencesMenu.cs:428"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "75 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:432"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "90 FPS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:436"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "A",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: A",
+    "level15: Text (1)",
+    "level16: Text (2)",
+    "level17: Text",
+    "level2: A"
+   ],
+   "fonts": [
+    "teen",
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "A member of your party has left.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobby.cs:1121"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Name Selector",
+    "level2: Name Selector",
+    "level3: Name Selector",
+    "resources.assets: Name Selector"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Accelerating charge with high knockback and damage.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "BullRush.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ADD         PLAYER",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Aim",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level17: Aim",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "aim into lava",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (8)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "All wireless controllers (not including Joy-Cons) will be treated as USB GameCube controllers. Use this setting if your wireless controllers have both ZL and ZR buttons.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "and",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text (1)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ANNOUNCEMENTS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Archmage",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GameUtility.cs:505"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "asdfasdfadsfc",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Party Too Large"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ASDghjas has joined the battle!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "attach to shield",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (6)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Auto",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:742"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "away from target",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "B",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: B",
+    "level2: B",
+    "level3: B",
+    "resources.assets: B"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Back",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text",
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ball of fire that deals moderate damage and knockback.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Fireball.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Beautiful",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:289"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Blast Fishing:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Blast Fishing"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Blue Team",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "level5: Text",
+    "BotCard.cs:112",
+    "OnlineLobbyParty.cs:387",
+    "OnlineLobbyParty.cs:437"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Boomerang",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.Boomerang"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Boomerang that tries to return to the caster. Collisions with other units cause the boomerang to grow in size.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Boomerang.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bot 1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Bot 1",
+    "resources.assets: Bot 1"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bot Difficulty",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Bot Difficulty",
+    "level3: Bot Difficulty"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bots will all be ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:748"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bottomless Pit",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:695"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "BowlcutStudios",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Url"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "brettpennings",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Player Text",
+    "level2: Text",
+    "level5: Name (1)",
+    "level5: Text Type",
+    "level5: Name"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen_bold SDF",
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "brettpennings vs Pkfyre",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text (1)"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Brittle End:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Brittle End"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bronze III",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Division",
+    "level5: O Rank",
+    "level5: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CANCEL",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CAPE",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Caster leaps high into the air and detonates your Crystals upon landing, dealing heavy damage, creating platforms, and immobilizing units within range.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "ColdFusion.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Casts a Crystal into the air that deals damage upon landing. Cast distance is determined by spell curve. Upon reactivation, the Crystal is reeled in. On cast, your Crystals become Hooked, attaching themselves on contact.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "IceHook.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Casts your previous spell again.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "CyClone.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "chad.pennings",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Name",
+    "level5: Opponent"
+   ],
+   "fonts": [
+    "teen_bold",
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "change mapping",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (1)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Chaos\n",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Label"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CHECK THE SCORES",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Title"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "CHOOSE A SIDE FOR TEAMS OR STAY IN CENTER FOR FFA",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Tip"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CHOOSE YOUR        SPELL",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Choose Your Spell",
+    "level5: Choose Your Spell"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Choose Your Set",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Title",
+    "RoundRecapManager.cs:261"
+   ],
+   "fonts": [
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Classic Draft",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Draft",
+    "level3: Draft",
+    "SelectionMenu.cs:330"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Classic GameCube",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text2"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Click to Melee",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Close",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PlayerSelection.cs:245"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Cloth",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Cloth"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Code copied!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyRoomCode.cs:56"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Cold Front:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Cold Front"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "COMING SOON",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Coming Soon?",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GameModeToggle.message (3v3 Toggle)",
+    "level2: Message"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Compete for game keys, gems, and XP in official monthly MageQuit tournaments.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Compete in community organized events.\nMore info at magequit.com/league",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Competitive",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:557"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Conjures a jet of water that pushes the caster backward and enemies away.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "WaterCannon.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Conjures a pyre that damages wizards and grows as it incinerates other spells.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PillarOfFire.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Connecting...",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Connecting Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Controllers",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Controllers"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Couch",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a bubble around the caster that prevents one instance of damage and heals for that amount instead.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "BubbleBreaker.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a growing wave that slows and carries your enemies away.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Tsunami.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a protective gale around the caster that redirects spells forward.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Deflect.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a rock wall in front of the caster to block wizards and spells.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Stonewall.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a static field that prevents half of the damage taken. After 4 seconds, the field discharges, dealing full damage back to each source.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Discharge.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Creates a vacuum around a target, pulling in wizards and spells.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Vacuum.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Crowded Sauna:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Crowded Sauna"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CURVE",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: CURVE"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Curve Left",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Curve Right",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Custom",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Custom",
+    "level3: Custom",
+    "SelectionMenu.cs:519",
+    "SelectionMenu.cs:699"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Customize",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Customize"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "D",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (3)",
+    "level16: Text (3)",
+    "level17: Text",
+    "level4: Text (3)"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Daily Win Bonus",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text (2)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Daily Win Bonus Available",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Available"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Damage:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Damage"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "DANGER",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: DANGER"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Death Box:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Death Box"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Death Charge:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Death Charge"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Death Taxi:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Death Taxi"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Deaths:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Deaths"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Default",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Default"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Defensive",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Defensive",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Deflect",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.Deflect"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "DETERMINING PINGS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Title"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Difficulty",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Difficulty"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Disk that, on contact, summons a clone that mimics your movement and explodes if killed. Can be reactivated to swap positions with clone.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Decoy.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Do Tutorial First",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyCursor.cs:165"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Doing Time:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Doing Time"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Doom Loop:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Doom Loop"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Doomerang:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Doomerang"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "E",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text",
+    "level17: Text",
+    "level4: Text"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Early Access v1.5",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Version"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Elements",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Elements",
+    "level3: Elements"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "EmJov 3-Piece:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: EmJov 3-Piece"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "EmJov Special:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: EmJov Special"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Enabled",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Enabled"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Encases a target in 3 stone walls that accelerate toward the caster.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "EarthTomb.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Enter code...",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Placeholder"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "EQUIP",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: EQUIP"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "EQUIPPED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Equipped"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Extra-long dash that chains up to 7 nearby units when successfully hit, pulling all affected units to starting point of dash.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "ChainLightning.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "F",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "F1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (5)",
+    "level15: Text (1)",
+    "level16: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "F2",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "F3",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "F4",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "fabioescolastic",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fantastic",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Fantastic"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fast",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:277"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fast melee attack with high knockback. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Push.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fastest",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:273"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FEET",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FFA",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Title",
+    "level2: Label"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fire",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Fire",
+    "resources.assets: Fire",
+    "Element.Fire"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fires a barrage of 5 icicles in the cast direction, dealing damage and creating new Crystals after a delay. On cast, your Crystals become Inert, just sitting there.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Brrage.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "First Full Game of the Day",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Flash Flood",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.FlashFlood"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Flask that explodes on contact, creating a cloud that hurts enemies and heals allies over time.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Tonic.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FOR MAGEQUIT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text (1)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "For the epileptic.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:399"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Forfeit",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PauseMenu.cs:68"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Free For All",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "resources.assets: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Friend #1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "resources.assets: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FRIENDS LIST",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Frog that jumps 3 times, healing and bouncing all nearby wizards. Enemies only receive half healing.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "FrogOfLife.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Full Screen",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Full Screen"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Game Mode",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Game Mode"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "GAME PAUSED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Game Paused"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Game Started",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyCursor.cs:187",
+    "OnlineLobbyCursor.cs:188",
+    "OnlineLobbyCursor.cs:190"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "GEMS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Gems",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Gems"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Glass shard with a high cooldown that refreshes if a unit is hit.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Echo.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Go head to head, starting with all 7 spells.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Go head to head, starting with all 7 spells.\nThis queue opens at 9pm EST each night.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Good",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:285"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Graphics",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Graphics"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Grave Robber:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Grave Robber"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Gust",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.Gust"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Gust of wind that deals minor damage and knockback. Lowest cast time and longest range.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Gust.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hammer that forces target wizard to cast the same spell type (e.g. melee, secondary) that the caster used previously, regardless of cooldown.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Reflex.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hammer Time:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Hammer Time"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HANDS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hang Ten:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Hang Ten"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HAT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Healing:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Healing"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Health",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Health",
+    "level3: Health"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Heavy rock that deals moderate damage and high knockback. Highest cast time.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Rockshot.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "hit ball",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)",
+    "level16: Tip (8)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "hit enemy",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (8)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hold my Stones:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Hold my Stones"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HOLD POSITION",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hold Position",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level17: Hold Position",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hooke, Line, and Sinker:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Hooke, Line, and Sinker"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hop on Pop:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Hop on Pop"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hose that attaches on impact. Can be reactivated to swap positions with attached unit. Curving the reactivation will apply force.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "HotSwap.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hourglass that attaches to a unit and detonates with upward force after 3 seconds.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "TimeBomb.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Houston Liftoff:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Houston Liftoff"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "How Did I Die:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: How Did I Die"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hurls a capacitor that attaches itself to a unit and explodes when it comes into contact with another unit.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Capacitor.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hurls a device that teleports you and creates 2 clones to surround your enemy. Clones mimic your spell casts and movement and explode if killed.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Sunder.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hurls a snowball that becomes more deadly the further it travels and forms a Crystal on impact. On cast, your Crystals become Brittle, exploding on enemy contact.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Snowball.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "In Air",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PhotonAnimatorView.m_SynchronizeParameters[3].Name (Low Poly Wizard)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "in the",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (3)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Invite",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Friends"
+   ],
+   "fonts": [
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Invokes a large boulder that petrifies units and creates walls in its wake.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Fissure.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "IQ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: IQ",
+    "level5: IQ"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ITEM",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Jet Stream",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.JetStream"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Join",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Join (switch)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Join / Ready",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Join (non-switch)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Join our community!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text (2)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Join our Community!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Join our Monthly Tournament!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: New Ranked 1v1!"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "JOIN QUEUE",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Join successful!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Keyboard Controls",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Keyboard Controls"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Keyboard Mappings",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Kills:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Kills"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LATE\nJOIN\nBONUS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "resources.assets: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Learn the basics of movement, spell casting, spell curving, and drafting.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Learn to Play!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Coming Soon"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Leech that attaches itself to an enemy, dealing damage over time. If collected, it heals based on the damage done.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Sapshot.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Left",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Left",
+    "ButtonIcon.cs:96"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Less chance. More sweat. Ideal for tournaments and ranked play.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LEVEL",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Level ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "WardrobeTooltip.cs:57"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Level 1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Custom",
+    "level3: Custom"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LEVEL 15 REQUIRED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Party Too Large"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Level 15 Required",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:326"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Level 5 Required",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:276"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Level Up",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading",
+    "Spoils.cs:239",
+    "Spoils.cs:338"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Life preserver that absorbs one hit and creates a clone in your place, teleporting you behind the damaging wizard. Clones mimic your movement and explode if killed. Reactivate to swap with clone.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Backup.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Lightning bolt that deals high damage and very high knockback. High cast time.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Spark.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Lightning bug that pulls in the nearest unit within its range. After 2 pulls, the bug explodes, launching nearby units upward.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "LightningBug.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Live Bait:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Live Bait"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Load\nState",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (2)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Load State",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text (1)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Logging",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Logging"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LOOKING FOR A MATCH",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "OnlineLobbyQueue.cs:141"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MageQuit",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: MageQuit",
+    "GameUtility.cs:1299"
+   ],
+   "fonts": [
+    "soupofjustice"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "magequit.com/igl",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Url"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "magequit.com/score",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Url"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Marty Party:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Marty Party"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Match Complete",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading",
+    "Spoils.cs:99"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MATCH WILL BEGIN SHORTLY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyQueue.cs:111"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MATCHMAKER RESTARTING...",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text",
+    "ServerMaintenanceNotice.cs:32"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "MAX",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SpoilsExperienceBar.cs:32"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Medium",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Medium",
+    "level3: Medium"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Melee",
+    "level4: Tip",
+    "SpellManager.cs:40"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that briefly turns nearby enemies to stone. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Petrify.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that deals more damage and knockback the farther the caster travels between swings. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Static.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that forms a Crystal on impact. If missed, caster falls over. On cast, your Crystals become Cold, slowing and damaging nearby enemy units over time.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "ColdShoulder.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that imprisons units in a tree, preventing all damage and spellcasting. Tree will fall away from its caster. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Sustain.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that increases damage and knockback with each successful hit. If missed, the caster falls over and is launched backwards.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Compound.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that launches nearby units into the air. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Geyser.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that rewinds the position of affected wizards. Damage is dealt based on distance from position when initially hit. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Relapse.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack that shackles a unit to a ball and chain. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Tetherball.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Melee attack with low knockback that deals damage over time. If missed, the caster falls over.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Ignite.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mercy Rule",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Mercy",
+    "level3: Mercy"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Metal star that can bounce to a nearby second target. Can hit caster-owned units.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Glaive.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mirror",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:574"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mirror Needs Even Teams",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Modern GameCube",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text2"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "More Info",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mouse",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Aim",
+    "level17: Label"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mouse 0",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text",
+    "GameUtility.cs:1216"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mouse 1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text",
+    "GameUtility.cs:1220"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Move",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level17: Move",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Movement",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Movement",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Music",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Music"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Music volume level.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:369"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "must not be swept",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: 2 points from losing"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "N/A",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: N/A"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Nature",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Element Name",
+    "Element.Nature"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "NEW ELEMENT UNLOCKED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: NEW UNLOCKED ELEMENT"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "NEW Keyboard Mapper!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Coming Soon"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "New Unlockable Skins!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Coming Soon"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "New!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: New!"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "NEW!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text (1)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Next Tip",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Next Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "NEXT TOURNAMENT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Title"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "NO",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "No Team",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Text",
+    "level3: Team Text",
+    "resources.assets: Text",
+    "resources.assets: Team Text",
+    "BotCard.cs:118"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "None",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Element",
+    "Element.None"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "None Scheduled",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GameModeToggle.message (Official Toggle)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Not Connected",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "level2: Party Too Large"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Not Party Host",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Party Too Large",
+    "OnlineLobbyPlayModal.cs:568"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Now",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyCanvas.cs:49",
+    "Spoils.cs:478"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Number of Bots",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Number of Bots",
+    "level3: Number of Bots"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Off",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Off",
+    "level3: Off",
+    "GamePreferencesMenu.cs:398",
+    "GamePreferencesMenu.cs:482"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "OKAY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Okay"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "On",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: On"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "On\n",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: On"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Online",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ONLINE 3v3 TOURNAMENT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Title"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Oops All Wormholes",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SelectionMenu.cs:637"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "OPPONENT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: vs"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Option A",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Item Label"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Options",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Start"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "or",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "out some",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (2)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Paddle Ball:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Paddle Ball"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Party"
+   ],
+   "fonts": [
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PARTY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Party Bonus",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PARTY ONLY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party Too Large",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:281",
+    "OnlineLobbyPlayModal.cs:291",
+    "OnlineLobbyPlayModal.cs:293",
+    "OnlineLobbyPlayModal.cs:305",
+    "OnlineLobbyPlayModal.cs:331"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "party updated ",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobby.cs:832"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PINGS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "RegionManager.cs:88"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PINGS FAILED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "RegionManager.cs:102"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Casual"
+   ],
+   "fonts": [
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PLAY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play a 3v3 team game with some extra objectives.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play a 3v3 team game with some extra objectives.\nThis queue is still under development.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play a 4v4 or 5v5 team game with extra objectives.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play with 5 other wizards in a free for all battle.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Description"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Play with friends for extra XP",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text (4)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Please update MageQuit to play online.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Plug in a controller",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (3)",
+    "level15: Text (7)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Practice Range",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Practice Range",
+    "level15: Text (5)",
+    "level16: Practice Range"
+   ],
+   "fonts": [
+    "teen_bold",
+    "Amaranth-Bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PRACTICE RANGE UNLOCKED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Presets",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Preset",
+    "level2: Presets",
+    "level3: Presets"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PRESS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Press"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PRESS           TO JOIN",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Press to join"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PRESS ANY BUTTON",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Any Button"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Press Any Button To Play",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Trailer Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PRESS ANY KEY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Any Key"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Primary",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text",
+    "level16: Tip",
+    "level17: Primary",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Primary Spell",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Pro Controller",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Pro Controller",
+    "level15: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Push",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.Push"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Q",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text",
+    "level16: Text",
+    "level17: Text",
+    "level4: Text"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "QUICK PLAY\nTEAMS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "QUICKPLAY",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Quit",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text",
+    "level16: Quit",
+    "level5: Quit"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "R",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text",
+    "level17: Text",
+    "level4: Text"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Random",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Random",
+    "level3: Random",
+    "SpellSelectionMode.Random",
+    "StageName.Random"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RANKED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "RANKED 1v1",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ready",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Join (1)",
+    "level3: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Red Team",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "level5: Text",
+    "BotCard.cs:109",
+    "OnlineLobbyParty.cs:387",
+    "OnlineLobbyParty.cs:426"
+   ],
+   "fonts": [
+    "MageQuit-Body",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Redeem",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Redeem Code",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Refresh Rate",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Refresh Rate"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Registration Closed",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GameModeToggle.message (League Toggle)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Registration Open",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Message"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Registration Open!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Relative Velocity",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PhotonAnimatorView.m_SynchronizeParameters[4].Name (Low Poly Wizard)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Relative X Velocity",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PhotonAnimatorView.m_SynchronizeParameters[6].Name (Low Poly Wizard)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Report Bug",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SRTab._title (BugReporter)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RESET",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Reset\nAll",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Reset\nCDs",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (1)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Reset All",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text (1)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Reset Cooldowns",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text (1)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Resolution",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Resolution"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Resume",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Resume",
+    "level5: Resume"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Returns your wizard to their current location and health after 3 seconds, dealing damage and knockback along the way.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Rewind.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Right",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Right",
+    "ButtonIcon.cs:102"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rock Box:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Rock Box"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rock golem that summons on contact and chases after the unit it hit last.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PetRock.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rocket that accelerates through units, increasing its damage and knockback with each hit.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Rocket.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "room code:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text (2)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Round 3",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Round"
+   ],
+   "fonts": [
+    "teen_italic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rounds",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Rounds",
+    "level3: Rounds"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rush Hour:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Rush Hour"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "S",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text",
+    "level16: Text (1)",
+    "level17: Text",
+    "level4: Text (1)"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SAVE",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Save\nState",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (3)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Save State",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Text (1)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Scan with phone camera",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Scan with phone camera"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Screen Shake",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Screen Shake"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sea Friends:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Sea Friends"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sea urchin that attaches itself to a unit. After 4 seconds, it latches to the next nearest unit, pulling it and the attached unit together, dealing damage on collision.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Urchain.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Secondary",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Secondary",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "seconds\nelapsed",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Elapsed"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "seconds\nexpected",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Expected"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "See Error",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PlayerSelection.cs:251"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SELECT MORE MODES FOR SHORTER QUEUE TIMES",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Tip"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sep 8, 2019  |  1 PM EST",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Body"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Server Maintenance in",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Available"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SET",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Set Name",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Set Name",
+    "resources.assets: Set Name",
+    "PlayerCard.cs:120"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Settings",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Shield that grows as it absorbs spells, then explodes forward with proportional damage and knockback.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Vanguard.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SHIRT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Shock Collar:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Shock Collar"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short dash that can be reactivated for a very long dash that pulls contacted units with it.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "NorthPull.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short dash that can be reactivated to jump, dealing damage upon landing.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SomAssault.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short leap that deals high damage in front of caster upon landing.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "FlameLeap.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short leap that leaves behind a trap which can steal control of a non-player unit if caught. Can be reactivated to toss unit, dealing damage on impact.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "StealTrap.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short range leash that when landed successfully will pull an enemy toward caster. If missed, the caster is pulled to the location.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "BurningLeash.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Short range teleport that resets velocity and primary cooldown. Can be reactivated to return to casting point.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "FlashFlood.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SHOWDOWN",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Shown In Game",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Shown"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sign Up",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Message"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SIGN UP NOW",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Url"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "Simple",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:281"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Small fireball that can be activated up to 4 times in a row. Cooldown increases with each activation.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Scorch.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "snag enemy wizard",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (9)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Somer Assault",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.SomerAssault"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Somer Assault can be casted twice to jump.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (1)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sound",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Sound"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Space Bar",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spartan Toss:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Spartan Toss"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spartan Trebuchet:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Spartan Trebuchet"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spell Combos",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (4)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spell Name",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Spell Name",
+    "level5: Spell Name"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spell Selection",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Spell Selection",
+    "level3: Spell Selection"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "spellbook.magequit.com",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Link"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SPELLS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: SPELLS"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spells are drafted one at a time after each round, starting with the wizard with the shortest beard.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spells are drafted one at a time after each round, starting with the wizard with the shortest beard. Not ideal for 7+ players.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level3: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spiked Collar:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Spiked Collar"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SPOILS",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Title (1)"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SRDebugger {0}",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "VersionTextBehaviour.Format (SR_Title)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "STAFF",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Stage",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Stage",
+    "level3: Stage"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Start Free For All",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text",
+    "OnlineLobbyCursor.cs:159"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Start Teams",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobbyCursor.cs:159"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "String Cheese:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: String Cheese"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SUDDEN DEATH",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SuddenDeath.cs:91"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons a chameleon that copies the last spell casted by target wizard. That wizard is slowed and the caster becomes invisible briefly. Reactivate to cast the copied spell.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Chameleon.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons a Crystal below the caster, launching them forward. On reactivation, the caster is pulled on a sled to their newest Crystal. On cast, your Crystals become Feral, following the nearest enemy unit.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "IcePack.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons a Crystal that protects the caster until it’s destroyed or changes form. On cast, your Crystals become Cryogenic, preserving the first spell that damages them. Preserved spells can be picked up and used by the caster.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Preserve.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons a katana that stores all damage the caster deals for the next 5 seconds. The caster then jumps between all damaged units, dealing that damage a second time and applying the caster's melee spell.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "DoubleStrike.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons an orb of fire that launches a cone of fireballs. If hit with a spell, it can be destroyed.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Spitfire.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons orbiting metal shields for 2 seconds. If damage would be taken, a shield is hurled at the source of that damage, chaining them to the caster and preventing all damage from that source for 5 seconds.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Chainmail.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Summons puppet strings that delay all knockback and slow the target. All accumulated knockback is then released at once with a 30% bonus.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Suspend.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Supercharge+:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Supercharge+"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Supercharge:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Supercharge"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Switch to Mouse",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (6)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Switch to WASD",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (2)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "System Information",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SRTab._longTitle (System)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Team Chad",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Team Name"
+   ],
+   "fonts": [
+    "teen_bolditalic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Teams",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tear Jerker:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tear Jerker"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Thank you for reviewing MageQuit!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Description"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "That party is already full!",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "OnlineLobby.cs:966"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "The Long Con:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: The Long Con"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "The speed of the projectile",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "EffectSettings.cs:39"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "THE VOLCANO",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Stage"
+   ],
+   "fonts": [
+    "teen_italic"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "THIS DIAGRAM IS NOT ACCURATE AS\nCONTROLS HAVE BEEN CUSTOMIZED",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Customized",
+    "level4: Customized"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "This is a spell description.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Spell Description",
+    "level5: Spell Description"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "throw away from enemy",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "time with urchain collision",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip (5)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TIP:  Ice Crystals expire if you don't create a new one within 5 seconds.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Tip (PC)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TIP:  Non Joy-Con controllers can be mapped as GameCube or Pro Controllers in Settings.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Tip (Switch)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TIP:  You can curve your spells with the triggers.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level4: Tip (Xbox One)"
+   ],
+   "fonts": [
+    "teen_light"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TO UNLOCK",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: TO UNLOCK"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Torrent of water that deals minor damage and minor knockback, but slows enemies briefly.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Hinder.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Torrent of water that splits into 7 parts, each part dealing half damage.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "SevenTears.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tosses a slow-moving, homing turtle armed with your melee spell.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Bombshell.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Total",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Heading",
+    "Spoils.cs:330"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TOURNAMENT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Try disabling XInput under Settings if you can't connect more controllers.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Warning"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tutorial",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Tutorial",
+    "level1: Text",
+    "MainMenu.cs:415",
+    "Element.Tutorial",
+    "StageName.Tutorial"
+   ],
+   "fonts": [
+    "teen_bold",
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Type of the effect",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "EffectSettings.cs:21"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ultimate",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Ultimate",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "UNLOCK",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: UNLOCK"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Unranked",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text Divison"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Utility",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Tip",
+    "level16: Text",
+    "level17: Utility",
+    "level4: Tip"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Vab Worm:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Vab Worm"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Vacuum",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "SpellName.Vacuum"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Velocity Magnitude",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PhotonAnimatorView.m_SynchronizeParameters[5].Name (Low Poly Wizard)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Very thin, long range, fast moving skillshot with a huge area of effect and knockback.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "JetStream.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Vine Bomb:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Vine Bomb"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Vine that links to a unit or obstacle. If reactivated, caster accelerates towards its target, dealing damage and knockback based on speed of impact.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "TowVine.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Voltage Spike:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Voltage Spike"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "W",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (2)",
+    "level16: Text",
+    "level17: Text",
+    "level4: Text"
+   ],
+   "fonts": [
+    "teen_bold",
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Waiting for input",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level17: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Wardrobe",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Text"
+   ],
+   "fonts": [
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Warning:  Leaving a ranked game counts as a 0-3 loss.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "WATCH THE STREAM",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level2: Title"
+   ],
+   "fonts": [
+    "MageQuitHeaderThin"
+   ],
+   "note": "",
+   "uppercase_only": true
+  },
+  {
+   "en": "WHATTT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "PlayerDropIn.cs:225"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Whiplash:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: Whiplash"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Win a match daily for extra XP & gems",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text (3)"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "WINNER BY FORFEIT",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "level5: Forfeit"
+   ],
+   "fonts": [
+    "teen",
+    "MageQuit-Body"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Wired Controller Map",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Wired Controller Mapping (Switch)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Wireless Controller Map",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Wireless Controller Mapping (Switch)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Worm that teleports units and spells between its ends. Can be closed if reactivated.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "Wormhole.description (Spell Manager)"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Worst graphics. Best framerate.",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "GamePreferencesMenu.cs:274"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Would you like to try",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level15: Text (1)"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Writer's Quill",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Name"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "XInput On",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: XInput On"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Yellow Team",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Text",
+    "BotCard.cs:115"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Yes",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: Yes"
+   ],
+   "fonts": [
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "YES",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level1: UNLOCK",
+    "level15: Text"
+   ],
+   "fonts": [
+    "teen",
+    "teen_bold"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "You Were The Chosen One:",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level16: You Were The Chosen One"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "← Triple-click to report bug",
+   "da": "",
+   "status": "new",
+   "confidence": "high",
+   "sources": [
+    "level5: Triple Click"
+   ],
+   "fonts": [
+    "teen"
+   ],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Air",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Air"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Airship",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Airship"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Backup",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Backup"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Berg",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Berg"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bombshell",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Bombshell"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bridges",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Bridges"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Brrage",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Brrage"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bubble Breaker",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.BubbleBreaker"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bull Rush",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.BullRush"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Capacitor",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Capacitor"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Chain Lightning",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.ChainLightning"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Chainmail",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Chainmail"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Chameleon",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Chameleon"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Classic",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "BotCard.cs:36",
+    "BotCard.cs:43",
+    "BotCard.cs:50",
+    "BotCard.cs:57",
+    "BotCard.cs:64"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Coffin",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Coffin"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Cold Fusion",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.ColdFusion"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Cold Shoulder",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.ColdShoulder"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Compound",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Compound"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Cy Clone",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.CyClone"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Decoy",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Decoy"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Discharge",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Discharge"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Double Strike",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.DoubleStrike"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Draft",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellSelectionMode.Draft"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Earth",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Earth"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Earth Tomb",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.EarthTomb"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Echo",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Echo"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Electric",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Electric"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fireball",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Fireball"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Fissure",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Fissure"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Flame Leap",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.FlameLeap"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Flame Leash",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.FlameLeash"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Frog Of Life",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.FrogOfLife"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Geyser",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Geyser"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Glaive",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Glaive",
+    "StageName.Glaive"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hinder",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Hinder"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Hot Swap",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.HotSwap"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ice",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Ice"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ice Hook",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.IceHook"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ice Pack",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.IcePack"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ignite",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Ignite"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Islands",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Islands"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Less Random",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.LessRandom"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Lightning Bug",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.LightningBug"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Metal",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Metal"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Mirror Select",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellSelectionMode.MirrorSelect"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "North Pull",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.NorthPull"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Pet Rock",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.PetRock"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Petrify",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Petrify"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Pillar Of Fire",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.PillarOfFire"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Pit",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Pit"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Plates",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Plates"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Preserve",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Preserve"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Random 7",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellSelectionMode.Random7"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Random 7 Mirror",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellSelectionMode.Random7Mirror"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Reflex",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Reflex"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Relapse",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Relapse"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rewind",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Rewind"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rock Block",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.RockBlock"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rocket",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Rocket"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Rockshot",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Rockshot"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ruins",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Ruins"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sand",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Sand"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sapshot",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Sapshot"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Scorch",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Scorch"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Seven Tears",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.SevenTears"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Shrine",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Shrine"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Snowball",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Snowball"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spark",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Spark"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spitfire",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Spitfire"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sports",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Sports"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Static",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Static"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Steal Trap",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.StealTrap"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Steam",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Steam"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sunder",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Sunder"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Suspend",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Suspend"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sustain",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Sustain"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tetherball",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Tetherball"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Time Bomb",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.TimeBomb"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tonic",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Tonic"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tow Vine",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.TowVine"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tower",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Tower"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tsunami",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Tsunami"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Two Round Snake",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellSelectionMode.TwoRoundSnake"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Urchain",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Urchain"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Vanguard",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Vanguard"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Village",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Village"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Volcano",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "StageName.Volcano"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Water",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "Element.Water"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Water Cannon",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.WaterCannon"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Wormhole",
+   "da": "",
+   "status": "new",
+   "confidence": "enum",
+   "sources": [
+    "SpellName.Wormhole"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " + (leftEarly ? ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:994"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " + text + ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:765"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " Kill",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:183"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " killed ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "WizardStatus.cs:456"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " left the lobby!",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:780"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " left the match!",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:711"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " ms",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:1306"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " of ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "RoundRecapManager.cs:1422"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " party by ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:799"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " right: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "CoffinDivider.cs:53"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " Team",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1101",
+    "GameUtility.cs:1192"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": " Team Kill",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:189"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": ", HostType, ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ServerSettings.cs:102"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "----------- KEYS: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "BattleManager.cs:250"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "1st Place",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:119",
+    "Spoils.cs:134",
+    "Spoils.cs:154",
+    "Spoils.cs:171"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "2-Spell Draft",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "RoundRecapManager.cs:253"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "3d text",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ShowInfoOfPlayer.cs:26"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "3rd Place",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:144",
+    "Spoils.cs:162"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Accepted",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyFriends.cs:117",
+    "OnlineLobbyFriends.cs:168"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Alpha ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1212"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Attack",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SharkController.cs:510",
+    "SharkController.cs:562",
+    "SpellManager.cs:22"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "AutoFade",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "AutoFade.cs:23"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "BAINT",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Ball Speed ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "MyGuiV2.cs:197"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Battle",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "BattleManager.cs:153",
+    "LoadingScreen.cs:165",
+    "LoadingScreen.cs:176",
+    "MainMenu.cs:381",
+    "MainMenu.cs:414"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Billboard_",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Billboard.cs:31"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "BIRB",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "BOI",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Bot ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyParty.cs:453"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "BRUCE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CAKEBABY",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CHANCE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Chat",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "InRoomChat.cs:20"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "CLOSE PLAY MODAL: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyParty.cs:337"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Colors",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:29"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Comma",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1228"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "DADDY",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "default prefs = ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GamePreferences.cs:150"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "DIVIDE BY ZERO",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Cooldown.cs:79"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "DUMBLE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Equipped",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "EquippedSkinMetaData.cs:11"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "First Spell Draft",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "RoundRecapManager.cs:264"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FlameLeap",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SpellManager.cs:49"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FToA",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "TurnExtensions.cs:9"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "FUDGE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Game Quit",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "MainMenu.cs:448",
+    "PlayerSelection.cs:773"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "GANDALF",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HARRY",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HERMIONE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "HP",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:90"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Id",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Skin.cs:7",
+    "SkinSet.cs:8"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "II",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:553"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "III",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:554"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "INIT GAME PREFERENCES MENU",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GamePreferencesMenu.cs:75"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "INITIALIZED",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GamePreferences.cs:116"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "IV",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:555"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "JAFAR",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Keyboard",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Cooldown.cs:216"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Keypad ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1212"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Last joystick ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:126"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Lava",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PhysicsBody.cs:140"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LB",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:66",
+    "ButtonIconDictionary.cs:36",
+    "VideoSpellPlayer.cs:35"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Left Click",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1218"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LevelRequired",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Skin.cs:40"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "loaded prefs = ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GamePreferences.cs:146"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LogStats",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SupportLogging.cs:12"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LS",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIconDictionary.cs:38"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "LT",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:84",
+    "ButtonIconDictionary.cs:40"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "match updated!",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:961"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MERLIN",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MUFFINS",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "MUNCH",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Name",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Skin.cs:10",
+    "SkinSet.cs:11"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Next Effect",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "MyGuiV2.cs:167"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "No Modes Selected",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:580",
+    "OnlineLobbyPlayModal.cs:604"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "No Valid Modes",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:584",
+    "OnlineLobbyPlayModal.cs:608"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Not Allowed",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyCursor.cs:53"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "OPEN PLAY MODAL: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyParty.cs:314"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party of ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:230"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party of 2 (+10%)",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:218"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party of 3 (+15%)",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:222"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party of 4 (+18%)",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Spoils.cs:226"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Party Too Small",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyCursor.cs:97"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PENNIN",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerSelection.cs:870"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Period",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1224"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "PING FAILED",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "RegionManager.cs:108"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Previous Effect",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "MyGuiV2.cs:163"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Price",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "Skin.cs:19"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Prop",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PhysicsBody.cs:93"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RB",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:75",
+    "ButtonIconDictionary.cs:37",
+    "VideoSpellPlayer.cs:35"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Remapper",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GamePreferencesMenu.cs:241",
+    "KeyboardRemapper.cs:325"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RESCAN",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "AirshipWall.cs:31",
+    "CrystalBridge.cs:66",
+    "Islands.cs:115",
+    "Lava.cs:129",
+    "Plates.cs:118"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Right Click",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "GameUtility.cs:1222"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RON",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RS",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:69",
+    "ButtonIconDictionary.cs:39",
+    "VideoSpellPlayer.cs:35"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "RT",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:87",
+    "ButtonIconDictionary.cs:41"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Scores submitted!: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:1112"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SEND VIEW UPDATE ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobbyPlayModal.cs:150"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SERVER MAINTENANCE COMPLETE!",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ServerMaintenanceNotice.cs:34"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SLAB",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Sled Push",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SpellManager.cs:130"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "SNAPE",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PlayerDropIn.cs:30"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Somer Assault Flip",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SpellManager.cs:58"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Spell 360",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SpellManager.cs:85"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Start",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIconDictionary.cs:42"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "start match: ",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:880"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "submit scores, attempt #",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "OnlineLobby.cs:1097"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Target Mask",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "BotCard.cs:29",
+    "PlayerManager.cs:257",
+    "PracticeRangeManager.cs:68",
+    "TutorialManager.cs:285"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "TStart",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "TurnExtensions.cs:7"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Tutorial Complete!",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "RoundRecapManager.cs:1312"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Up",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "ButtonIcon.cs:93"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Use UserId.",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "FriendInfo.cs:5"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "ViewID {0} {1}{2}",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "PointedAtGameObjectInfo.cs:13"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  },
+  {
+   "en": "Walk",
+   "da": "",
+   "status": "new",
+   "confidence": "low",
+   "sources": [
+    "SpellManager.cs:31"
+   ],
+   "fonts": [],
+   "note": "",
+   "uppercase_only": false
+  }
+ ]
+}
