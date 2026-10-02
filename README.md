@@ -82,10 +82,6 @@ python tools/fonts/make_font_patch.py build "<game>" payload/game/BepInEx/MageQu
 python tools/fonts/font_coverage.py "<game>" payload/game/BepInEx/MageQuit-Translator/fonts.json
 ```
 
-### Releasing
-
-Bump `VERSION`, add a `## [x.y.z]` section to [CHANGELOG.md](CHANGELOG.md), and push to `prod`. The release workflow then builds both platforms and publishes a GitHub release with that changelog section as its notes. Pushes that don't bump the version only build and test.
-
 ### Licenses
 
 The project is MIT. It bundles BepInEx (LGPL-2.1) and XUnity.AutoTranslator (MIT), whose licenses are installed to `BepInEx/MageQuit-Translator/licenses`, and IM FELL English by Igino Marini (SIL OFL, `src/MageQuitTranslator.Manager/Assets/Fonts/OFL.txt`).

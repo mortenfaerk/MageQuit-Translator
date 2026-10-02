@@ -2,7 +2,8 @@
 
 All notable changes to MageQuit Translator. A push to `prod` releases the version in
 `VERSION` when this file has a section for it (see `.github/workflows/release.yml`).
-
+## [0.2.1] - 2026-10-02
+- removed unneeded file
 ## [0.2.0] - 2026-10-02
 
 ### Added
