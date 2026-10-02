@@ -727,6 +727,80 @@ TEXT = {
     "XB Live Down": "Xbox Live er nede",
 }
 
+# Terminology pass, checked against Danish fantasy usage (see docs/terminologi.md):
+# summon -> "fremmane" (the classic Danish conjuring verb); "the caster" -> du/dig, since Danish game texts
+# address the player directly; Archmage -> Ærketroldmand (wizard = troldmand throughout); Tonic -> Eliksir.
+REVISIONS = {
+    "Ærkemagiker": "Ærketroldmand",
+    "Tonic": "Eliksir",
+    "Accelererende stormløb med høj tilbageslag og skade.": "Accelererende stormløb med højt tilbageslag og høj skade.",
+    "Boomerang, der prøver at vende tilbage til kasteren. Sammenstød med andre enheder får den til at vokse.":
+        "Boomerang, der prøver at vende tilbage til dig. Sammenstød med andre enheder får den til at vokse.",
+    "Kasteren springer højt op i luften og sprænger dine krystaller ved landing. Det giver stor skade, laver platforme og lammer enheder inden for rækkevidde.":
+        "Du springer højt op i luften og sprænger dine krystaller, når du lander. Det giver stor skade, laver platforme og lammer enheder inden for rækkevidde.",
+    "Fremmaner en vandstråle, der skubber kasteren bagud og fjenderne væk.": "Fremmaner en vandstråle, der skubber dig bagud og fjenderne væk.",
+    "Laver en boble om kasteren, der blokerer én skade og i stedet heler lige så meget.": "Laver en boble om dig, der blokerer én skade og i stedet heler dig lige så meget.",
+    "Laver en beskyttende storm om kasteren, der sender besværgelser fremad igen.": "Laver en beskyttende storm om dig, der sender besværgelser fremad igen.",
+    "Laver en stenmur foran kasteren, der blokerer troldmænd og besværgelser.": "Laver en stenmur foran dig, der blokerer troldmænd og besværgelser.",
+    "Skive, der ved kontakt fremkalder en klon, som efterligner dine bevægelser og eksploderer, hvis den dræbes. Genaktivér for at bytte plads med klonen.":
+        "Skive, der ved kontakt fremmaner en klon, som efterligner dine bevægelser og eksploderer, hvis den dræbes. Genaktivér for at bytte plads med klonen.",
+    "Indkapsler et mål i 3 stenmure, der accelererer mod kasteren.": "Indkapsler et mål i 3 stenmure, der accelererer mod dig.",
+    "Hurtigt nærkampsangreb med højt tilbageslag. Ved bom falder kasteren omkuld.": "Hurtigt nærkampsangreb med højt tilbageslag. Rammer du forbi, falder du omkuld.",
+    "Affyrer en byge af 5 istapper i kasteretningen, der giver skade og laver nye krystaller efter et øjeblik. Ved kast bliver dine krystaller inaktive og ligger bare der.":
+        "Affyrer en byge af 5 istapper i den retning, du kaster, som giver skade og laver nye krystaller efter et øjeblik. Når du kaster, bliver dine krystaller inaktive og ligger bare der.",
+    "Hammer, der tvinger mål-troldmanden til at kaste samme type besværgelse (f.eks. nærkamp, sekundær), som kasteren brugte sidst, uanset nedkøling.":
+        "Hammer, der tvinger den ramte troldmand til at kaste samme type besværgelse (f.eks. nærkamp, sekundær), som du brugte sidst, uanset nedkøling.",
+    "Nærkampsangreb, der kortvarigt forvandler nærliggende fjender til sten. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der kortvarigt forvandler nærliggende fjender til sten. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb, der giver mere skade og tilbageslag, jo længere kasteren bevæger sig mellem slagene. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der giver mere skade og tilbageslag, jo længere du bevæger dig mellem slagene. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb, der danner en krystal ved træf. Ved bom falder kasteren omkuld. Ved kast bliver dine krystaller kolde og bremser og skader nærliggende fjender over tid.":
+        "Nærkampsangreb, der danner en krystal ved træf. Rammer du forbi, falder du omkuld. Når du kaster, bliver dine krystaller kolde og bremser og skader nærliggende fjender over tid.",
+    "Nærkampsangreb, der fanger enheder i et træ, så de hverken kan tage skade eller kaste besværgelser. Træet vælter væk fra kasteren. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der fanger enheder i et træ, så de hverken kan tage skade eller kaste besværgelser. Træet vælter væk fra dig. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb, der giver mere skade og tilbageslag for hvert træf. Ved bom falder kasteren omkuld og slynges bagud.":
+        "Nærkampsangreb, der giver mere skade og tilbageslag for hvert træf. Rammer du forbi, falder du omkuld og slynges bagud.",
+    "Nærkampsangreb, der sender nærliggende enheder til vejrs. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der sender nærliggende enheder til vejrs. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb, der spoler de ramte troldmænds position tilbage. Skaden afhænger af afstanden til stedet, hvor de blev ramt. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der spoler de ramte troldmænds position tilbage. Skaden afhænger af afstanden til stedet, hvor de blev ramt. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb, der lænker en enhed til en kugle med kæde. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb, der lænker en enhed til en kugle med kæde. Rammer du forbi, falder du omkuld.",
+    "Nærkampsangreb med lavt tilbageslag, der giver skade over tid. Ved bom falder kasteren omkuld.":
+        "Nærkampsangreb med lavt tilbageslag, der giver skade over tid. Rammer du forbi, falder du omkuld.",
+    "Metalstjerne, der kan hoppe videre til et mål mere i nærheden. Kan ramme kasterens egne enheder.":
+        "Metalstjerne, der kan hoppe videre til et mål mere i nærheden. Kan ramme dine egne enheder.",
+    "Stengolem, der fremkaldes ved kontakt og jagter den enhed, den sidst ramte.": "Stengolem, der fremmanes ved kontakt og jagter den enhed, den sidst ramte.",
+    "Kort spring med høj skade foran kasteren ved landing.": "Kort spring, der giver høj skade foran dig, når du lander.",
+    "Line med kort rækkevidde, der ved træf trækker en fjende hen til kasteren. Ved bom trækkes kasteren hen til stedet.":
+        "Line med kort rækkevidde, der ved træf trækker en fjende hen til dig. Rammer du forbi, bliver du selv trukket derhen.",
+    "Fremkalder en kamæleon, der kopierer mål-troldmandens seneste besværgelse. Troldmanden bremses, og kasteren bliver kortvarigt usynlig. Genaktivér for at kaste den kopierede besværgelse.":
+        "Fremmaner en kamæleon, der kopierer den ramte troldmands seneste besværgelse. Troldmanden bremses, og du bliver kortvarigt usynlig. Genaktivér for at kaste den kopierede besværgelse.",
+    "Fremkalder en krystal under kasteren, der sender kasteren fremad. Ved genaktivering trækkes kasteren på en slæde hen til sin nyeste krystal. Ved kast bliver dine krystaller vilde og følger den nærmeste fjende.":
+        "Fremmaner en krystal under dig, der sender dig fremad. Ved genaktivering trækkes du på en slæde hen til din nyeste krystal. Når du kaster, bliver dine krystaller vilde og følger den nærmeste fjende.",
+    "Fremkalder en krystal, der beskytter kasteren, indtil den ødelægges eller skifter form. Ved kast bliver dine krystaller kryogene og fryser den første besværgelse, der skader dem. Frosne besværgelser kan samles op og bruges af kasteren.":
+        "Fremmaner en krystal, der beskytter dig, indtil den ødelægges eller skifter form. Når du kaster, bliver dine krystaller kryogene og fryser den første besværgelse, der skader dem. Frosne besværgelser kan samles op og bruges af dig.",
+    "Fremkalder en katana, der opsamler al skade, kasteren giver de næste 5 sekunder. Derefter springer kasteren mellem alle ramte enheder, giver skaden en gang til og bruger sin nærkampsbesværgelse på dem.":
+        "Fremmaner en katana, der opsamler al den skade, du giver de næste 5 sekunder. Derefter springer du mellem alle ramte enheder, giver skaden en gang til og bruger din nærkampsbesværgelse på dem.",
+    "Fremkalder en ildkugle, der affyrer en kegle af ildkugler. Den kan ødelægges, hvis den rammes af en besværgelse.":
+        "Fremmaner en ildkugle, der affyrer en kegle af ildkugler. Den kan ødelægges, hvis den rammes af en besværgelse.",
+    "Fremkalder kredsende metalskjolde i 2 sekunder. Hvis du ville tage skade, slynges et skjold mod kilden, lænker den til kasteren og blokerer al skade fra den i 5 sekunder.":
+        "Fremmaner kredsende metalskjolde i 2 sekunder. Hvis du ville tage skade, slynges et skjold mod kilden, lænker den til dig og blokerer al skade fra den i 5 sekunder.",
+    "Fremkalder marionettråde, der udskyder alt tilbageslag og bremser målet. Alt opsamlet tilbageslag udløses derefter på én gang med 30 % ekstra.":
+        "Fremmaner marionettråde, der udskyder alt tilbageslag og bremser målet. Alt opsamlet tilbageslag udløses derefter på én gang med 30 % ekstra.",
+    "Ranke, der hægter sig på en enhed eller forhindring. Ved genaktivering accelererer kasteren mod målet med skade og tilbageslag efter farten ved sammenstødet.":
+        "Ranke, der hægter sig på en enhed eller forhindring. Ved genaktivering accelererer du mod målet og giver skade og tilbageslag efter farten ved sammenstødet.",
+    "Kaster en krystal op i luften, der giver skade, når den lander. Afstanden bestemmes af kurven. Ved genaktivering hales krystallen ind. Ved kast bliver dine krystaller krogede og hægter sig fast ved kontakt.":
+        "Kaster en krystal op i luften, der giver skade, når den lander. Afstanden bestemmes af kurven. Ved genaktivering hales krystallen ind. Når du kaster, bliver dine krystaller krogede og hægter sig fast ved kontakt.",
+    "Kaster en snebold, der bliver farligere, jo længere den flyver, og danner en krystal ved træf. Ved kast bliver dine krystaller skrøbelige og eksploderer ved kontakt med fjender.":
+        "Kaster en snebold, der bliver farligere, jo længere den flyver, og danner en krystal ved træf. Når du kaster, bliver dine krystaller skrøbelige og eksploderer ved kontakt med fjender.",
+    "Sender din troldmand tilbage til nuværende sted og liv efter 3 sekunder og giver skade og tilbageslag på vejen.":
+        "Sender din troldmand tilbage til sit nuværende sted og liv efter 3 sekunder og giver skade og tilbageslag på vejen.",
+}
+_unused = set(REVISIONS) - set(TEXT.values())
+assert not _unused, f"revisions that match no draft: {_unused}"
+TEXT = {k: REVISIONS.get(v, v) for k, v in TEXT.items()}
+
 # Text built at runtime. kind "regex": $1.. substitutions; kind "split": XUnity translates each group separately.
 REGEX = [
     ("regex", r"^Level (\d+)$", "Niveau $1"),
@@ -811,7 +885,8 @@ def main(path):
                                     or en.strip().startswith(("F1", "F2", "F3", "F4")) and len(en.strip()) == 2):
             dropped += 1
             continue
-        if not e.get("da") and en in TEXT and not e.get("edited"):
+        # Fill untranslated entries and refresh machine drafts nobody has edited yet.
+        if en in TEXT and not e.get("edited") and (not e.get("da") or e.get("status") == "machine"):
             e["da"] = TEXT[en]
             e["status"] = "machine"
             filled += 1
