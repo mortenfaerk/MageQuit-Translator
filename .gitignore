@@ -5,3 +5,10 @@ dist/
 .vs/
 __pycache__/
 vendor/dl/
+# impeccable design-run scratch (the surface brief and config are kept)
+.impeccable/review/
+.impeccable/build/
+.impeccable/mocks/
+.impeccable/direction-payload.json
+.impeccable/live/
+.impeccable/questions/

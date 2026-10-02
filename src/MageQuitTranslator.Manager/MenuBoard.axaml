@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:MageQuitTranslator.Manager"
+             x:Class="MageQuitTranslator.Manager.MenuBoard"
+             x:DataType="local:MainViewModel">
+  <!-- The game's main-menu board, its words flipping letter by letter into the chosen language -->
+  <Grid RowDefinitions="*,Auto,*" Margin="40,40,56,40">
+    <Border Grid.Row="1" Background="{StaticResource MenuBoard}" CornerRadius="3" Padding="44,34" MaxWidth="420"
+            HorizontalAlignment="Left" BoxShadow="0 6 18 0 #90050210">
+      <ItemsControl ItemsSource="{Binding FlipWords}">
+        <ItemsControl.ItemTemplate>
+          <DataTemplate x:DataType="local:FlipWord">
+            <Panel Height="52">
+              <Image Source="{Binding Image}" IsVisible="{Binding HasImage}" Height="34" Stretch="Uniform"
+                     HorizontalAlignment="Left" VerticalAlignment="Center" />
+              <TextBlock Text="{Binding Display}" IsVisible="{Binding !HasImage}" FontFamily="{StaticResource Fell}"
+                         FontSize="36" VerticalAlignment="Center" Foreground="{StaticResource Chalk}" />
+            </Panel>
+          </DataTemplate>
+        </ItemsControl.ItemTemplate>
+      </ItemsControl>
+    </Border>
+    <TextBlock Grid.Row="2" Classes="gloss" Margin="2,10,0,0" VerticalAlignment="Top"
+               Text="The game's main menu, as it will read." />
+  </Grid>
+</UserControl>

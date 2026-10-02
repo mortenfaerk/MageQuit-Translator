@@ -1,6 +1,6 @@
 """First Danish draft for MageQuit (status "machine": every line still needs a human review).
 
-Usage: python draft_da.py <strings.json>
+Usage: python draft_da.py translation/da/strings.json
 
 - Fills empty Danish texts from TEXT below (never touches entries edited by a person).
 - Adds REGEX entries for text the game builds at runtime ("Round 3 of 5", "X has left the battle!").
@@ -727,7 +727,7 @@ TEXT = {
     "XB Live Down": "Xbox Live er nede",
 }
 
-# Terminology pass, checked against Danish fantasy usage (see docs/terminologi.md):
+# Terminology pass, checked against Danish fantasy usage (see translation/da/GLOSSARY.md):
 # summon -> "fremmane" (the classic Danish conjuring verb); "the caster" -> du/dig, since Danish game texts
 # address the player directly; Archmage -> Ærketroldmand (wizard = troldmand throughout); Tonic -> Eliksir.
 REVISIONS = {
@@ -886,20 +886,20 @@ def main(path):
             dropped += 1
             continue
         # Fill untranslated entries and refresh machine drafts nobody has edited yet.
-        if en in TEXT and not e.get("edited") and (not e.get("da") or e.get("status") == "machine"):
-            e["da"] = TEXT[en]
+        if en in TEXT and not e.get("edited") and (not e.get("text") or e.get("status") == "machine"):
+            e["text"] = TEXT[en]
             e["status"] = "machine"
             filled += 1
         kept.append(e)
     have = {(e.get("kind", "text"), e["en"]) for e in kept}
     for kind, pattern, repl in REGEX:
         if (kind, pattern) not in have:
-            kept.append({"en": pattern, "da": repl, "status": "machine", "kind": kind, "confidence": "high",
-                         "sources": ["runtime"], "fonts": [], "uppercase_only": False, "note": "", "edited": False})
+            kept.append({"en": pattern, "text": repl, "status": "machine", "kind": kind, "confidence": "high",
+                         "sources": ["runtime"], "fonts": [], "uppercase_only": False, "note": ""})
     data["strings"] = kept
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    missing = [e["en"] for e in kept if not e.get("da")]
+    missing = [e["en"] for e in kept if not e.get("text")]
     print(f"filled {filled}, dropped {dropped}, regex {len(REGEX)}, still untranslated {len(missing)}")
     for m in missing:
         print("  ", repr(m))

@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T17:03:19+00:00",
+  "title": "Design System: MageQuit Translator",
+  "extensions": {
+    "colorMeta": {
+      "gilt": {
+        "role": "primary",
+        "displayName": "Seal Gilt",
+        "canonical": "#E8C25A",
+        "oklch": "oklch(82.7% 0.129 89.2)",
+        "tonalRamp": [
+          "#100A00",
+          "#2F2300",
+          "#523F00",
+          "#785D04",
+          "#A07D03",
+          "#C5A034",
+          "#EBC55D",
+          "#FFEDC0"
+        ]
+      },
+      "gilt-deep": {
+        "role": "primary",
+        "displayName": "Deep Gilt",
+        "canonical": "#B8902F",
+        "oklch": "oklch(67.4% 0.121 85.4)",
+        "tonalRamp": [
+          "#110A00",
+          "#312301",
+          "#543E01",
+          "#7B5C01",
+          "#A37C0F",
+          "#C79F40",
+          "#EDC367",
+          "#FFEDC7"
+        ]
+      },
+      "gilt-bright": {
+        "role": "primary",
+        "displayName": "Bright Gilt",
+        "canonical": "#F2D27A",
+        "oklch": "oklch(87.2% 0.113 90.0)",
+        "tonalRamp": [
+          "#100A00",
+          "#2F2300",
+          "#523F00",
+          "#775E03",
+          "#9D7E1F",
+          "#C1A249",
+          "#E6C66E",
+          "#FFEDBE"
+        ]
+      },
+      "binding": {
+        "role": "neutral",
+        "displayName": "Night Binding",
+        "canonical": "#1B1230",
+        "oklch": "oklch(21.2% 0.058 294.8)",
+        "tonalRamp": [
+          "#0E0520",
+          "#271F3E",
+          "#443C5E",
+          "#635B7F",
+          "#847CA2",
+          "#A79EC6",
+          "#CBC2EC",
+          "#EFEBFE"
+        ]
+      },
+      "vellum": {
+        "role": "neutral",
+        "displayName": "Plum Vellum",
+        "canonical": "#2B1D48",
+        "oklch": "oklch(27.3% 0.077 295.9)",
+        "tonalRamp": [
+          "#100127",
+          "#291B46",
+          "#463966",
+          "#655888",
+          "#8679AC",
+          "#A99CD1",
+          "#CDC0F7",
+          "#EFEBFE"
+        ]
+      },
+      "vellum-raised": {
+        "role": "neutral",
+        "displayName": "Raised Vellum",
+        "canonical": "#36265A",
+        "oklch": "oklch(31.6% 0.090 294.9)",
+        "tonalRamp": [
+          "#10002A",
+          "#29184B",
+          "#46376C",
+          "#65568F",
+          "#8677B3",
+          "#A99AD8",
+          "#CDBEFE",
+          "#EFEBFF"
+        ]
+      },
+      "vellum-selected": {
+        "role": "neutral",
+        "displayName": "Selected Vellum",
+        "canonical": "#3E2C68",
+        "oklch": "oklch(34.7% 0.101 294.4)",
+        "tonalRamp": [
+          "#0F0029",
+          "#2A1650",
+          "#463572",
+          "#655595",
+          "#8676B9",
+          "#A999DE",
+          "#CCBEFE",
+          "#EFECFE"
+        ]
+      },
+      "field-well": {
+        "role": "neutral",
+        "displayName": "Field Well",
+        "canonical": "#241839",
+        "oklch": "oklch(24.3% 0.062 298.5)",
+        "tonalRamp": [
+          "#0F0421",
+          "#291D3F",
+          "#463A5F",
+          "#665A80",
+          "#877BA3",
+          "#AA9DC7",
+          "#CEC1ED",
+          "#F0EBFE"
+        ]
+      },
+      "field-well-hover": {
+        "role": "neutral",
+        "displayName": "Field Well, Hover",
+        "canonical": "#2A1D43",
+        "oklch": "oklch(26.8% 0.069 297.3)",
+        "tonalRamp": [
+          "#0F0224",
+          "#291C42",
+          "#463962",
+          "#655984",
+          "#877AA7",
+          "#A99CCC",
+          "#CEC0F1",
+          "#F0EBFE"
+        ]
+      },
+      "menu-board": {
+        "role": "neutral",
+        "displayName": "Menu Board",
+        "canonical": "#0D0A17",
+        "oklch": "oklch(15.6% 0.027 293.6)",
+        "tonalRamp": [
+          "#0C0916",
+          "#262331",
+          "#423F50",
+          "#625F70",
+          "#838092",
+          "#A5A2B5",
+          "#C9C6DA",
+          "#EFECFF"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#4A3A70",
+        "oklch": "oklch(39.2% 0.090 295.6)",
+        "tonalRamp": [
+          "#100029",
+          "#2A184B",
+          "#46366C",
+          "#66568F",
+          "#8777B3",
+          "#A99AD8",
+          "#CDBEFE",
+          "#EFEBFF"
+        ]
+      },
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#EFE7FF",
+        "oklch": "oklch(94.1% 0.033 300.9)",
+        "tonalRamp": [
+          "#0E0817",
+          "#282133",
+          "#453E51",
+          "#645D72",
+          "#857E94",
+          "#A8A1B7",
+          "#CCC5DC",
+          "#F1EBFE"
+        ]
+      },
+      "chalk-dim": {
+        "role": "neutral",
+        "displayName": "Dim Chalk",
+        "canonical": "#B9ADD6",
+        "oklch": "oklch(77.1% 0.059 298.4)",
+        "tonalRamp": [
+          "#0F0420",
+          "#291E3E",
+          "#463B5D",
+          "#655A7F",
+          "#877BA2",
+          "#A99DC6",
+          "#CEC1EB",
+          "#F0EBFF"
+        ]
+      },
+      "pencil": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "#A196C6",
+        "oklch": "oklch(70.0% 0.070 295.0)",
+        "tonalRamp": [
+          "#0F0225",
+          "#281C43",
+          "#453A63",
+          "#645985",
+          "#857AA8",
+          "#A89DCD",
+          "#CCC1F3",
+          "#EFEBFF"
+        ]
+      },
+      "ink-faded": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "#5E5180",
+        "oklch": "oklch(46.8% 0.076 296.1)",
+        "tonalRamp": [
+          "#100126",
+          "#291B45",
+          "#463966",
+          "#655888",
+          "#8679AB",
+          "#A99CD0",
+          "#CDC0F6",
+          "#F0EBFF"
+        ]
+      },
+      "ink-fire": {
+        "role": "secondary",
+        "displayName": "Fire Ink",
+        "canonical": "#FF6B3D",
+        "oklch": "oklch(70.5% 0.191 37.5)",
+        "tonalRamp": [
+          "#1C0300",
+          "#461000",
+          "#762001",
+          "#A93201",
+          "#DC4A16",
+          "#FF764C",
+          "#FFB49E",
+          "#FEE9E3"
+        ]
+      },
+      "ink-fire-pale": {
+        "role": "secondary",
+        "displayName": "Pale Fire",
+        "canonical": "#FFC2AD",
+        "oklch": "oklch(86.4% 0.076 39.8)",
+        "tonalRamp": [
+          "#1B0300",
+          "#421404",
+          "#633221",
+          "#865240",
+          "#AA7360",
+          "#CF9581",
+          "#F5B9A4",
+          "#FEEAE3"
+        ]
+      },
+      "ink-water": {
+        "role": "secondary",
+        "displayName": "Water Ink",
+        "canonical": "#3FA7FF",
+        "oklch": "oklch(70.9% 0.160 248.1)",
+        "tonalRamp": [
+          "#000C1C",
+          "#002646",
+          "#014475",
+          "#0364A7",
+          "#0E87DC",
+          "#4BABFF",
+          "#9DCFFF",
+          "#E3F0FE"
+        ]
+      },
+      "ink-ice": {
+        "role": "secondary",
+        "displayName": "Ice Ink",
+        "canonical": "#9FE8FF",
+        "oklch": "oklch(89.1% 0.079 219.6)",
+        "tonalRamp": [
+          "#000E13",
+          "#012A35",
+          "#004A5B",
+          "#1E6B80",
+          "#458EA3",
+          "#69B1C7",
+          "#8DD6ED",
+          "#D6F5FF"
+        ]
+      },
+      "ink-nature": {
+        "role": "secondary",
+        "displayName": "Nature Ink",
+        "canonical": "#7ED957",
+        "oklch": "oklch(80.1% 0.188 137.5)",
+        "tonalRamp": [
+          "#030F00",
+          "#0E2D01",
+          "#1E4F00",
+          "#307302",
+          "#429A05",
+          "#65BF3B",
+          "#89E563",
+          "#CFFFBD"
+        ]
+      },
+      "ink-electric": {
+        "role": "secondary",
+        "displayName": "Electric Ink",
+        "canonical": "#F5E14A",
+        "oklch": "oklch(90.0% 0.165 101.6)",
+        "tonalRamp": [
+          "#0E0B00",
+          "#2B2601",
+          "#4B4301",
+          "#6E6201",
+          "#928402",
+          "#B9A702",
+          "#E0CC2C",
+          "#FFF28F"
+        ]
+      },
+      "ink-earth": {
+        "role": "secondary",
+        "displayName": "Earth Ink",
+        "canonical": "#D09A5B",
+        "oklch": "oklch(72.5% 0.103 69.2)",
+        "tonalRamp": [
+          "#140800",
+          "#371F00",
+          "#5D3902",
+          "#86550B",
+          "#AA7636",
+          "#CF995A",
+          "#F5BD7E",
+          "#FFEBD6"
+        ]
+      },
+      "ink-arcane": {
+        "role": "secondary",
+        "displayName": "Arcane Ink",
+        "canonical": "#C78BFF",
+        "oklch": "oklch(74.1% 0.171 306.5)",
+        "tonalRamp": [
+          "#140024",
+          "#360157",
+          "#5A1787",
+          "#7A3EAC",
+          "#9D61D1",
+          "#C185F8",
+          "#DAB8FE",
+          "#F3EAFE"
+        ]
+      },
+      "ink-air": {
+        "role": "secondary",
+        "displayName": "Air Ink",
+        "canonical": "#D8E2FF",
+        "oklch": "oklch(91.4% 0.041 270.5)",
+        "tonalRamp": [
+          "#06091C",
+          "#1D2439",
+          "#3A4158",
+          "#586079",
+          "#79829C",
+          "#9BA4C0",
+          "#BFC8E5",
+          "#E8EEFF"
+        ]
+      },
+      "ribbon-madder": {
+        "role": "tertiary",
+        "displayName": "Madder Ribbon",
+        "canonical": "#A3322C",
+        "oklch": "oklch(48.6% 0.150 27.2)",
+        "tonalRamp": [
+          "#1F0000",
+          "#4D0003",
+          "#7F060C",
+          "#A5342E",
+          "#CD584F",
+          "#F47C70",
+          "#FEB3A9",
+          "#FEE9E6"
+        ]
+      },
+      "ribbon-verdigris": {
+        "role": "tertiary",
+        "displayName": "Verdigris Ribbon",
+        "canonical": "#1F6E64",
+        "oklch": "oklch(48.9% 0.076 183.0)",
+        "tonalRamp": [
+          "#000F0C",
+          "#012C27",
+          "#034D45",
+          "#216F65",
+          "#479186",
+          "#6BB5A9",
+          "#8FDACE",
+          "#BAFFF3"
+        ]
+      },
+      "ribbon-lapis": {
+        "role": "tertiary",
+        "displayName": "Lapis Ribbon",
+        "canonical": "#2E4AA6",
+        "oklch": "oklch(44.3% 0.152 267.1)",
+        "tonalRamp": [
+          "#020035",
+          "#09116D",
+          "#1F3791",
+          "#3B59B6",
+          "#5A7CDD",
+          "#7DA1FE",
+          "#B2C8FE",
+          "#E8EEFE"
+        ]
+      },
+      "ribbon-umber": {
+        "role": "tertiary",
+        "displayName": "Umber Ribbon",
+        "canonical": "#8A4E14",
+        "oklch": "oklch(48.5% 0.105 58.8)",
+        "tonalRamp": [
+          "#160700",
+          "#3A1C01",
+          "#643401",
+          "#8C5017",
+          "#B1723D",
+          "#D6945F",
+          "#FDB883",
+          "#FEEADC"
+        ]
+      },
+      "ribbon-amethyst": {
+        "role": "tertiary",
+        "displayName": "Amethyst Ribbon",
+        "canonical": "#5F3A9C",
+        "oklch": "oklch(44.5% 0.153 297.2)",
+        "tonalRamp": [
+          "#110028",
+          "#30005F",
+          "#4D2687",
+          "#6C48AC",
+          "#8D6BD1",
+          "#B08EF8",
+          "#CFBDFF",
+          "#F0EBFF"
+        ]
+      },
+      "ribbon-moss": {
+        "role": "tertiary",
+        "displayName": "Moss Ribbon",
+        "canonical": "#386A20",
+        "oklch": "oklch(47.2% 0.118 137.2)",
+        "tonalRamp": [
+          "#030F00",
+          "#0F2D00",
+          "#1F4F01",
+          "#3E7027",
+          "#5F9249",
+          "#81B66B",
+          "#A4DB8E",
+          "#CFFFBC"
+        ]
+      },
+      "ribbon-mulberry": {
+        "role": "tertiary",
+        "displayName": "Mulberry Ribbon",
+        "canonical": "#8E2F61",
+        "oklch": "oklch(46.0% 0.139 351.4)",
+        "tonalRamp": [
+          "#1C000E",
+          "#48012B",
+          "#74144A",
+          "#99396A",
+          "#BF5B8C",
+          "#E57EAF",
+          "#FEADD1",
+          "#FFE7F1"
+        ]
+      },
+      "ribbon-slate": {
+        "role": "tertiary",
+        "displayName": "Slate Ribbon",
+        "canonical": "#46546E",
+        "oklch": "oklch(44.5% 0.047 262.6)",
+        "tonalRamp": [
+          "#030A1E",
+          "#19253C",
+          "#35425B",
+          "#53627C",
+          "#74839F",
+          "#96A6C3",
+          "#B9CAE8",
+          "#E6EFFE"
+        ]
+      },
+      "ribbon-original": {
+        "role": "tertiary",
+        "displayName": "Original Ribbon",
+        "canonical": "#4A3D70",
+        "oklch": "oklch(39.8% 0.085 293.9)",
+        "tonalRamp": [
+          "#0F0029",
+          "#281A49",
+          "#45386A",
+          "#64578D",
+          "#8578B0",
+          "#A79BD5",
+          "#CCBFFC",
+          "#EFECFE"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Title-page and leaf headings."
+      },
+      "display-frontispiece": {
+        "displayName": "Display, Frontispiece",
+        "purpose": "The chosen language's own name on the Play page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Open chapter title (32px in the running head) and right-page headings."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The app name in the binding bar, small caps."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Play / Translate switch, small caps."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Language names on ribbons."
+      },
+      "tab-title": {
+        "displayName": "Tab Title",
+        "purpose": "Chapter names on thumb tabs, lettered in Binding."
+      },
+      "marginalia": {
+        "displayName": "Marginalia",
+        "purpose": "Italic sources, fonts, image sizes; 14.5px inside a spread line. Annotation only."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "English lines and translations in the spread."
+      },
+      "body-prose": {
+        "displayName": "Body Prose",
+        "purpose": "Explanatory paragraphs, 440-460px measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Install line, counts, colophon, warnings, hints."
+      },
+      "gloss": {
+        "displayName": "Gloss",
+        "purpose": "Version, keyboard hints, folder path. Dispensable metadata only."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Label of the single gilt button."
+      }
+    },
+    "shadows": [
+      {
+        "name": "book-lift",
+        "value": "0 10px 28px rgba(7,3,18,0.63), 0 2px 4px rgba(7,3,18,0.38)",
+        "purpose": "The open book resting on the binding. Used once."
+      },
+      {
+        "name": "board-lift",
+        "value": "0 6px 18px rgba(5,2,16,0.56)",
+        "purpose": "The game's menu board on the title page."
+      },
+      {
+        "name": "spine-fold",
+        "value": "linear-gradient(90deg, rgba(43,29,72,0) 0%, rgba(26,16,48,0.69) 42%, #150D27 50%, rgba(26,16,48,0.69) 58%, rgba(43,29,72,0) 100%)",
+        "purpose": "36px fold between facing pages, in place of a flat rule."
+      }
+    ],
+    "motion": [
+      {
+        "name": "flip-letters",
+        "value": "letter-by-letter substitution",
+        "purpose": "Menu words on the frontispiece flip from English into the chosen language."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "window-min",
+        "value": "1040x640"
+      },
+      {
+        "name": "window-design",
+        "value": "1280x820"
+      }
+    ],
+    "platform": {
+      "framework": "Avalonia 12 (Fluent theme, Dark variant)",
+      "tokenSources": [
+        "src/MageQuitTranslator.Manager/App.axaml (chrome brushes, type classes, control styles)",
+        "src/MageQuitTranslator.Manager/ViewModels.cs Ink class (data-bound element inks and ribbon cloths)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Default outlined action; every secondary action on a page.",
+      "html": "<button class=\"ds-btn-quiet\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M5 3 H16 L21 8 V19 A2 2 0 0 1 19 21 H5 A2 2 0 0 1 3 19 V5 A2 2 0 0 1 5 3 Z M7 3 V8 H15 M7 21 V14 H17 V21\"/></svg>Save</button>",
+      "css": ".ds-btn-quiet{display:inline-flex;align-items:center;gap:7px;background:transparent;color:#B9ADD6;border:1px solid #4A3A70;border-radius:3px;padding:7px 12px;font:400 14px Inter,'Segoe UI',sans-serif;cursor:pointer}.ds-btn-quiet svg{fill:none;stroke:#B9ADD6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-btn-quiet:hover{background:#36265A;color:#EFE7FF;border-color:#A196C6}.ds-btn-quiet:hover svg{stroke:#EFE7FF}.ds-btn-quiet:active{background:#3E2C68}.ds-btn-quiet:focus-visible{outline:none;border-color:#E8C25A}"
+    },
+    {
+      "name": "Gilt Button",
+      "kind": "button",
+      "refersTo": "button-gilt",
+      "description": "The single primary action of a page.",
+      "html": "<button class=\"ds-btn-gilt\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path d=\"M7 4 L19 12 L7 20 Z\"/></svg>Play in Dansk</button>",
+      "css": ".ds-btn-gilt{display:inline-flex;align-items:center;gap:10px;background:#E8C25A;color:#1B1230;border:1px solid #B8902F;border-radius:3px;padding:12px 22px;font:600 16px Inter,'Segoe UI',sans-serif;cursor:pointer}.ds-btn-gilt svg{fill:#1B1230;stroke:#1B1230;stroke-width:2;stroke-linejoin:round}.ds-btn-gilt:hover{background:#F2D27A;border-color:#E8C25A}.ds-btn-gilt:active{background:#B8902F}.ds-btn-gilt:focus-visible{outline:2px solid #EFE7FF;outline-offset:2px}"
+    },
+    {
+      "name": "Boxed Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Form and search fields; focus becomes a gilt underline.",
+      "html": "<input class=\"ds-field\" placeholder=\"Search all chapters\">",
+      "css": ".ds-field{background:#241839;color:#EFE7FF;border:1px solid #4A3A70;border-radius:3px;padding:6px 10px;font:400 14px Inter,'Segoe UI',sans-serif;caret-color:#E8C25A;width:210px}.ds-field::placeholder{color:#A196C6}.ds-field:hover{background:#2A1D43;border-color:#A196C6}.ds-field:focus{outline:none;background:#2A1D43;border-color:transparent;border-bottom:2px solid #E8C25A}"
+    },
+    {
+      "name": "Ink Field",
+      "kind": "input",
+      "refersTo": "field-ink",
+      "description": "Unboxed translation field on the recto page, with its length budget beneath.",
+      "html": "<div class=\"ds-ink-wrap\"><input class=\"ds-field-ink\" value=\"(før kastet)\"><div class=\"ds-budget\"></div></div>",
+      "css": ".ds-ink-wrap{background:#2B1D48;padding:8px 16px;width:280px}.ds-field-ink{background:transparent;color:#EFE7FF;border:0;border-bottom:1px solid transparent;padding:6px 0;font:400 14.5px Inter,'Segoe UI',sans-serif;caret-color:#E8C25A;width:100%}.ds-field-ink:hover{border-bottom-color:#4A3A70}.ds-field-ink:focus{outline:none;border-bottom-color:#E8C25A}.ds-budget{height:1.5px;width:66px;background:#A196C6;margin-top:2px}"
+    },
+    {
+      "name": "Play / Translate Switch",
+      "kind": "nav",
+      "refersTo": "button-bare",
+      "description": "The two ways into the book, in small caps.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-on\" href=\"#\">Play</a><a href=\"#\">Translate</a></nav>",
+      "css": ".ds-nav{display:flex;gap:4px;background:#1B1230;padding:8px}.ds-nav a{font:400 17px 'IM FELL English SC',Georgia,serif;font-variant:small-caps;color:#B9ADD6;text-decoration:none;padding:6px 8px;border-bottom:1.5px solid transparent}.ds-nav a:hover{color:#EFE7FF}.ds-nav a:focus-visible{outline:1px solid #E8C25A}.ds-nav a.ds-nav-on{color:#EFE7FF;border-bottom-color:#EFE7FF}"
+    },
+    {
+      "name": "Seal Legend",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Unsealed ring, draft dash, sealed gilt disc; translation review state only.",
+      "html": "<div class=\"ds-seals\"><span class=\"ds-seal-empty\"></span><span class=\"ds-seal-draft\"></span><span class=\"ds-seal-done\"></span></div>",
+      "css": ".ds-seals{display:flex;gap:24px;align-items:center;background:#2B1D48;padding:16px}.ds-seal-empty{width:14px;height:14px;border-radius:50%;border:1.5px solid #A196C6;box-sizing:border-box}.ds-seal-draft{width:14px;height:2.5px;background:#A196C6}.ds-seal-done{width:15px;height:15px;border-radius:50%;background:#E8C25A;border:1.5px solid #B8902F;box-sizing:border-box}"
+    },
+    {
+      "name": "Language Ribbon",
+      "kind": "custom",
+      "refersTo": "ribbon",
+      "description": "Cloth bookmark per language with a swallowtail notch; the current one hangs longer.",
+      "html": "<button class=\"ds-ribbon\" style=\"--c:#A3322C;width:224px\"><span class=\"ds-ribbon-name\">Dansk <i></i></span><span class=\"ds-ribbon-sub\">98% translated · draft</span></button>",
+      "css": ".ds-ribbon{display:flex;flex-direction:column;justify-content:center;height:58px;border:0;padding:0 14px 0 26px;background:var(--c);color:#EFE7FF;text-align:left;cursor:pointer;clip-path:polygon(0 0,100% 0,100% 100%,0 100%,10px 50%)}.ds-ribbon:focus-visible{outline:1px solid #E8C25A}.ds-ribbon-name{font:400 21px 'IM FELL English',Georgia,serif;display:flex;align-items:center;gap:8px}.ds-ribbon-name i{width:7px;height:7px;border-radius:50%;background:#EFE7FF}.ds-ribbon-sub{font:400 11.5px Inter,'Segoe UI',sans-serif}"
+    },
+    {
+      "name": "Thumb Tab",
+      "kind": "custom",
+      "refersTo": "thumb-tab",
+      "description": "Chapter tab in its element ink with a gilt sealed-progress bar.",
+      "html": "<button class=\"ds-tab\" style=\"background:#3FA7FF\"><span class=\"ds-tab-title\">Menus</span><span class=\"ds-tab-count\">40/261</span><span class=\"ds-tab-bar\"><span style=\"width:15px\"></span></span></button>",
+      "css": ".ds-tab{display:flex;flex-direction:column;width:148px;height:96px;border:0;border-radius:0 5px 5px 0;padding:7px 10px 8px 14px;color:#1B1230;text-align:left;cursor:pointer}.ds-tab:focus-visible{outline:1px solid #E8C25A}.ds-tab-title{font:400 17px 'IM FELL English',Georgia,serif}.ds-tab-count{font:400 12px Inter,'Segoe UI',sans-serif}.ds-tab-bar{margin-top:auto;width:100px;height:3px;background:rgba(27,18,48,0.25);display:block}.ds-tab-bar span{display:block;height:3px;background:#E8C25A}"
+    },
+    {
+      "name": "Menu Board",
+      "kind": "card",
+      "refersTo": "menu-board",
+      "description": "Dark board showing the game's menu words as the game draws them.",
+      "html": "<div class=\"ds-board\"><div>Sofa</div><div>Online</div><div>Øvelse</div></div>",
+      "css": ".ds-board{background:#0D0A17;color:#EFE7FF;border-radius:3px;padding:34px 44px;max-width:420px;box-shadow:0 6px 18px rgba(5,2,16,0.56);font:400 36px 'IM FELL English',Georgia,serif;line-height:52px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Bilingual Spellbook",
+    "overview": "The whole app is one open book lying on a night-violet binding. English sits on the verso, the translation on the recto, and a soft spine fold runs between them. Every surface is a page of that book: the frontispiece where a player picks a language and plays, the facing-page spread where a translator works line by line, the title page that installs the translator, and the two-page \"new language\" leaf. Navigation is physical: language ribbons hang from the left edge of the book like bookmarks, chapter tabs are cut into its right edge like a thumb index, and each line is closed with a seal in the outer margin.\n\nDensity follows the job. The frontispiece is sparse and theatrical (one huge language name, the game's own menu words on a dark board, one gilt button). The spread is dense and calm: about 700 lines in quiet Inter body on plum vellum, with old-face italic marginalia for sources, a hairline length budget under every translation, and nothing that shouts except a fire-ink warning when something will break in game.\n\nThe palette and typeface are carried from the world of MageQuit (violet night, element inks, a printed spellbook face) without using any official logo or game art. The game's own menu art appears only as rendered previews of what the player will see.",
+    "keyCharacteristics": [
+      "One open book per screen, two facing pages split by a 36px spine fold.",
+      "Gilt is scarce: the one primary action, sealed lines, and the point of entry (caret, focus).",
+      "Element inks colour chapters; muted dyed-cloth colours mark languages.",
+      "IM FELL English for the book's voice, Inter for the working text.",
+      "A fixed three-state seal legend that means only translation review state."
+    ],
+    "rules": [
+      {
+        "name": "The Scarce Gilt Rule",
+        "body": "Gilt appears on at most one button per page, plus seals, sealed progress, caret and focus. Never on decoration, headings or secondary actions.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Dye Families Rule",
+        "body": "Element inks belong to chapters, ribbon cloths belong to languages. Never swap them, and never use either family for state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fire Means Breakage Rule",
+        "body": "Fire ink marks only what will break in game (too long, a missing letter, mismatched placeholders). It is never an accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed Voice Rule",
+        "body": "IM FELL sets what the book says (titles, names, marginalia); Inter sets what the user reads and writes. Never set an input, a button label, or a warning in IM FELL.",
+        "section": "typography"
+      },
+      {
+        "name": "The Physical Shadow Rule",
+        "body": "A shadow means a physical object sitting on another: the book on its binding, a board on a page. Controls, tabs, ribbons and lines are never shadowed.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every screen inside the one open book: two facing pages split by the 36px spine fold.",
+      "**Do** reserve Seal Gilt for the page's single primary action, sealed state, sealed progress, caret and focus.",
+      "**Do** use the seal legend (ring, dash, disc) for translation state and for nothing else.",
+      "**Do** colour chapters with element inks and languages with ribbon cloths, each lettered for contrast (Binding on inks, Chalk on cloths).",
+      "**Do** set titles, names and marginalia in IM FELL English, and everything typed, clicked or warned in Inter.",
+      "**Do** show the game's own text on the Menu Board (#0D0A17) so previews read as the game draws them.",
+      "**Do** mark breakage in Fire ink and its explanatory sentence in Pale Fire."
+    ],
+    "donts": [
+      "**Don't** put a second gilt button on a page; secondary actions are quiet outlined buttons.",
+      "**Don't** reuse the ring, dash or disc shapes as bullets, status lights or decoration.",
+      "**Don't** use Fire ink as an accent or for anything that will not break in game.",
+      "**Don't** shadow controls, tabs, ribbons or lines; shadows belong to the book and the board.",
+      "**Don't** separate the facing pages with a flat rule; use the spine fold.",
+      "**Don't** set editable text, buttons or warnings in IM FELL.",
+      "**Don't** use MageQuit's official logo or game art as decoration; game imagery appears only as rendered previews of the player's own translation."
+    ]
+  }
+}

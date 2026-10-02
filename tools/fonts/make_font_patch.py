@@ -9,7 +9,7 @@ the header file size, truncate. No game data is shipped: the new object is store
 as a delta against the original (copy ranges + inserted bytes).
 
 Usage:
-  python make_font_patch.py build <game dir> payload/game/BepInEx/MageQuit-DA/fontpatch.json
+  python make_font_patch.py build <game dir> payload/game/BepInEx/MageQuit-Translator/fontpatch.json
   python make_font_patch.py apply <game dir> <patch.json>     (test only; Manager does this)
   python make_font_patch.py revert <game dir> <patch.json>
 """

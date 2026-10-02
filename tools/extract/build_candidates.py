@@ -1,10 +1,11 @@
-"""Merge extracted strings into translation/strings.json (the canonical translation file).
+"""Merge extracted English strings into every language under translation/.
 
-Usage: python build_candidates.py <assets.json> <code.json> <strings.json>
+Usage: python build_candidates.py <assets.json> <code.json> <translation dir>
 
-Existing entries (and their Danish text/status) are preserved; new English strings
-are appended with status "new". Each entry records where the string was seen so
-the translator has context.
+For each translation/<code>/strings.json, existing entries (with their translated text
+and status) are preserved and new English strings are appended with status "new", so
+all languages always cover the same strings. Each entry records where the string was
+seen, so translators have context.
 """
 import json
 import os
@@ -26,18 +27,28 @@ def keep(text):
     return True
 
 
-def main(assets_path, code_path, out_path):
+def main(assets_path, code_path, translation_dir):
+    for code in sorted(os.listdir(translation_dir)):
+        path = os.path.join(translation_dir, code, "strings.json")
+        if os.path.exists(path):
+            merge(assets_path, code_path, path, code)
+
+
+def merge(assets_path, code_path, out_path, code):
     entries = {}
     if os.path.exists(out_path):
         for e in json.load(open(out_path, encoding="utf-8"))["strings"]:
-            entries[e["en"]] = e
+            if e.get("kind", "text") == "text":
+                entries[e["en"]] = e
+            else:
+                entries[(e["kind"], e["en"])] = e
 
     def add(text, source, font=None, confidence="high"):
         if not keep(text):
             return
         e = entries.get(text)
         if e is None:
-            e = entries[text] = {"en": text, "da": "", "status": "new", "confidence": confidence,
+            e = entries[text] = {"en": text, "text": "", "status": "new", "confidence": confidence,
                                  "sources": [], "fonts": [], "note": ""}
         elif confidence == "high" or e.get("confidence") == "low" and confidence == "enum":
             e["confidence"] = confidence if e.get("confidence") != "high" else "high"
@@ -61,13 +72,14 @@ def main(assets_path, code_path, out_path):
         add(r["text"], src, confidence=r["confidence"])
 
     for e in entries.values():
-        e["uppercase_only"] = any(f in UPPERCASE_ONLY_FONTS for f in e["fonts"])
+        if e.get("kind", "text") == "text":
+            e["uppercase_only"] = any(f in UPPERCASE_ONLY_FONTS for f in e["fonts"])
 
     order = {"high": 0, "enum": 1, "low": 2}
-    strings = sorted(entries.values(), key=lambda e: (order.get(e["confidence"], 3), e["en"].lower()))
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    strings = sorted(entries.values(), key=lambda e: (e.get("kind", "text") != "text", order.get(e["confidence"], 3),
+                                                      e["en"].lower()))
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump({"language": "da", "source_language": "en", "strings": strings}, f, ensure_ascii=False, indent=1)
+        json.dump({"language": code, "strings": strings}, f, ensure_ascii=False, indent=1)
     print(f"{len(strings)} entries ({sum(1 for e in strings if e['confidence'] == 'low')} low-confidence) -> {out_path}")
 
 

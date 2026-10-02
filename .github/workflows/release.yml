@@ -1,0 +1,76 @@
+name: Release
+
+# A push to `prod` publishes a GitHub release when VERSION holds a version that has no
+# release yet AND CHANGELOG.md has a "## [x.y.z]" section for it. Pushes that do not
+# bump the version build and test only.
+
+on:
+  push:
+    branches: [prod]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read version and changelog
+        id: meta
+        shell: pwsh
+        run: |
+          $version = (Get-Content VERSION -Raw).Trim()
+          if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "VERSION '$version' is not x.y.z" }
+          $tag = "v$version"
+          git ls-remote --exit-code --tags origin "refs/tags/$tag" | Out-Null
+          $exists = $LASTEXITCODE -eq 0
+          $global:LASTEXITCODE = 0
+
+          # Release notes: the CHANGELOG section for this version, up to the next "## [".
+          $lines = Get-Content CHANGELOG.md
+          $start = ($lines | Select-String -Pattern "^## \[$([regex]::Escape($version))\]" | Select-Object -First 1).LineNumber
+          $notes = ""
+          if ($start) {
+            $rest = $lines[$start..($lines.Length - 1)]
+            $end = ($rest | Select-String -Pattern '^## \[' | Select-Object -First 1).LineNumber
+            $notes = ($(if ($end) { $rest[0..($end - 2)] } else { $rest }) -join "`n").Trim()
+          }
+
+          if ($exists) {
+            Write-Host "Release $tag already exists; version not bumped, nothing to publish."
+          } elseif (-not $notes) {
+            throw "VERSION is $version but CHANGELOG.md has no '## [$version]' section. Add release notes to publish."
+          }
+          Set-Content -Path release-notes.md -Value $notes -Encoding utf8
+          "version=$version" >> $env:GITHUB_OUTPUT
+          "tag=$tag" >> $env:GITHUB_OUTPUT
+          "publish=$(-not $exists)".ToLower() >> $env:GITHUB_OUTPUT
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Test
+        run: dotnet test --project tests/MageQuitTranslator.Tests
+
+      - name: Build release packages
+        if: steps.meta.outputs.publish == 'true'
+        shell: pwsh
+        run: ./build/package.ps1
+
+      - name: Publish GitHub release
+        if: steps.meta.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          gh release create "${{ steps.meta.outputs.tag }}" `
+            --target "${{ github.sha }}" `
+            --title "MageQuit Translator ${{ steps.meta.outputs.version }}" `
+            --notes-file release-notes.md `
+            (Get-ChildItem dist/MageQuit-Translator-*.zip).FullName

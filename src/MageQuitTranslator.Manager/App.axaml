@@ -1,0 +1,242 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MageQuitTranslator.Manager.App"
+             RequestedThemeVariant="Dark">
+  <Application.Resources>
+    <!-- The binding, the pages, the inks. Gilt is only for the primary action and sealed lines. -->
+    <Color x:Key="BindingColor">#1B1230</Color>
+    <SolidColorBrush x:Key="Binding" Color="#1B1230" />
+    <SolidColorBrush x:Key="BindingEdge" Color="#140D25" />
+    <SolidColorBrush x:Key="Vellum" Color="#2B1D48" />
+    <SolidColorBrush x:Key="VellumRaised" Color="#36265A" />
+    <SolidColorBrush x:Key="VellumSelected" Color="#3E2C68" />
+    <SolidColorBrush x:Key="Gutter" Color="#22173A" />
+    <SolidColorBrush x:Key="Hairline" Color="#4A3A70" />
+    <SolidColorBrush x:Key="Chalk" Color="#EFE7FF" />
+    <SolidColorBrush x:Key="ChalkDim" Color="#B9ADD6" />
+    <SolidColorBrush x:Key="Pencil" Color="#A196C6" />
+    <SolidColorBrush x:Key="Gilt" Color="#E8C25A" />
+    <SolidColorBrush x:Key="GiltDeep" Color="#B8902F" />
+    <SolidColorBrush x:Key="Fire" Color="#FF6B3D" />
+    <SolidColorBrush x:Key="MenuBoard" Color="#0D0A17" />
+
+    <FontFamily x:Key="Fell">avares://MageQuit-Translator/Assets/Fonts#IM FELL English</FontFamily>
+    <FontFamily x:Key="FellSC">avares://MageQuit-Translator/Assets/Fonts#IM FELL English SC</FontFamily>
+
+    <!-- Icons: 24-unit stroke paths drawn in one weight. -->
+    <StreamGeometry x:Key="IconPlay">M7 4 L19 12 L7 20 Z</StreamGeometry>
+    <StreamGeometry x:Key="IconDownload">M12 3 V15 M7 10 L12 15 L17 10 M21 15 V19 A2 2 0 0 1 19 21 H5 A2 2 0 0 1 3 19 V15</StreamGeometry>
+    <StreamGeometry x:Key="IconTrash">M3 6 H21 M8 6 V4 A2 2 0 0 1 10 2 H14 A2 2 0 0 1 16 4 V6 M19 6 L18 20 A2 2 0 0 1 16 22 H8 A2 2 0 0 1 6 20 L5 6 M10 11 V17 M14 11 V17</StreamGeometry>
+    <StreamGeometry x:Key="IconSearch">M11 3 A8 8 0 1 0 11 19 A8 8 0 1 0 11 3 Z M21 21 L16.65 16.65</StreamGeometry>
+    <StreamGeometry x:Key="IconPlus">M12 5 V19 M5 12 H19</StreamGeometry>
+    <StreamGeometry x:Key="IconPullRequest">M6 3 A3 3 0 1 0 6 9 A3 3 0 1 0 6 3 Z M6 15 A3 3 0 1 0 6 21 A3 3 0 1 0 6 15 Z M18 15 A3 3 0 1 0 18 21 A3 3 0 1 0 18 15 Z M6 9 V15 M18 15 V9 A3 3 0 0 0 15 6 H11 M14 3 L11 6 L14 9</StreamGeometry>
+    <StreamGeometry x:Key="IconImport">M12 3 V14 M7 9 L12 14 L17 9 M4 20 H20</StreamGeometry>
+    <StreamGeometry x:Key="IconCapture">M12 3 A9 9 0 1 0 12 21 A9 9 0 1 0 12 3 Z M12 10 A2 2 0 1 0 12 14 A2 2 0 1 0 12 10 Z</StreamGeometry>
+    <StreamGeometry x:Key="IconFolder">M3 7 V18 A2 2 0 0 0 5 20 H19 A2 2 0 0 0 21 18 V9 A2 2 0 0 0 19 7 H12 L10 4 H5 A2 2 0 0 0 3 6 Z</StreamGeometry>
+    <StreamGeometry x:Key="IconCheck">M20 6 L9 17 L4 12</StreamGeometry>
+    <StreamGeometry x:Key="IconAlert">M10.3 3.9 L1.8 18 A2 2 0 0 0 3.5 21 H20.5 A2 2 0 0 0 22.2 18 L13.7 3.9 A2 2 0 0 0 10.3 3.9 Z M12 9 V13 M12 17 V17.5</StreamGeometry>
+    <StreamGeometry x:Key="IconBook">M2 4 H8 A4 4 0 0 1 12 8 V21 A3 3 0 0 0 9 18 H2 Z M22 4 H16 A4 4 0 0 0 12 8 V21 A3 3 0 0 1 15 18 H22 Z</StreamGeometry>
+    <StreamGeometry x:Key="IconSave">M5 3 H16 L21 8 V19 A2 2 0 0 1 19 21 H5 A2 2 0 0 1 3 19 V5 A2 2 0 0 1 5 3 Z M7 3 V8 H15 M7 21 V14 H17 V21</StreamGeometry>
+    <StreamGeometry x:Key="IconArrowLeft">M19 12 H5 M12 19 L5 12 L12 5</StreamGeometry>
+    <StreamGeometry x:Key="IconHistory">M3 12 A9 9 0 1 0 6 5.3 M3 4 V9 H8 M12 7 V12 L15 14</StreamGeometry>
+  </Application.Resources>
+
+  <Application.Styles>
+    <FluentTheme>
+      <FluentTheme.Palettes>
+        <ColorPaletteResources x:Key="Dark" Accent="#8F7BD0" RegionColor="#1B1230" BaseHigh="#EFE7FF"
+                               AltHigh="#1B1230" ChromeMedium="#2B1D48" ChromeLow="#22173A" />
+      </FluentTheme.Palettes>
+    </FluentTheme>
+
+    <Style Selector="Window">
+      <Setter Property="Foreground" Value="{StaticResource Chalk}" />
+    </Style>
+
+    <!-- Icon glyph: a stroked path in a 24-unit box -->
+    <Style Selector="Path.icon">
+      <Setter Property="Stroke" Value="{StaticResource ChalkDim}" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeLineCap" Value="Round" />
+      <Setter Property="StrokeJoin" Value="Round" />
+      <Setter Property="Width" Value="16" />
+      <Setter Property="Height" Value="16" />
+      <Setter Property="Stretch" Value="Uniform" />
+    </Style>
+
+    <Style Selector="Button:pointerover Path.icon">
+      <Setter Property="Stroke" Value="{StaticResource Chalk}" />
+    </Style>
+    <Style Selector="Button:disabled Path.icon">
+      <Setter Property="Stroke" Value="#5E5180" />
+    </Style>
+
+    <!-- Type -->
+    <Style Selector="TextBlock.display">
+      <Setter Property="FontFamily" Value="{StaticResource Fell}" />
+      <Setter Property="FontSize" Value="60" />
+      <Setter Property="LineHeight" Value="64" />
+    </Style>
+    <Style Selector="TextBlock.title">
+      <Setter Property="FontFamily" Value="{StaticResource Fell}" />
+      <Setter Property="FontSize" Value="30" />
+    </Style>
+    <Style Selector="TextBlock.smallcaps">
+      <Setter Property="FontFamily" Value="{StaticResource FellSC}" />
+    </Style>
+    <Style Selector="TextBlock.gloss">
+      <Setter Property="FontSize" Value="11.5" />
+      <Setter Property="Foreground" Value="{StaticResource Pencil}" />
+    </Style>
+    <Style Selector="TextBlock.margin">
+      <Setter Property="FontFamily" Value="{StaticResource Fell}" />
+      <Setter Property="FontStyle" Value="Italic" />
+      <Setter Property="FontSize" Value="15.5" />
+      <Setter Property="Foreground" Value="{StaticResource ChalkDim}" />
+    </Style>
+    <Style Selector="TextBlock.dim">
+      <Setter Property="Foreground" Value="{StaticResource ChalkDim}" />
+    </Style>
+
+    <!-- Buttons: quiet by default, gilt for the one primary action on a page -->
+    <Style Selector="Button">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="{StaticResource ChalkDim}" />
+      <Setter Property="BorderBrush" Value="{StaticResource Hairline}" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="CornerRadius" Value="3" />
+      <Setter Property="Padding" Value="12,7" />
+      <Setter Property="Cursor" Value="Hand" />
+    </Style>
+    <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="{StaticResource VellumRaised}" />
+      <Setter Property="Foreground" Value="{StaticResource Chalk}" />
+      <Setter Property="BorderBrush" Value="{StaticResource Pencil}" />
+    </Style>
+    <Style Selector="Button:pressed /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="{StaticResource VellumSelected}" />
+    </Style>
+    <Style Selector="Button:disabled /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#5E5180" />
+      <Setter Property="BorderBrush" Value="#3A2D59" />
+    </Style>
+    <Style Selector="Button.bare">
+      <Setter Property="BorderThickness" Value="0" />
+      <Setter Property="Padding" Value="8,6" />
+    </Style>
+    <Style Selector="Button.gilt">
+      <Setter Property="Background" Value="{StaticResource Gilt}" />
+      <Setter Property="Foreground" Value="#1B1230" />
+      <Setter Property="BorderBrush" Value="{StaticResource GiltDeep}" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Padding" Value="22,12" />
+      <Setter Property="FontSize" Value="16" />
+    </Style>
+    <Style Selector="Button.gilt:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="#F2D27A" />
+      <Setter Property="Foreground" Value="#1B1230" />
+      <Setter Property="BorderBrush" Value="{StaticResource Gilt}" />
+    </Style>
+    <Style Selector="Button.gilt:pressed /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="{StaticResource GiltDeep}" />
+    </Style>
+    <Style Selector="Button:focus-visible /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="BorderBrush" Value="{StaticResource Gilt}" />
+    </Style>
+
+    <!-- Fields: ink on vellum, a hairline rule instead of a box -->
+    <Style Selector="TextBox">
+      <Setter Property="Background" Value="#241839" />
+      <Setter Property="Foreground" Value="{StaticResource Chalk}" />
+      <Setter Property="BorderBrush" Value="{StaticResource Hairline}" />
+      <Setter Property="CaretBrush" Value="{StaticResource Gilt}" />
+      <Setter Property="SelectionBrush" Value="#6A4FA8" />
+      <Setter Property="SelectionForegroundBrush" Value="{StaticResource Chalk}" />
+      <Setter Property="CornerRadius" Value="3" />
+    </Style>
+    <Style Selector="TextBox:pointerover /template/ Border#PART_BorderElement">
+      <Setter Property="Background" Value="#2A1D43" />
+      <Setter Property="BorderBrush" Value="{StaticResource Pencil}" />
+    </Style>
+    <Style Selector="TextBox:focus /template/ Border#PART_BorderElement">
+      <Setter Property="Background" Value="#2A1D43" />
+      <Setter Property="BorderBrush" Value="{StaticResource Gilt}" />
+      <Setter Property="BorderThickness" Value="0,0,0,2" />
+    </Style>
+    <Style Selector="TextBox.ink">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderThickness" Value="0,0,0,1" />
+      <Setter Property="BorderBrush" Value="Transparent" />
+      <Setter Property="Padding" Value="0,6" />
+      <Setter Property="FontSize" Value="14.5" />
+      <Setter Property="TextWrapping" Value="Wrap" />
+      <Setter Property="AcceptsReturn" Value="False" />
+      <Setter Property="MinHeight" Value="0" />
+    </Style>
+    <Style Selector="TextBox.ink:pointerover /template/ Border#PART_BorderElement">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderBrush" Value="{StaticResource Hairline}" />
+    </Style>
+    <Style Selector="TextBox.ink:focus /template/ Border#PART_BorderElement">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderBrush" Value="{StaticResource Gilt}" />
+      <Setter Property="BorderThickness" Value="0,0,0,1" />
+    </Style>
+
+    <!-- Lines of the spread -->
+    <Style Selector="ListBox.spread">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Padding" Value="0" />
+    </Style>
+    <Style Selector="ListBox.spread ListBoxItem">
+      <Setter Property="Padding" Value="0" />
+      <Setter Property="Margin" Value="0" />
+      <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+    </Style>
+    <Style Selector="ListBox.spread ListBoxItem:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="#31224F" />
+    </Style>
+    <Style Selector="ListBox.spread ListBoxItem:selected /template/ ContentPresenter#PART_ContentPresenter">
+      <Setter Property="Background" Value="{StaticResource VellumSelected}" />
+    </Style>
+
+    <!-- Seal glyphs: a fixed legend never reused for anything else -->
+    <Style Selector="Ellipse.seal-empty">
+      <Setter Property="Width" Value="14" />
+      <Setter Property="Height" Value="14" />
+      <Setter Property="Stroke" Value="{StaticResource Pencil}" />
+      <Setter Property="StrokeThickness" Value="1.5" />
+    </Style>
+    <Style Selector="Rectangle.seal-draft">
+      <Setter Property="Width" Value="14" />
+      <Setter Property="Height" Value="2.5" />
+      <Setter Property="Fill" Value="{StaticResource Pencil}" />
+    </Style>
+    <Style Selector="Ellipse.seal-done">
+      <Setter Property="Width" Value="15" />
+      <Setter Property="Height" Value="15" />
+      <Setter Property="Fill" Value="{StaticResource Gilt}" />
+      <Setter Property="Stroke" Value="{StaticResource GiltDeep}" />
+      <Setter Property="StrokeThickness" Value="1.5" />
+    </Style>
+
+    <!-- Scrollbars and toggles in the book's inks -->
+    <Style Selector="ScrollBar /template/ Thumb">
+      <Setter Property="Background" Value="{StaticResource Hairline}" />
+    </Style>
+    <Style Selector="ToggleSwitch">
+      <Setter Property="Foreground" Value="{StaticResource ChalkDim}" />
+    </Style>
+    <Style Selector="ComboBox">
+      <Setter Property="Background" Value="#241839" />
+      <Setter Property="BorderBrush" Value="{StaticResource Hairline}" />
+      <Setter Property="CornerRadius" Value="3" />
+    </Style>
+    <Style Selector="ToolTip">
+      <Setter Property="Background" Value="{StaticResource VellumRaised}" />
+      <Setter Property="Foreground" Value="{StaticResource Chalk}" />
+      <Setter Property="BorderBrush" Value="{StaticResource Hairline}" />
+    </Style>
+  </Application.Styles>
+</Application>

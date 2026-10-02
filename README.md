@@ -1,67 +1,71 @@
-# MageQuit på dansk
+# MageQuit Translator
 
-Dansk oversættelse af [MageQuit](https://store.steampowered.com/app/572220/MageQuit/) — menuer, besværgelser, beskrivelser og knapper.
-Inkluderer et lille program, der installerer, slår til/fra, afinstallerer og lader dig rette oversættelserne.
+Play [MageQuit](https://store.steampowered.com/app/572220/MageQuit/) in your own language: menus, spell descriptions, tips and the menu art. The companion app installs the translation, switches between languages, and removes everything again, restoring the game byte for byte.
 
-## Installation
+Anyone can add a language. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-1. Hent `MageQuit-DA-<version>-win-x64.zip` (eller `linux-x64`) og pak den ud hvor som helst.
-2. Start `MageQuit-DA.exe`. Programmet finder selv spillet via Steam (ellers: **Vælg…**).
-3. Klik **Installér dansk**, og start spillet.
+| Language | Folder | State |
+|---|---|---|
+| Dansk (Danish) | [`translation/da`](translation/da) | Complete first draft, being reviewed |
 
-**Afinstallér** fjerner alt igen, og spillets filer bliver gendannet byte for byte.
-**Slå dansk fra** lader mod'et blive liggende, men spillet kører på engelsk.
+*Unofficial fan project. MageQuit is © Bowlcut Studios.*
 
-**Steam Deck/Linux:** Sæt startindstillingen `WINEDLLOVERRIDES="winhttp=n,b" %command%` på MageQuit i Steam (programmet viser den med en kopiknap).
+## Install
 
-## Ret oversættelser
+1. Download `MageQuit-Translator-<version>-win-x64.zip` (or `linux-x64`) from [Releases](../../releases) and unzip it anywhere.
+2. Run `MageQuit-Translator.exe`. It finds MageQuit through Steam; if it doesn't, choose the folder that holds `MageQuit.exe`.
+3. Choose **Install the translator**, pick your language's ribbon, and press **Play**.
 
-- Fanen **Tekster** viser alle tekster. Ret i kolonnen *Dansk* eller i panelet til højre, og tryk **Gem** (Ctrl+S).
-- Mens spillet kører, genindlæser **Alt+R** teksterne med det samme. **Alt+T** skifter mellem dansk og engelsk.
-- Fanen **Knapper** viser de menupunkter, der er billeder i spillet (Sofa, Garderobe, SPIL …). De tegnes med spillets egen skrifttype, men kræver genstart af spillet.
-- Status: *Mangler*, *Udkast* (første oversættelse, ikke gennemlæst) eller *Godkendt*.
-- Mangler der en tekst? Slå **Opfang i spillet** til, spil lidt, og klik **Importér opfangede**.
-- **Eksportér…/Importér fil…** deler dine rettelser med andre. Dine egne rettelser overlever opdateringer af mod'et.
-- **F11** i spillet gemmer et skærmbillede i `BepInEx/MageQuit-DA/screenshots`.
+- **Change language:** pick another ribbon and press Play. **English** turns the translation off.
+- **Uninstall:** the bin icon at the top right. Every game file is restored to the original.
+- **Steam Deck / Linux:** set `WINEDLLOVERRIDES="winhttp=n,b" %command%` as MageQuit's launch option in Steam. The app shows it with a copy button.
+- **In game:** Alt+T switches between translated and original text, Alt+R reloads translations, and F11 saves a screenshot to `BepInEx/MageQuit-Translator/screenshots`.
+
+Upgrading from 0.1.0 (MageQuit-DA)? Uninstall it with its own app first.
 
 ---
 
-## How it works (developer notes)
+## How it works
 
-MageQuit is Unity 2018.4 (Mono) with all English text hardcoded: about 1,400 UGUI `Text` components in scenes and prefabs, string literals in `Assembly-CSharp.dll`, and 11 menu labels that are images.
+MageQuit is Unity 2018.4 (Mono), and all of its English text is hardcoded. There are about 1,400 UGUI `Text` components in scenes and prefabs, string literals in `Assembly-CSharp.dll`, and 11 menu words drawn as images.
 
 | Piece | What it does |
 |---|---|
-| [BepInEx 5](https://github.com/BepInEx/BepInEx) | Mod loader, injected via `winhttp.dll` (no game code modified) |
-| [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) | Replaces text at runtime from `BepInEx/Translation/da/Text/MageQuit.txt`, and the label images from `…/Texture/` |
-| `src/MageQuitDA.Plugin` | Small BepInEx plugin: *capture mode* (records every UI string with scene/path/font to `captured.tsv`) and the F11 screenshot key |
-| Font patch | `MageQuit-Body` and `MageQuitHeaderThin` have no Æ Ø Å. `tools/fonts` composes the letters from each font's own glyphs (A+E, O+/, A+ring). The installer appends the patched `Font` object to the asset file and repoints the object table entry. Reverting restores the entry and truncates, which gives the exact original bytes. Only a delta is shipped, not the game's fonts. |
-| `src/MageQuitDA.Core` | Install/uninstall with a manifest (`BepInEx/MageQuit-DA/manifest.json`), font patcher, translation store → XUnity format, label renderer (SkiaSharp, using the patched game font) |
-| `src/MageQuitDA.Manager` | Avalonia GUI + CLI (`--install`, `--uninstall`, `--enable`, `--disable`, `--status`) |
+| [BepInEx 5](https://github.com/BepInEx/BepInEx) | Mod loader, injected via `winhttp.dll`. No game code is modified. |
+| [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) | Replaces text at runtime from `BepInEx/Translation/<code>/Text/MageQuit.txt`, and the menu art from `…/Texture/`. |
+| `src/MageQuitTranslator.Plugin` | Small BepInEx plugin. *Capture mode* records every UI string with its scene, path and font to `captured.tsv`; F11 takes screenshots. |
+| Font patch | `MageQuit-Body` and `MageQuitHeaderThin` lack accented letters. `tools/fonts/build_glyphs.py` composes À–ÿ from each font's own glyphs: Æ = A+E, Ø = O+/, rings and accents from the font's punctuation. The installer appends the patched `Font` object to the asset file and repoints its entry in the object table. Reverting restores the entry and truncates the file, which gives the exact original bytes. Only a delta ships, not the game's fonts. `fonts.json` lists which characters each game font can show. |
+| `src/MageQuitTranslator.Core` | Install, update and uninstall via a manifest; language packs; font patcher; XUnity export; label renderer (SkiaSharp, drawing in the patched game font). |
+| `src/MageQuitTranslator.Manager` | The app: Avalonia GUI plus a CLI (`--install`, `--uninstall`, `--language <code\|off>`, `--status`). |
 
-The canonical translation is `translation/strings.json` (plus `labels.json`). Users' working copies live in the game folder and are merged on update (entries they edited win).
+Each player's working copies live in `BepInEx/MageQuit-Translator/languages/<code>/`. On update they are merged with the shipped versions, and lines the player edited win.
 
-### Rebuilding the string list
+### Building
+
+```powershell
+./build/package.ps1                          # plugin + payload + single-file app for win-x64 and linux-x64 → dist/
+./build/package.ps1 -StageOnly               # just dist/payload, enough to run the app from source
+dotnet test --project tests/MageQuitTranslator.Tests
+```
+
+Everything builds without the game installed. The plugin's Unity references come from the BepInEx NuGet feed (`nuget.config`).
+
+### Rebuilding the string list (needs the game)
 
 ```sh
 pip install UnityPy TypeTreeGeneratorAPI fonttools pillow
 ilspycmd -p -o decomp "<game>/MageQuit_Data/Managed/Assembly-CSharp.dll"
 python tools/extract/extract_assets.py "<game>" assets.json   # UI Text/TMP + Spell.description etc.
 python tools/extract/extract_code.py decomp code.json         # string literals + enum display names
-python tools/extract/build_candidates.py assets.json code.json translation/strings.json
-python tools/translate/draft_da.py translation/strings.json   # draft translations, regexes, drops
-python tools/fonts/make_font_patch.py build "<game>" payload/game/BepInEx/MageQuit-DA/fontpatch.json
+python tools/extract/build_candidates.py assets.json code.json translation   # adds new strings to every language
+python tools/fonts/make_font_patch.py build "<game>" payload/game/BepInEx/MageQuit-Translator/fontpatch.json
+python tools/fonts/font_coverage.py "<game>" payload/game/BepInEx/MageQuit-Translator/fonts.json
 ```
 
-### Building a release
+### Releasing
 
-```powershell
-./build/package.ps1            # plugin + payload.zip + single-file Manager for win-x64 and linux-x64 → dist/
-dotnet test --project tests/MageQuitDA.Tests
-```
-
-The plugin build references the game's `Managed` DLLs from the local install (`-GameDir`); they are never committed.
+Bump `VERSION`, add a `## [x.y.z]` section to [CHANGELOG.md](CHANGELOG.md), and push to `prod`. The release workflow then builds both platforms and publishes a GitHub release with that changelog section as its notes. Pushes that don't bump the version only build and test.
 
 ### Licenses
 
-The mod is MIT. Bundled: BepInEx (LGPL-2.1) and XUnity.AutoTranslator (MIT); their licenses are installed to `BepInEx/MageQuit-DA/licenses`. MageQuit is © Bowlcut Studios; this is an unofficial fan translation.
+The project is MIT. It bundles BepInEx (LGPL-2.1) and XUnity.AutoTranslator (MIT), whose licenses are installed to `BepInEx/MageQuit-Translator/licenses`, and IM FELL English by Igino Marini (SIL OFL, `src/MageQuitTranslator.Manager/Assets/Fonts/OFL.txt`).

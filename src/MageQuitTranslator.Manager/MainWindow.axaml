@@ -1,0 +1,472 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:MageQuitTranslator.Manager"
+        x:Class="MageQuitTranslator.Manager.MainWindow"
+        x:DataType="local:MainViewModel"
+        Title="{Binding Title}"
+        Width="1280" Height="820" MinWidth="1040" MinHeight="640"
+        Background="{StaticResource Binding}"
+        WindowStartupLocation="CenterScreen">
+
+  <Window.Resources>
+    <!-- The spine: a soft fold between the facing pages instead of a flat rule -->
+    <LinearGradientBrush x:Key="Spine" StartPoint="0%,50%" EndPoint="100%,50%">
+      <GradientStop Offset="0" Color="#002B1D48" />
+      <GradientStop Offset="0.42" Color="#B01A1030" />
+      <GradientStop Offset="0.5" Color="#FF150D27" />
+      <GradientStop Offset="0.58" Color="#B01A1030" />
+      <GradientStop Offset="1" Color="#002B1D48" />
+    </LinearGradientBrush>
+  </Window.Resources>
+
+  <Grid RowDefinitions="Auto,*,Auto">
+
+    <!-- Binding bar: the book's spine label, the two ways in, and the install state as one line -->
+    <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Margin="28,14,24,6">
+      <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+        <TextBlock Classes="smallcaps" Text="MageQuit Translator" FontSize="22" Foreground="{StaticResource Chalk}" />
+        <TextBlock Text="{Binding AppVersion}" Classes="gloss" VerticalAlignment="Bottom" Margin="0,0,0,4" />
+      </StackPanel>
+
+      <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="4" IsVisible="{Binding IsInstalled}">
+        <Button Classes="bare" Click="OnHome">
+          <StackPanel Spacing="3">
+            <TextBlock Classes="smallcaps" Text="Play" FontSize="17" HorizontalAlignment="Center" />
+            <Panel Height="1.5">
+              <Rectangle Fill="{StaticResource Chalk}" IsVisible="{Binding IsHome}" />
+            </Panel>
+          </StackPanel>
+        </Button>
+        <Button Classes="bare" Click="OnTranslate" IsEnabled="{Binding CanTranslate}">
+          <StackPanel Spacing="3">
+            <TextBlock Classes="smallcaps" Text="Translate" FontSize="17" HorizontalAlignment="Center" />
+            <Panel Height="1.5">
+              <Rectangle Fill="{StaticResource Chalk}" IsVisible="{Binding IsSpread}" />
+            </Panel>
+          </StackPanel>
+        </Button>
+      </StackPanel>
+
+      <StackPanel Grid.Column="2" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+        <TextBlock Text="{Binding InstallLine}" Classes="dim" FontSize="12.5" VerticalAlignment="Center" Margin="0,0,6,0" />
+        <Button Classes="bare" Click="OnBrowse" ToolTip.Tip="Choose the MageQuit folder">
+          <Path Classes="icon" Data="{StaticResource IconFolder}" />
+        </Button>
+        <Button Classes="bare" Click="OnInstall" IsVisible="{Binding IsInstalled}" IsEnabled="{Binding NotBusy}"
+                ToolTip.Tip="Reinstall or update the translator, keeping your edits">
+          <Path Classes="icon" Data="{StaticResource IconDownload}" />
+        </Button>
+        <Button Classes="bare" Click="OnUninstall" IsVisible="{Binding IsInstalled}" IsEnabled="{Binding NotBusy}"
+                ToolTip.Tip="Uninstall and restore the game's original files">
+          <Path Classes="icon" Data="{StaticResource IconTrash}" />
+        </Button>
+        <Button Classes="bare" Click="OnHistory" ToolTip.Tip="History of what the app has done">
+          <Path Classes="icon" Data="{StaticResource IconHistory}" />
+          <FlyoutBase.AttachedFlyout>
+            <Flyout Placement="BottomEdgeAlignedRight">
+              <ListBox ItemsSource="{Binding Log}" MaxHeight="320" Width="560" Background="Transparent">
+                <ListBox.ItemTemplate>
+                  <DataTemplate x:DataType="local:LogLine">
+                    <TextBlock Text="{Binding Text}" TextWrapping="Wrap" FontSize="12.5" />
+                  </DataTemplate>
+                </ListBox.ItemTemplate>
+              </ListBox>
+            </Flyout>
+          </FlyoutBase.AttachedFlyout>
+        </Button>
+      </StackPanel>
+    </Grid>
+
+    <Grid Grid.Row="1" ColumnDefinitions="232,*,Auto" Margin="0,8,0,0">
+
+      <!-- Ribbon bookmarks: one per language, hanging from the book's edge, swallowtail at the free end -->
+      <DockPanel Grid.Column="0" Margin="0,24,0,16" IsVisible="{Binding IsInstalled}">
+        <Button DockPanel.Dock="Bottom" Classes="bare" Margin="20,12,0,0" Click="OnNewLanguage"
+                HorizontalAlignment="Left" IsEnabled="{Binding NotBusy}">
+          <StackPanel Orientation="Horizontal" Spacing="8">
+            <Path Classes="icon" Data="{StaticResource IconPlus}" />
+            <TextBlock Text="New language" />
+          </StackPanel>
+        </Button>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+          <ItemsControl ItemsSource="{Binding Ribbons}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="local:Ribbon">
+                <Button Classes="bare" Padding="0" Margin="0,0,0,8" HorizontalAlignment="Right" Click="OnRibbon"
+                        CornerRadius="0" Background="Transparent">
+                  <Grid Width="{Binding Width}" Height="58">
+                    <Path HorizontalAlignment="Left" Width="16" Height="58" Stretch="Fill" Fill="{Binding Colour}"
+                          Data="M16,0 L0,0 L10,29 L0,58 L16,58 Z" />
+                    <Border Background="{Binding Colour}" Margin="16,0,0,0" />
+                    <StackPanel Margin="26,0,14,0" VerticalAlignment="Center" Spacing="1">
+                      <StackPanel Orientation="Horizontal" Spacing="8">
+                        <TextBlock Text="{Binding NativeName}" FontFamily="{StaticResource Fell}" FontSize="21"
+                                   Foreground="{StaticResource Chalk}" />
+                        <Ellipse Width="7" Height="7" Fill="{StaticResource Chalk}" VerticalAlignment="Center"
+                                 IsVisible="{Binding IsActive}" ToolTip.Tip="The game is set to this language" />
+                      </StackPanel>
+                      <TextBlock Text="{Binding ProgressText}" FontSize="11.5" Foreground="{StaticResource Chalk}" />
+                    </StackPanel>
+                  </Grid>
+                </Button>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+        </ScrollViewer>
+      </DockPanel>
+
+      <!-- The book -->
+      <Border Grid.Column="1" Background="{StaticResource Vellum}" CornerRadius="4" Margin="{Binding BookMargin}"
+              BoxShadow="0 10 28 0 #A0070312, 0 2 4 0 #60070312" ClipToBounds="True">
+        <Grid>
+
+          <!-- ======== Not found / not installed: the title page ======== -->
+          <Grid ColumnDefinitions="*,36,*" IsVisible="{Binding !IsInstalled}">
+            <StackPanel Grid.Column="0" Margin="56,60,40,40" Spacing="18" VerticalAlignment="Center">
+              <TextBlock Classes="display" Text="MageQuit, in your language" TextWrapping="Wrap" />
+              <TextBlock Classes="dim" FontSize="15" TextWrapping="Wrap" MaxWidth="460" LineHeight="23"
+                         Text="This puts MageQuit's menus, spell descriptions and menu art into other languages. It changes nothing it cannot undo: uninstalling restores every game file byte for byte." />
+              <StackPanel IsVisible="{Binding NeedsInstall}" Spacing="10" Margin="0,8,0,0">
+                <Button Classes="gilt" Click="OnInstall" IsEnabled="{Binding NotBusy}" HorizontalAlignment="Left">
+                  <StackPanel Orientation="Horizontal" Spacing="10">
+                    <Path Classes="icon" Data="{StaticResource IconDownload}" Stroke="#1B1230" />
+                    <TextBlock Text="Install the translator" />
+                  </StackPanel>
+                </Button>
+                <TextBlock Classes="gloss" Text="{Binding GameDir}" />
+              </StackPanel>
+              <StackPanel IsVisible="{Binding !HasGame}" Spacing="10" Margin="0,8,0,0">
+                <Button Classes="gilt" Click="OnBrowse" HorizontalAlignment="Left">
+                  <StackPanel Orientation="Horizontal" Spacing="10">
+                    <Path Classes="icon" Data="{StaticResource IconFolder}" Stroke="#1B1230" />
+                    <TextBlock Text="Find MageQuit" />
+                  </StackPanel>
+                </Button>
+                <TextBlock Classes="gloss" TextWrapping="Wrap"
+                           Text="Choose the folder that contains MageQuit.exe, usually steamapps\common\MageQuit." />
+              </StackPanel>
+            </StackPanel>
+            <Rectangle Grid.Column="1" Fill="{StaticResource Spine}" />
+            <local:MenuBoard Grid.Column="2" />
+          </Grid>
+
+          <!-- ======== Home: the frontispiece. The game's menu owns the right page; Play sits under its words ======== -->
+          <Grid ColumnDefinitions="*,36,*">
+            <Grid.IsVisible>
+              <MultiBinding Converter="{x:Static BoolConverters.And}">
+                <Binding Path="IsInstalled" />
+                <Binding Path="IsHome" />
+              </MultiBinding>
+            </Grid.IsVisible>
+            <StackPanel Grid.Column="0" Margin="56,0,40,0" Spacing="6" VerticalAlignment="Center">
+              <TextBlock Classes="display" Text="{Binding Current.NativeName, FallbackValue=''}" FontSize="76" LineHeight="80" />
+              <TextBlock Classes="dim" FontSize="16" Text="{Binding Current.Name, FallbackValue=''}" />
+              <TextBlock Classes="margin" Margin="0,4,0,0" Text="{Binding CurrentProgress}" />
+              <Button Margin="0,30,0,0" Click="OnTranslate" IsVisible="{Binding CanTranslate}" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Path Classes="icon" Data="{StaticResource IconBook}" />
+                  <TextBlock Text="Open the book and translate" />
+                </StackPanel>
+              </Button>
+              <Border IsVisible="{Binding ShowLinuxHint}" Margin="0,22,0,0" Padding="12,10" CornerRadius="3"
+                      BorderBrush="{StaticResource Hairline}" BorderThickness="1" HorizontalAlignment="Left">
+                <StackPanel Spacing="6">
+                  <TextBlock Classes="dim" FontSize="12.5" TextWrapping="Wrap" MaxWidth="400"
+                             Text="Steam Deck and Linux: set this as MageQuit's launch option in Steam (Properties, Launch options)." />
+                  <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox Text="{Binding LinuxLaunchOption}" IsReadOnly="True" MinWidth="300" FontSize="12" />
+                    <Button Content="Copy" Click="OnCopyLaunchOption" />
+                  </StackPanel>
+                </StackPanel>
+              </Border>
+            </StackPanel>
+            <Rectangle Grid.Column="1" Fill="{StaticResource Spine}" />
+            <Border Grid.Column="2" Background="{StaticResource MenuBoard}">
+              <StackPanel VerticalAlignment="Center" Margin="56,0,40,0" Spacing="0">
+                <ItemsControl ItemsSource="{Binding FlipWords}">
+                  <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="local:FlipWord">
+                      <Panel Height="70">
+                        <Image Source="{Binding Image}" IsVisible="{Binding HasImage}" Height="50" Stretch="Uniform"
+                               HorizontalAlignment="Left" VerticalAlignment="Center" />
+                        <TextBlock Text="{Binding Display}" IsVisible="{Binding !HasImage}" FontFamily="{StaticResource Fell}"
+                                   FontSize="50" VerticalAlignment="Center" Foreground="{StaticResource Chalk}" />
+                      </Panel>
+                    </DataTemplate>
+                  </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Classes="gilt" Margin="0,30,0,0" Click="OnPlay" IsEnabled="{Binding NotBusy}" HorizontalAlignment="Left">
+                  <StackPanel Orientation="Horizontal" Spacing="10">
+                    <Path Classes="icon" Data="{StaticResource IconPlay}" Stroke="#1B1230" Fill="#1B1230" />
+                    <TextBlock Text="{Binding PlayLabel}" />
+                  </StackPanel>
+                </Button>
+                <TextBlock Margin="0,10,0,0" FontSize="12.5" TextWrapping="Wrap" MaxWidth="380" Foreground="{StaticResource ChalkDim}"
+                           Text="{Binding PlayHint}" />
+              </StackPanel>
+            </Border>
+          </Grid>
+
+          <!-- ======== Translate: the facing-page spread ======== -->
+          <Grid RowDefinitions="Auto,*,Auto">
+            <Grid.IsVisible>
+              <MultiBinding Converter="{x:Static BoolConverters.And}">
+                <Binding Path="IsInstalled" />
+                <Binding Path="IsSpread" />
+              </MultiBinding>
+            </Grid.IsVisible>
+
+            <!-- Running head: chapter and tools -->
+            <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="40,22,28,12">
+              <StackPanel Spacing="2">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                  <TextBlock Classes="title" Text="{Binding CurrentChapter.Title, FallbackValue=''}" FontSize="32" />
+                  <TextBlock Classes="margin" VerticalAlignment="Bottom" Margin="0,0,0,6"
+                             Text="{Binding Current.NativeName, StringFormat='in {0}', FallbackValue=''}" />
+                </StackPanel>
+                <TextBlock Classes="dim" FontSize="12.5" Text="{Binding CurrentChapter.Blurb, FallbackValue=''}" Margin="0,0,16,0" TextWrapping="Wrap" />
+              </StackPanel>
+              <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                <Grid>
+                  <TextBox x:Name="SearchBox" Text="{Binding Search}" PlaceholderText="Search all chapters" Width="210"
+                           Padding="30,6,8,6" />
+                  <Path Classes="icon" Data="{StaticResource IconSearch}" Stroke="{StaticResource Pencil}" Width="14" Height="14"
+                        HorizontalAlignment="Left" Margin="10,0,0,0" IsHitTestVisible="False" />
+                </Grid>
+                <ComboBox ItemsSource="{Binding Filters}" SelectedItem="{Binding Filter}" Width="150" />
+                <Button Click="OnSave" ToolTip.Tip="Save (Ctrl+S)">
+                  <StackPanel Orientation="Horizontal" Spacing="7">
+                    <Path Classes="icon" Data="{StaticResource IconSave}" />
+                    <TextBlock Text="Save" />
+                  </StackPanel>
+                </Button>
+                <Button Click="OnExport" ToolTip.Tip="Write this language as a folder for a pull request on GitHub">
+                  <StackPanel Orientation="Horizontal" Spacing="7">
+                    <Path Classes="icon" Data="{StaticResource IconPullRequest}" />
+                    <TextBlock Text="Export" />
+                  </StackPanel>
+                </Button>
+              </StackPanel>
+            </Grid>
+
+            <!-- Facing pages: verso English, recto translation, aligned line by line -->
+            <Grid Grid.Row="1" IsVisible="{Binding IsTextChapter}">
+              <Grid ColumnDefinitions="40,*,36,*,56" IsHitTestVisible="False">
+                <Rectangle Grid.Column="2" Fill="{StaticResource Spine}" />
+              </Grid>
+              <ListBox x:Name="Lines" Classes="spread" ItemsSource="{Binding Entries}" SelectedItem="{Binding Selected}">
+                <ListBox.ItemTemplate>
+                  <DataTemplate x:DataType="local:EntryViewModel">
+                    <Grid ColumnDefinitions="*,36,*,56" RowDefinitions="Auto,Auto" Margin="40,0,0,0">
+                      <StackPanel Grid.Column="0" Margin="0,9,0,9" Spacing="1">
+                        <SelectableTextBlock Text="{Binding En}" TextWrapping="Wrap" FontSize="14.5" Foreground="{StaticResource Chalk}" />
+                        <TextBlock Text="{Binding Gloss}" Classes="margin" FontSize="14.5" TextTrimming="CharacterEllipsis" />
+                      </StackPanel>
+                      <StackPanel Grid.Column="2" Margin="0,3,0,7" Spacing="2">
+                        <TextBox Classes="ink" Text="{Binding Text}" PlaceholderText="Translate this line" />
+                        <Rectangle Height="1.5" HorizontalAlignment="Left" Width="{Binding BudgetWidth}" Fill="{Binding BudgetInk}"
+                                   ToolTip.Tip="Length compared to the English. The mark is half its full width at the same length." />
+                      </StackPanel>
+                      <!-- the seal, at the outer margin -->
+                      <Button Grid.Column="3" Classes="bare" Click="OnSeal" ToolTip.Tip="{Binding SealTip}"
+                              HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,9,0,0" Padding="8">
+                        <Grid>
+                          <Ellipse Classes="seal-empty" IsVisible="{Binding IsUnsealed}" />
+                          <Rectangle Classes="seal-draft" IsVisible="{Binding IsDraft}" />
+                          <Ellipse Classes="seal-done" IsVisible="{Binding IsSealed}" />
+                        </Grid>
+                      </Button>
+
+                      <!-- marginalia for the selected line -->
+                      <Border Grid.Row="1" Grid.ColumnSpan="4" Margin="0,0,40,14" Padding="0,10,0,0"
+                              BorderBrush="{StaticResource Hairline}" BorderThickness="0,1,0,0"
+                              IsVisible="{Binding $parent[ListBoxItem].IsSelected}">
+                        <Grid ColumnDefinitions="*,36,*">
+                          <StackPanel Grid.Column="0" Spacing="6">
+                            <TextBlock Text="{Binding KindText}" Classes="dim" FontSize="12.5" TextWrapping="Wrap" IsVisible="{Binding IsPattern}" />
+                            <TextBlock Text="{Binding Context}" Classes="margin" TextWrapping="Wrap" />
+                            <TextBlock Classes="margin" FontSize="14.5" Text="{Binding FontsText, StringFormat='set in {0}'}" />
+                          </StackPanel>
+                          <StackPanel Grid.Column="2" Spacing="8">
+                            <ItemsControl ItemsSource="{Binding Warnings}">
+                              <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="x:String">
+                                  <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,0,0,4">
+                                    <Path Classes="icon" Data="{StaticResource IconAlert}" Stroke="{StaticResource Fire}" Width="14" Height="14" VerticalAlignment="Top" Margin="0,2,0,0" />
+                                    <TextBlock Text="{Binding}" Foreground="#FFC2AD" FontSize="12.5" TextWrapping="Wrap" MaxWidth="420" />
+                                  </StackPanel>
+                                </DataTemplate>
+                              </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                            <!-- proof: the line re-printed with letters the game font lacks marked -->
+                            <ItemsControl ItemsSource="{Binding Proof}" IsVisible="{Binding Missing, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
+                              <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate>
+                              </ItemsControl.ItemsPanel>
+                              <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="local:ProofSegment">
+                                  <TextBlock Text="{Binding Text}" Foreground="{Binding Ink}" TextDecorations="{Binding Decorations}" FontSize="15" />
+                                </DataTemplate>
+                              </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                            <TextBox Text="{Binding Note}" PlaceholderText="Note for other translators" AcceptsReturn="True"
+                                     TextWrapping="Wrap" FontSize="12.5" MinHeight="34" />
+                          </StackPanel>
+                        </Grid>
+                      </Border>
+                    </Grid>
+                  </DataTemplate>
+                </ListBox.ItemTemplate>
+              </ListBox>
+            </Grid>
+
+            <!-- Menu art: facing pages too. The original art on the verso, the translated art and its word on the recto -->
+            <Grid Grid.Row="1" IsVisible="{Binding IsLabelChapter}">
+              <Grid ColumnDefinitions="40,*,36,*,56" IsHitTestVisible="False">
+                <Rectangle Grid.Column="2" Fill="{StaticResource Spine}" />
+              </Grid>
+              <ScrollViewer>
+                <ItemsControl ItemsSource="{Binding Labels}">
+                  <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="local:LabelViewModel">
+                      <Grid ColumnDefinitions="*,36,*,56" Margin="40,6,0,18">
+                        <StackPanel Grid.Column="0" Spacing="4">
+                          <Border Background="{StaticResource MenuBoard}" Height="72" Padding="16,12" HorizontalAlignment="Left" MinWidth="200">
+                            <Image Source="{Binding EnglishPreview}" Stretch="Uniform" HorizontalAlignment="Left" />
+                          </Border>
+                          <TextBlock Classes="margin" FontSize="14.5" Text="{Binding Size, StringFormat='{}{0} px image in the game'}" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Spacing="6">
+                          <Border Background="{StaticResource MenuBoard}" Height="72" Padding="16,12" HorizontalAlignment="Left" MinWidth="200">
+                            <Image Source="{Binding Preview}" Stretch="Uniform" HorizontalAlignment="Left" />
+                          </Border>
+                          <TextBox Text="{Binding Text}" PlaceholderText="Word on the button" MaxWidth="320" HorizontalAlignment="Left" MinWidth="200" />
+                          <TextBlock IsVisible="{Binding HasMissing}" Foreground="#FFC2AD" FontSize="12" TextWrapping="Wrap"
+                                     Text="{Binding Missing, StringFormat='The game font cannot draw: {0}'}" />
+                        </StackPanel>
+                        <Button Grid.Column="3" Classes="bare" Click="OnSealLabel" VerticalAlignment="Top" HorizontalAlignment="Center"
+                                Margin="0,26,0,0" Padding="8" ToolTip.Tip="Seal when the picture reads right">
+                          <Grid>
+                            <Ellipse Classes="seal-empty" IsVisible="{Binding IsUnsealed}" />
+                            <Rectangle Classes="seal-draft" IsVisible="{Binding IsDraft}" />
+                            <Ellipse Classes="seal-done" IsVisible="{Binding IsSealed}" />
+                          </Grid>
+                        </Button>
+                      </Grid>
+                    </DataTemplate>
+                  </ItemsControl.ItemTemplate>
+                </ItemsControl>
+              </ScrollViewer>
+            </Grid>
+
+            <!-- Foot of the page -->
+            <Grid Grid.Row="2" ColumnDefinitions="*,Auto" Margin="40,10,28,14">
+              <StackPanel Spacing="2" VerticalAlignment="Center">
+                <TextBlock Text="{Binding SpreadProgress}" Classes="dim" FontSize="12.5" />
+                <TextBlock Classes="gloss" Text="Ctrl+Enter seals and moves on · Ctrl+S saves · Alt+R in the game reloads text" />
+              </StackPanel>
+              <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                <ToggleSwitch IsChecked="{Binding CaptureEnabled}" OnContent="Capturing" OffContent="Capture off" FontSize="12"
+                              ToolTip.Tip="While on, the game records every line it shows so missing ones can be imported" />
+                <Button Click="OnImportCaptured" ToolTip.Tip="Add lines the game showed that are not in the book yet">
+                  <StackPanel Orientation="Horizontal" Spacing="7">
+                    <Path Classes="icon" Data="{StaticResource IconImport}" />
+                    <TextBlock Text="Import captured lines" />
+                  </StackPanel>
+                </Button>
+              </StackPanel>
+            </Grid>
+          </Grid>
+
+          <!-- ======== New language ======== -->
+          <Grid ColumnDefinitions="*,36,*" IsVisible="{Binding IsNewLanguage}">
+            <StackPanel Grid.Column="0" Margin="56,48,40,40" Spacing="14" VerticalAlignment="Top">
+              <TextBlock Classes="display" Text="Begin a new language" FontSize="48" LineHeight="52" TextWrapping="Wrap" />
+              <TextBlock Classes="dim" FontSize="14" TextWrapping="Wrap" MaxWidth="440"
+                         Text="You get every line of the game to translate, with the same chapters, context and warnings." />
+              <Grid ColumnDefinitions="150,280" RowDefinitions="Auto,Auto,Auto,Auto" Margin="0,10,0,0" HorizontalAlignment="Left">
+                <TextBlock Text="Language code" VerticalAlignment="Center" Classes="dim" />
+                <TextBox Grid.Column="1" Text="{Binding NewCode}" PlaceholderText="de, sv, es, pt-BR" Margin="0,4" />
+                <TextBlock Grid.Row="1" Text="Name in English" VerticalAlignment="Center" Classes="dim" />
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NewName}" PlaceholderText="German" Margin="0,4" />
+                <TextBlock Grid.Row="2" Text="Its own name" VerticalAlignment="Center" Classes="dim" />
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding NewNative}" PlaceholderText="Deutsch" Margin="0,4" />
+                <TextBlock Grid.Row="3" Text="Take the line list from" VerticalAlignment="Center" Classes="dim" TextWrapping="Wrap" />
+                <ComboBox Grid.Row="3" Grid.Column="1" ItemsSource="{Binding Templates}" SelectedItem="{Binding NewTemplate}"
+                          Margin="0,4" HorizontalAlignment="Stretch"
+                          ToolTip.Tip="Only the English lines and their context are taken, never the translations">
+                  <ComboBox.ItemTemplate>
+                    <DataTemplate x:DataType="local:Ribbon">
+                      <TextBlock Text="{Binding NativeName}" />
+                    </DataTemplate>
+                  </ComboBox.ItemTemplate>
+                </ComboBox>
+              </Grid>
+              <TextBlock Text="{Binding NewError}" Foreground="#FFC2AD" FontSize="12.5" TextWrapping="Wrap"
+                         IsVisible="{Binding NewError, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+              <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+                <Button Classes="gilt" Click="OnCreateLanguage" Content="Create language" />
+                <Button Click="OnHome" Content="Cancel" VerticalAlignment="Center" />
+              </StackPanel>
+            </StackPanel>
+            <Rectangle Grid.Column="1" Fill="{StaticResource Spine}" />
+            <StackPanel Grid.Column="2" Margin="40,56,56,40" Spacing="16" VerticalAlignment="Top">
+              <TextBlock Classes="title" Text="Sharing it with everyone" />
+              <TextBlock Classes="dim" FontSize="14" LineHeight="22" TextWrapping="Wrap"
+                         Text="1.  Translate in the book. The new language starts with every English line and none of the template's translations. Seal each line when you are happy with it." />
+              <TextBlock Classes="dim" FontSize="14" LineHeight="22" TextWrapping="Wrap"
+                         Text="2.  Choose Export. You get a folder named after the language code, holding language.json, strings.json and labels.json." />
+              <TextBlock Classes="dim" FontSize="14" LineHeight="22" TextWrapping="Wrap"
+                         Text="3.  Fork the project on GitHub, put the folder in translation/, and open a pull request. The next release ships it to every player." />
+              <Button Click="OnOpenRepo" HorizontalAlignment="Left" Margin="0,6,0,0">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Path Classes="icon" Data="{StaticResource IconPullRequest}" />
+                  <TextBlock Text="Open the project on GitHub" />
+                </StackPanel>
+              </Button>
+            </StackPanel>
+          </Grid>
+        </Grid>
+      </Border>
+
+      <!-- Thumb index: ink tabs cut into the book's outer edge, sized by extent, gilt for what is sealed -->
+      <ItemsControl Grid.Column="2" ItemsSource="{Binding Chapters}" Margin="0,22,0,24">
+        <ItemsControl.IsVisible>
+          <MultiBinding Converter="{x:Static BoolConverters.And}">
+            <Binding Path="IsInstalled" />
+            <Binding Path="IsSpread" />
+          </MultiBinding>
+        </ItemsControl.IsVisible>
+        <ItemsControl.ItemsPanel>
+          <ItemsPanelTemplate>
+            <local:WeightedStackPanel Spacing="4" MinItemHeight="46" />
+          </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+          <DataTemplate x:DataType="local:Chapter">
+            <Button Classes="bare" Padding="0" Click="OnChapter" CornerRadius="0" HorizontalAlignment="Left"
+                    VerticalAlignment="Stretch">
+              <Border Width="{Binding TabWidth}" CornerRadius="0,5,5,0" Background="{Binding Ink}">
+                <Grid RowDefinitions="*,Auto" Margin="14,7,10,8">
+                  <StackPanel Spacing="0">
+                    <TextBlock Text="{Binding Title}" FontFamily="{StaticResource Fell}" FontSize="17"
+                               Foreground="#1B1230" TextWrapping="Wrap" />
+                    <TextBlock Text="{Binding CountText}" FontSize="12" Foreground="#1B1230" />
+                  </StackPanel>
+                  <Grid Grid.Row="1" Height="3" Width="100" HorizontalAlignment="Left">
+                    <Rectangle Fill="#401B1230" />
+                    <Rectangle Fill="{StaticResource Gilt}" HorizontalAlignment="Left" Width="{Binding SealedWidth}" />
+                  </Grid>
+                </Grid>
+              </Border>
+            </Button>
+          </DataTemplate>
+        </ItemsControl.ItemTemplate>
+      </ItemsControl>
+    </Grid>
+
+    <!-- Colophon: the last thing that happened (full history behind the clock icon in the header) -->
+    <TextBlock Grid.Row="2" Text="{Binding Colophon}" Classes="dim" FontSize="12.5" Margin="232,0,24,12"
+               TextTrimming="CharacterEllipsis" />
+  </Grid>
+</Window>

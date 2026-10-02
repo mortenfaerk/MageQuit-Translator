@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches-ignore: [prod]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      # Validates every translation/<code>/ folder (JSON shape, unique keys, valid patterns)
+      # plus the installer logic. The font-patch round trip is skipped without the game.
+      - name: Test
+        run: dotnet test --project tests/MageQuitTranslator.Tests
+
+      - name: Build plugin and stage payload
+        shell: pwsh
+        run: ./build/package.ps1 -StageOnly
+
+      - name: Build app
+        run: dotnet build src/MageQuitTranslator.Manager -c Release

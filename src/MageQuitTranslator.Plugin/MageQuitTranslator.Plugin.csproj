@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BepInEx 5 plugin for MageQuit (Unity 2018.4, Mono). Builds without the game installed:
+       Unity reference assemblies come from the BepInEx NuGet feed (see nuget.config), BepInEx
+       from vendor/. UI and TextMeshPro types are reached through reflection. -->
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>MageQuitTranslator.Plugin</AssemblyName>
+    <RootNamespace>MageQuitTranslator</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <BepInExCore>$(MSBuildThisFileDirectory)..\..\vendor\BepInEx\BepInEx\core</BepInExCore>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="UnityEngine.Modules" Version="2018.4.0" IncludeAssets="compile" PrivateAssets="all" />
+    <Reference Include="BepInEx"><HintPath>$(BepInExCore)\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepInExCore)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
